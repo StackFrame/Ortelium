@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 42
+*.jar
+*.swp
+classes
+.DS_Store
+OpenMap.app
+
+K 13
+svn:mergeinfo
+V 77
+/branches/OpenMap_BSA_2_0:2179-2196
+/branches/OpenMap_BSA_July_2010:2198-2210
+END

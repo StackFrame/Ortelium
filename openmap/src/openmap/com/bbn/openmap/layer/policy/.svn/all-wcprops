@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/policy
+END
+FullProjectionRenderPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/1528/trunk/src/openmap/com/bbn/openmap/layer/policy/FullProjectionRenderPolicy.java
+END
+RenderPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2202/trunk/src/openmap/com/bbn/openmap/layer/policy/RenderPolicy.java
+END
+StandardRenderPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2202/trunk/src/openmap/com/bbn/openmap/layer/policy/StandardRenderPolicy.java
+END
+ListResetPCPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2171/trunk/src/openmap/com/bbn/openmap/layer/policy/ListResetPCPolicy.java
+END
+ProjectionChangePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/layer/policy/ProjectionChangePolicy.java
+END
+RenderingHintsRenderPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/policy/RenderingHintsRenderPolicy.java
+END
+StandardPCPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/policy/StandardPCPolicy.java
+END
+BufferedImageRenderPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/policy/BufferedImageRenderPolicy.java
+END
+NullProjectionChangePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/2219/trunk/src/openmap/com/bbn/openmap/layer/policy/NullProjectionChangePolicy.java
+END
+PanningImageRenderPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/policy/PanningImageRenderPolicy.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/585/trunk/src/openmap/com/bbn/openmap/layer/policy/package.html
+END

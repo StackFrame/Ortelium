@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/graphicLoader
+END
+LOSGraphicLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1959/trunk/src/openmap/com/bbn/openmap/graphicLoader/LOSGraphicLoader.java
+END
+GraphicLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/graphicLoader/GraphicLoader.java
+END
+AnimationTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/graphicLoader/AnimationTester.java
+END
+AbstractGraphicLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/1459/trunk/src/openmap/com/bbn/openmap/graphicLoader/AbstractGraphicLoader.java
+END
+PathGLPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/1930/trunk/src/openmap/com/bbn/openmap/graphicLoader/PathGLPoint.java
+END
+MMLGraphicLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/graphicLoader/MMLGraphicLoader.java
+END
+GLPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/1930/trunk/src/openmap/com/bbn/openmap/graphicLoader/GLPoint.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/751/trunk/src/openmap/com/bbn/openmap/graphicLoader/package.html
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/plugin/esri
+END
+EsriLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/plugin/esri/EsriLayer.java
+END
+ExampleApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/plugin/esri/ExampleApplication.java
+END
+EsriPlugIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/plugin/esri/EsriPlugIn.java
+END
+ExampleApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/plugin/esri/ExampleApplet.java
+END
+Tester.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/plugin/esri/Tester.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/plugin/esri/package.html
+END

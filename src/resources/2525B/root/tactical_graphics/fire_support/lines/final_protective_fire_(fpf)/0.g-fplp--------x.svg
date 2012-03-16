@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPLP----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPLP--------X" width="400px" height="400px"><g transform="translate(-170 -160) scale(1.5 1.5)"><line x1="135.749" y1="216.919" x2="314" y2="217" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 24 21)"></line>
+<line x1="318" y1="180" x2="318" y2="253" transform="matrix(1 0 0 1 19 21)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<text x="240px" y="294px" transform="matrix(1 0 0 1 -24 -31) translate(-3 -9) translate(11 1)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">FPF</text>
+<g id="T" transform="translate(142 94)"><rect x="82" y="116" width="22" height="21" transform="matrix(1 0 0 1 0 0) translate(1 0) translate(0 -1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="90px" y="131px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<g id="T1" transform="translate(154 109)"><rect x="82" y="116" width="22" height="21" transform="matrix(1 0 0 1 157 124) translate(-168 -91)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="74px" y="165px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T1</text>
+</g>
+<g id="V" transform="translate(155 90) translate(1 0)"><rect x="82" y="116" width="22" height="21" transform="matrix(1 0 0 1 157 124) translate(-170 -51) translate(0 1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="76px" y="206px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">V</text>
+</g>
+<g id="PT.%201" transform="translate(104 65)"><text x="162px" y="121px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 1</text>
+</g>
+<g id="PT.%202" transform="translate(-8 164)"><text x="272px" y="133px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 2</text>
+</g>
+<g id="PT.%203" transform="translate(-41 10)"><text x="218px" y="185px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 3</text>
+</g>
+<line x1="160" y1="231" x2="160" y2="208" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="160" y1="208" x2="174" y2="195" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="302" y1="183" x2="326" y2="198" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="326" y1="278" x2="302" y2="291" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="34,73.8038 40,84.1962 28,84.1962" transform="matrix(1 0 0 -1.73205 1.28786e-014 214.1) translate(127 -86.6025) translate(-3 0) translate(1 0) translate(0 0.57735) translate(1 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="34,73.8038 40,84.1962 28,84.1962" transform="matrix(-0.472725 0.88121 -1.5263 -0.818783 458.65 228.723)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="34,73.8038 40,84.1962 28,84.1962" transform="matrix(0.547247 0.836971 -1.44968 0.947859 417.918 175.662)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+</svg>
+
+</g>
+</svg>

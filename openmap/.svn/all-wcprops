@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/openmap/!svn/ver/2245/trunk
+END
+openmap.iml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/openmap/!svn/ver/2197/trunk/openmap.iml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/openmap/!svn/ver/2128/trunk/.classpath
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/openmap/!svn/ver/2241/trunk/logging.properties
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/openmap/!svn/ver/361/trunk/LICENSE
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/openmap/!svn/ver/1815/trunk/.project
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/openmap/!svn/ver/1807/trunk/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/openmap/!svn/ver/1153/trunk/INSTALL
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/openmap/!svn/ver/1968/trunk/CHANGELOG
+END
+INSTALL.win32
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/openmap/!svn/ver/1153/trunk/INSTALL.win32
+END
+openmap.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/openmap/!svn/ver/2241/trunk/openmap.properties
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/openmap/!svn/ver/497/trunk/README
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/openmap/!svn/ver/2241/trunk/build.xml
+END

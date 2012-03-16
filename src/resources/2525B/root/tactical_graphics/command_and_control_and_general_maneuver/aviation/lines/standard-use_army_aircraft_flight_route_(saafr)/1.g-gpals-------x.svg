@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPALS---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPALS-------X" width="400px" height="400px"><g transform="translate(-10 -30) scale(0.9 0.9)"><g transform="translate(20 82)"><text x="150px" y="97px" transform="matrix(1 0 0 1 8 69) translate(44 -104)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">NAME</text>
+<text x="152px" y="109px" transform="matrix(1 0 0 1 8 70) translate(44 -104)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">WIDTH</text>
+<text x="152px" y="122px" transform="matrix(1 0 0 1 6 70) translate(44 -104)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MIN ALT</text>
+<text x="150px" y="136px" transform="matrix(1 0 0 1 8 69) translate(44 -104)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MAX ALT</text>
+</g>
+<g transform="translate(-10 130)"><text x="150px" y="97px" transform="matrix(1 0 0 1 -106 157) translate(-3 -164)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">NAME</text>
+<text x="152px" y="109px" transform="matrix(1 0 0 1 -106 158) translate(-3 -164)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">WIDTH</text>
+<text x="152px" y="122px" transform="matrix(1 0 0 1 -108 158) translate(-3 -164)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MIN ALT</text>
+<text x="150px" y="136px" transform="matrix(1 0 0 1 -106 157) translate(-3 -164)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MAX ALT</text>
+</g>
+<g transform="translate(-39 -51)"><line x1="142" y1="171" x2="326.519" y2="171.915" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 14 69) translate(110 9)"></line>
+<line x1="157.833" y1="249.058" x2="343.376" y2="249.629" transform="matrix(1 0 0 1 0 47) translate(110 9)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<text x="192px" y="205px" transform="matrix(1 0 0 1 40 69) translate(110 9)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">NAME</text>
+<circle cx="348" cy="268" r="30" transform="matrix(1 0 0 1 0 0) translate(-8 1) translate(348 238) scale(1 1) translate(-348 -238) translate(348 238) scale(1 0.966667) translate(-348 -238) translate(1 0) translate(348 298) scale(1 0.965517) translate(-348 -298) translate(-3 0) translate(15 -131.786) translate(-13 131.786) translate(110 9.64286)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<circle cx="348" cy="268" r="30" transform="matrix(1 0 0 0.933333 -28 13.8667) translate(-161 4.28571) translate(110 9.64286)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<g id="PT.%202"><text x="230px" y="423px" transform="matrix(1 0 0 1 0 0) translate(-86 -154) translate(110 9)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="242px" y="432px" transform="matrix(1 0 0 1 0 0) translate(-4 -2) translate(22 15) translate(-20 -11) translate(-86 -154) translate(110 9)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">2</text>
+</g>
+<g id="PT.%203"><text x="230px" y="423px" transform="matrix(1 0 0 1 7 -168) translate(94 -89) translate(-9 103) translate(97 -76) translate(-92 77) translate(110 9)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="344px" y="179px" transform="matrix(1 0 0 1 0 0) translate(-3 0) translate(-9 103) translate(97 -76) translate(-92 77) translate(110 9)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">3</text>
+</g>
+<line x1="142" y1="171" x2="327.059" y2="172.236" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.788628 -0.614871 0.614871 0.788628 -116.588 322.746)"></line>
+<line x1="157.833" y1="249.058" x2="338.051" y2="249.989" transform="matrix(0.788628 -0.614871 0.614871 0.788628 -141.156 314.005)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<circle cx="348" cy="268" r="30" transform="matrix(0.788628 -0.614871 0.573879 0.736053 -308.12 407.24)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<g id="PT.%201"><text x="230px" y="423px" transform="matrix(0.788628 -0.614871 0.614871 0.788628 -332.567 208.369)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="24px" y="350px" transform="matrix(0.788628 -0.614871 0.614871 0.788628 -111.189 141.013)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">1</text>
+</g>
+<text x="204px" y="384px" transform="matrix(0.788628 -0.614871 0.614871 0.788628 -208.685 168.843)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">BLUE</text>
+</g>
+</g>
+<line x1="247" y1="101" x2="315" y2="101" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="247" y1="112" x2="315" y2="112" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="247" y1="124" x2="315" y2="124" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="247" y1="136" x2="315" y2="136" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="74" y1="204" x2="110" y2="204" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="74" y1="192" x2="110" y2="192" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="74" y1="180" x2="110" y2="180" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="74" y1="168" x2="110" y2="168" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+</svg>
+
+</g>
+</svg>

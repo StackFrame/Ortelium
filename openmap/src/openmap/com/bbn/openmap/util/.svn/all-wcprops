@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/util
+END
+DataBoundsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/DataBoundsProvider.java
+END
+ClasspathHacker.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/util/ClasspathHacker.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/util/FileUtils.java
+END
+PropUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/util/PropUtils.java
+END
+AbstractXmlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/util/AbstractXmlParser.java
+END
+Assert.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/Assert.java
+END
+HandleError.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/HandleError.java
+END
+ColorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2027/trunk/src/openmap/com/bbn/openmap/util/ColorFactory.java
+END
+ImageScaler.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1853/trunk/src/openmap/com/bbn/openmap/util/ImageScaler.java
+END
+HashCodeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/util/HashCodeUtil.java
+END
+FanCompress.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/util/FanCompress.java
+END
+Attributable.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/util/Attributable.java
+END
+PooledSwingWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/util/PooledSwingWorker.java
+END
+Debug.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/util/Debug.java
+END
+ArgParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/util/ArgParser.java
+END
+Taskable.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/Taskable.java
+END
+ComponentFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2072/trunk/src/openmap/com/bbn/openmap/util/ComponentFactory.java
+END
+PropertyStringFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/PropertyStringFormatException.java
+END
+OMLoggingFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/util/OMLoggingFormatter.java
+END
+GraphicList.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/GraphicList.java
+END
+Tokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/util/Tokenizer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/util/package.html
+END
+WebBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/2065/trunk/src/openmap/com/bbn/openmap/util/WebBrowser.java
+END
+SwingWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2140/trunk/src/openmap/com/bbn/openmap/util/SwingWorker.java
+END
+TaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2173/trunk/src/openmap/com/bbn/openmap/util/TaskService.java
+END
+DataBounds.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/util/DataBounds.java
+END
+AssertionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/AssertionException.java
+END
+CSVTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/util/CSVTokenizer.java
+END
+DataOrganizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/DataOrganizer.java
+END
+ISwingWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2140/trunk/src/openmap/com/bbn/openmap/util/ISwingWorker.java
+END
+Palette.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/Palette.java
+END
+PaletteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/1858/trunk/src/openmap/com/bbn/openmap/util/PaletteHelper.java
+END

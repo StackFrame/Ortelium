@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src
+END
+CTag.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/openmap/!svn/ver/522/trunk/src/cserver/toolLib/src/CTag.c
+END
+Magic.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/openmap/!svn/ver/522/trunk/src/cserver/toolLib/src/Magic.c
+END
+error_hand.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/error_hand.c
+END
+stringutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/stringutil.c
+END
+free_mgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/free_mgr.c
+END
+auto_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/auto_input.c
+END
+auto_output.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/auto_output.c
+END
+mapped_files.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/mapped_files.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/compress.c
+END
+sockets.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/sockets.c
+END
+buffers.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/buffers.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/openmap/!svn/ver/522/trunk/src/cserver/toolLib/src/makefile
+END
+plumbing.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/1029/trunk/src/cserver/toolLib/src/plumbing.c
+END

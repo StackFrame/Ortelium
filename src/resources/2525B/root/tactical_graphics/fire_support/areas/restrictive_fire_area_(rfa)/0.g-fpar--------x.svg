@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPAR----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPAR--------X" width="400px" height="400px"><g transform="translate(-100 -100) scale(1.25 1.25)"><path d="M191.594 101.938 C225.318 101.938 297.805 93.4068 321.5 125 C344.666 155.888 335.625      360.206 310.5 369 C270.743 382.915 135.496 376.614 118.5 332 C110.251 310.346      135.5 288.097 135.5 267 C135.5 218.616 137.548 102.503 191.7 101.933" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 13 2)"></path>
+<text x="165px" y="424px" transform="matrix(1 0 0 1 54.1765 -199.176) translate(17 -27)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">RFA</text>
+<g id="T" transform="translate(160 155)"><rect x="40" y="151" width="28" height="21" transform="matrix(1 0 0 1 196 89) translate(-161 -192)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="84px" y="63px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">T</text>
+</g>
+<g id="W" transform="translate(181 117)"><rect x="40" y="151" width="28" height="21" transform="matrix(1 0 0 1 196 89) translate(-181 -125)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="62px" y="131px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">W</text>
+</g>
+<g id="W1" transform="translate(195 110)"><rect x="40" y="151" width="28" height="21" transform="matrix(1 0 0 1 0 0) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="46px" y="166px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">W1</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/awt
+END
+LineShapeDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/LineShapeDecoration.java
+END
+ShapeDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/ShapeDecorator.java
+END
+LineUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/LineUtil.java
+END
+ShapeRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/ShapeRenderer.java
+END
+package.uml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/package.uml
+END
+ShapeDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1494/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/ShapeDecoration.java
+END
+CircleShapeDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openmap/!svn/ver/1474/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/CircleShapeDecoration.java
+END
+Revertable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/998/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/Revertable.java
+END
+AbstractShapeDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/1494/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/AbstractShapeDecoration.java
+END
+SpacingShapeDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1494/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/SpacingShapeDecoration.java
+END
+TextShapeDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/awt/TextShapeDecoration.java
+END

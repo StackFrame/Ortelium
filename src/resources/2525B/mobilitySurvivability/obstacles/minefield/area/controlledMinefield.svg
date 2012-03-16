@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="400"
+   height="400"
+   viewBox="0 0 400 400"
+   id="G*MPOFA---****X">
+  <defs
+     id="defs2030" />
+  <g
+     id="g1908">
+    <g
+       id="g2016">
+      <svg
+         version="1.0"
+         width="400"
+         height="400"
+         viewBox="0 0 400 400"
+         id="_0.G-MPOFA-------X">
+        <path
+           d="M 30,175 L 30,125 C 30,95 55,75 100,75 L 175,75 M 225,75 L 300,75 C 345,75 370,95 370,125 L 370,175 M 370,225 L 370,275 C 370,305 345,325 300,325 L 225,325 M 175,325 L 100,325 C 55,325 30,305 30,275 L 30,225"
+           style="fill:none;stroke:black;stroke-width:5"
+           id="path2019" />
+        <text
+           x="186"
+           y="90"
+           style="font-size:36px;fill:black;stroke:black;font-family:Arial"
+           id="text2021">M</text>
+        <text
+           x="356"
+           y="215"
+           style="font-size:36px;fill:black;stroke:black;font-family:Arial"
+           id="text2023">M</text>
+        <text
+           x="16"
+           y="215"
+           style="font-size:36px;fill:black;stroke:black;font-family:Arial"
+           id="text2025">M</text>
+        <text
+           x="186"
+           y="340"
+           style="font-size:36px;fill:black;stroke:black;font-family:Arial"
+           id="text2027">M</text>
+      </svg>
+    </g>
+    <text
+       x="92.063492"
+       y="209.5238"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text2034"
+       xml:space="preserve"><tspan
+         x="92.063492"
+         y="209.5238"
+         id="tspan2036">Controlled Minefield</tspan></text>
+  </g>
+</svg>

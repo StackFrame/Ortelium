@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPAAR---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPAAR-------X" width="400px" height="400px"><g transform="translate(-290 -280) scale(2 2)"><line x1="124" y1="154" x2="124" y2="314" transform="matrix(1 0 0 0.970455 42.0455 10.2317)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="124" y1="154" x2="220" y2="161" transform="matrix(1.00142 0 0 0.785714 41.6875 39.5)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="219" y1="161" x2="258" y2="218" transform="matrix(1.7902 0 0 1.82696 -130.873 -128.276)" style="fill:none;stroke:rgb(0,0,0);stroke-width:1.5"></line>
+<line x1="257" y1="217" x2="235" y2="310" transform="matrix(2.50046 0 0 0.495493 -312.67 161.478)" style="fill:none;stroke:rgb(0,0,0);stroke-width:1.5"></line>
+<line x1="235" y1="309" x2="124" y2="309" transform="matrix(1 0 0 1 42.0455 5)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<text x="220px" y="72px" transform="matrix(1 0 0 1 -30.9882 163.447) translate(-15 -13)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MIN ALT:</text>
+<text x="222px" y="91px" transform="matrix(1 0 0 1 -33.3176 155.212) translate(-16 0)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MAX ALT:</text>
+<text x="221px" y="112px" transform="matrix(1 0 0 1 -31.3412 145) translate(-18 20)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">TIME FROM:</text>
+<text x="225px" y="135px" transform="matrix(1 0 0 1 -34.9176 132.059) translate(-17 38) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">TIME TO:</text>
+<text x="210px" y="218px" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold" transform="matrix(1 0 0 1 -19 -11) translate(-15 -25)">ROZ</text>
+<g id="T" transform="translate(148 97)"><rect x="326" y="129" width="26" height="23" transform="matrix(1 0 0 1 -89 110) translate(-209 -154) translate(0 1) translate(0 1) translate(0 1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="36px" y="104px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">T</text>
+</g>
+<g id="H" transform="translate(107 112)"><rect x="326" y="129" width="26" height="23" transform="matrix(1 0 0 1 -89 110) translate(-107 -150) translate(0 1) translate(0 1) translate(0 1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="138px" y="108px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">H</text>
+</g>
+<g id="H1" transform="translate(38 129) translate(1 0) translate(1 0)"><rect x="326" y="129" width="26" height="23" transform="matrix(1 0 0 1 -89 110) translate(-38 -137) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="204px" y="118px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">H1</text>
+</g>
+<g id="W" transform="translate(-16 155) translate(1 0) translate(1 0) translate(1 0)"><rect x="326" y="129" width="26" height="23" transform="matrix(1 0 0 1 -89 110) translate(31 -136) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="276px" y="120px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">W</text>
+</g>
+<g id="W1" transform="translate(-85 160)"><rect x="326" y="129" width="26" height="23" transform="matrix(1 0 0 1 0 0) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="330px" y="142px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">W1</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

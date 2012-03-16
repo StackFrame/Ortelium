@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/location
+END
+LocationCBMenuItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/LocationCBMenuItem.java
+END
+LocationLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/location/LocationLayer.java
+END
+LocationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2242/trunk/src/openmap/com/bbn/openmap/layer/location/LocationHandler.java
+END
+TimerLocationLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/TimerLocationLayer.java
+END
+BasicLocationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/BasicLocationHandler.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/Location.java
+END
+BasicLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/BasicLocation.java
+END
+AbstractLocationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/AbstractLocationHandler.java
+END
+I18N_da_DK.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/1573/trunk/src/openmap/com/bbn/openmap/layer/location/I18N_da_DK.properties
+END
+LocationMenuItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/location/LocationMenuItem.java
+END
+URLRasterLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/URLRasterLocation.java
+END
+ByteRasterLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/ByteRasterLocation.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/Link.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/location/package.html
+END

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPLC----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPLC--------X" width="400px" height="400px"><text x="202px" y="294px" transform="matrix(1.25 0 0 1.25 110 -202.5) translate(-41.6 0.8) translate(0 -3.2) translate(0 0.8)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">PL</text>
+<text x="238px" y="257px" transform="matrix(1.25 0 0 1.25 -267.5 -157.5)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">PL</text>
+<line x1="148" y1="186" x2="172" y2="186" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1.25 0 0 1.25 -76.25 -72.5)"></line>
+<line x1="178" y1="186" x2="201" y2="186" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1.25 0 0 1.25 -76.25 -72.5)"></line>
+<line x1="210" y1="186" x2="234" y2="186" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1.25 0 0 1.25 -76.25 -72.5)"></line>
+<line x1="244" y1="186" x2="270" y2="186" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1.25 0 0 1.25 -76.25 -72.5)"></line>
+<line x1="280" y1="186" x2="303" y2="186" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1.25 0 0 1.25 -76.25 -72.5)"></line>
+<text x="194px" y="340px" transform="matrix(1.25 0 0 1.25 -76.25 -280)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">CFL</text>
+<g id="T" transform="matrix(1.25 0 0 1.25 130 16.25)"><rect x="208" y="79" width="30" height="21" transform="matrix(1 0 0 1 27 161) translate(-176 -154)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="70px" y="101px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">T</text>
+</g>
+<g id="T1%201" transform="matrix(1.25 0 0 1.25 -7.5 -15)"><rect x="208" y="79" width="30" height="21" transform="matrix(1 0 0 1 27 161) translate(-184 -112) translate(-1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="56px" y="144px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">T1</text>
+</g>
+<g id="T1%202" transform="matrix(1.25 0 0 1.25 127.5 32.5) translate(16 0) translate(0 -2.4) translate(0 0.8)"><rect x="208" y="79" width="30" height="21" transform="matrix(1 0 0 1 27 161) translate(-83 -149)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="158px" y="107px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">T1</text>
+</g>
+<g id="W" transform="matrix(1.25 0 0 1.25 -40 102.5)"><rect x="208" y="79" width="30" height="21" transform="matrix(1 0 0 1 27 161) translate(-81 -186) translate(0 1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="164px" y="71px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">W</text>
+</g>
+<g id="W1" transform="matrix(1.25 0 0 1.25 -110 -140)"><rect x="208" y="79" width="30" height="21" transform="matrix(1 0 0 1 52 171) translate(2 -2)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="214px" y="95px" transform="matrix(1 0 0 1 52 171)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">W1</text>
+</g>
+<line x1="244" y1="260" x2="258" y2="260" transform="matrix(1.25 0 0 1.25 -110 -140)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g id="PT.%201" transform="matrix(1.25 0 0 1.25 -190 68.75)"><text x="260px" y="141px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">PT. 1</text>
+</g>
+<g id="PT.%202" transform="matrix(1.25 0 0 1.25 -176.25 11.25)"><text x="332px" y="180px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">PT. 2</text>
+</g>
+<line x1="174" y1="250" x2="174" y2="287" transform="matrix(1.25 0 0 1.25 -110 -140)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="173.637" y1="286.264" x2="194" y2="298" transform="matrix(1.25 0 0 1.25 -110 -140)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="330" y1="248" x2="330" y2="278" transform="matrix(1.25 0 0 1.25 -110 -140)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="330.265" y1="277.407" x2="316" y2="293" transform="matrix(1.25 0 0 1.25 -110 -140)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="92,85.0359 96,91.9641 88,91.9641" transform="matrix(1.25 0 0 3.42801 -7.5 -125.255)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="92,85.0359 96,91.9641 88,91.9641" transform="matrix(1.25 0 0 3.42801 187.5 -127.755)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</svg>
+
+</g>
+</svg>

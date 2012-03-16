@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*MPOAR---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-MPOAR-------X" width="400px" height="400px"><g transform="scale(0.8 0.8)"><g transform="rotate(12.7006 456.212 244.317) translate(-8.80743 -7.2408) rotate(0 457.324 240.659) translate(-0.471875 -4.8338) rotate(1.35724 457.324 240.659)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 329.308 480.283)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 222.116 -4.8077)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<g transform="translate(-2 -14) rotate(354.472 389.019 244.317) translate(-0.618849 -6.11215) rotate(359.269 388.22 244.744)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 260.308 480.283)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 156.731 -3.8461)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<g transform="rotate(346.279 322.865 244.317) translate(2.13482 -8.74314) rotate(4.59018 320.935 244.836) rotate(359.274 321.536 244.755) translate(1.10916 -2.86446) translate(1.36804 2.68345) rotate(359.304 321.426 244.772) translate(0.923212 -1.66633)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 195.308 480.283)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 89.4231 -3.8461)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<g transform="translate(-10 -3)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 145.308 480.283)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 34.6155 -2.88456)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<g transform="translate(-17 -13) rotate(15.6038 220.462 243.733) translate(1.45771 8.93729) rotate(358.685 221.857 240.02) translate(0.721487 -2.04869) rotate(358.612 221.733 240.181)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 95.3077 479.699)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 -15.3846 -4.8077)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<g transform="translate(-29 -10) rotate(1.33424 170.92 243.817) translate(1.7366 -3.05331)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 46.2244 479.782)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 -65.3846 -3.8461)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<g transform="translate(-37 -1) rotate(349.757 105.538 244.317) rotate(357.312 106.068 244.106) translate(0.673992 -2.93567)"><polygon points="115,178.278 132,207.722 98,207.722" transform="matrix(1 0 0 -1.22262 -7.6923 480.283)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<circle cx="62.5" cy="195.5" r="12.5" transform="matrix(1 0 0 1 14.4231 51.9231)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<circle cx="250.5" cy="250.5" r="12.5" transform="matrix(1 0 0 1 -116.346 -3.84615)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></circle>
+</g>
+<polyline points="15.5,233 110.5,212 174.5,213 225.5,224 287.5,221 341.5,211 419.5,202 488.5,222" style="stroke:rgb(0,0,0);stroke-width:2;fill:none"></polyline>
+<g transform="translate(21 -14)"><rect x="182" y="319" width="66" height="60" transform="rotate(53.0399 215 349)" style="fill:rgb(255,128,128);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<path d="M213 341 C227.912 341 239 338.925 240 352 C241 365.075 227.912 363 213 363 C198.088       363 185 364.075 186 352 C187 339.925 198.088 341 213 341 z" transform="translate(4 -4) translate(-4 0) translate(2 1)" style="fill:rgb(255,128,128);stroke:rgb(0,0,0);stroke-width:2"></path>
+<text x="208px" y="291px" transform="translate(6 9)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:14">II</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

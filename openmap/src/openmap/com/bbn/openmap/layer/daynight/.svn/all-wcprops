@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/daynight
+END
+DayNightLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/layer/daynight/DayNightLayer.java
+END
+I18N.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/1174/trunk/src/openmap/com/bbn/openmap/layer/daynight/I18N.properties
+END
+SunPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/daynight/SunPosition.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/daynight/package.html
+END

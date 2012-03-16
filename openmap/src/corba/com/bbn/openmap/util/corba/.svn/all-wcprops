@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/openmap/!svn/ver/1481/trunk/src/corba/com/bbn/openmap/util/corba
+END
+CORBASupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/1265/trunk/src/corba/com/bbn/openmap/util/corba/CORBASupport.java
+END
+IOR.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1481/trunk/src/corba/com/bbn/openmap/util/corba/IOR.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/599/trunk/src/corba/com/bbn/openmap/util/corba/package.html
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg
+END
+HorizontalCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/HorizontalCS.java
+END
+epsg_vertcs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_vertcs.properties
+END
+InvalidCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/InvalidCodeException.java
+END
+epsg_datum.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_datum.properties
+END
+epsg_proj.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_proj.properties
+END
+ProjectedCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/ProjectedCS.java
+END
+epsg_gcs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_gcs.properties
+END
+epsg_pm.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_pm.properties
+END
+epsg_ellipse.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_ellipse.properties
+END
+epsg_unit.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_unit.properties
+END
+GeographicCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/GeographicCS.java
+END
+epsg_pcs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/epsg/epsg_pcs.properties
+END

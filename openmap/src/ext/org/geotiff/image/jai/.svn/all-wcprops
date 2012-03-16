@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/openmap/!svn/ver/2192/trunk/src/ext/org/geotiff/image/jai
+END
+GeoTIFFDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/image/jai/GeoTIFFDescriptor.java
+END
+GeoTIFFDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2192/trunk/src/ext/org/geotiff/image/jai/GeoTIFFDirectory.java
+END
+GeoTIFFFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1736/trunk/src/ext/org/geotiff/image/jai/GeoTIFFFactory.java
+END

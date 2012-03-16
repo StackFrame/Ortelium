@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGLF---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPGLF-------X" width="400px" height="400px"><defs><path id="semiCircle" d="M175 200 C175 175 225 175 225 200" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></path>
+<g id="N_PlaceHolder"><rect x="177" y="180" width="46" height="40" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></rect>
+<text x="185.6px" y="215.3px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:40;font-family:Arial">N</text>
+</g>
+</defs>
+<use transform="translate(-110 21)" xlink:href="#semiCircle"></use>
+<use transform="translate(-55 21)" xlink:href="#semiCircle"></use>
+<use transform="translate(0 21)" xlink:href="#semiCircle"></use>
+<use transform="translate(55 21)" xlink:href="#semiCircle"></use>
+<use transform="translate(110 21)" xlink:href="#semiCircle"></use>
+<use transform="translate(-170 -30)" xlink:href="#N_PlaceHolder"></use>
+<use transform="translate(170 -30)" xlink:href="#N_PlaceHolder"></use>
+<polygon points="61,240 65,227 69,240" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<polygon points="331,240 335,227 339,240" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<polyline points="65,240 65,270 90,300" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></polyline>
+<polyline points="335,240 335,270 310,300" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></polyline>
+<text x="95px" y="320px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.1</text>
+<text x="255px" y="320px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.2</text>
+<text x="3px" y="220px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:22;font-family:Arial">FLOT</text>
+<text x="342px" y="220px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:22;font-family:Arial">FLOT</text>
+</svg>
+
+</g>
+</svg>

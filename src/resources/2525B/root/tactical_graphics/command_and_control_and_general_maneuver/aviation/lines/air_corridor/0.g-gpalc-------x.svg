@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPALC---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPALC-------X" width="400px" height="400px"><g transform="translate(-190 -180) scale(1.5 1.5)"><ellipse cx="109.5" cy="130.5" rx="28.5" ry="28.5" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 68 106)"></ellipse>
+<ellipse cx="250.5" cy="250.5" rx="28.5" ry="28.5" transform="matrix(1 0 0 1 90.3275 -13.9781)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></ellipse>
+<line x1="109.036" y1="101.933" x2="271.945" y2="101.933" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 68 106)"></line>
+<line x1="106.854" y1="159.023" x2="273.763" y2="159.023" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 68 106)"></line>
+<line x1="137" y1="129" x2="244" y2="129" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 68 106)"></line>
+<text x="182px" y="219px" transform="matrix(1 0 0 1 -19.7284 21.5115)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="236px" y="226px" transform="matrix(1 0 0 1 94.0241 14.7273)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">CCP</text>
+<text x="187px" y="182px" transform="matrix(1 0 0 1 38.5455 43.0909)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">CORRIDOR</text>
+<text x="193px" y="195px" transform="matrix(1 0 0 1 41.8182 58)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ALPHA</text>
+<text x="148px" y="324px" transform="translate(87 -44)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">NAME</text>
+</g>
+</svg>
+
+</g>
+</svg>

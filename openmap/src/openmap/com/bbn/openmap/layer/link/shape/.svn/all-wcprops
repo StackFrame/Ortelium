@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/layer/link/shape
+END
+ESRILinkRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/layer/link/shape/ESRILinkRecord.java
+END
+LinkSpatialIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1992/trunk/src/openmap/com/bbn/openmap/layer/link/shape/LinkSpatialIndex.java
+END
+ShapeLinkServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/layer/link/shape/ShapeLinkServer.java
+END
+ESRILinkPolygonRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/1459/trunk/src/openmap/com/bbn/openmap/layer/link/shape/ESRILinkPolygonRecord.java
+END
+ESRILinkPointRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/layer/link/shape/ESRILinkPointRecord.java
+END
+ShapeServerStarter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/1893/trunk/src/openmap/com/bbn/openmap/layer/link/shape/ShapeServerStarter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/link/shape/package.html
+END

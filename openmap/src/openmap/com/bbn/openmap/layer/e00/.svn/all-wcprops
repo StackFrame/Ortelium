@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/openmap/!svn/ver/2223/trunk/src/openmap/com/bbn/openmap/layer/e00
+END
+ArcData.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/layer/e00/ArcData.java
+END
+E00Layer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2223/trunk/src/openmap/com/bbn/openmap/layer/e00/E00Layer.java
+END
+E00Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/e00/E00Parser.java
+END
+TX7.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/layer/e00/TX7.java
+END
+E00Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/layer/e00/E00Data.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/e00/package.html
+END

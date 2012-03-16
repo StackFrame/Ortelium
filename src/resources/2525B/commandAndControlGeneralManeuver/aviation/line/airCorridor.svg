@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPALC---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPALC-------X" width="400px" height="400px"><g transform="translate(0 -40) scale(0.8 0.8)"><ellipse cx="109.5" cy="130.5" rx="28.5" ry="28.5" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 141 120) translate(-107 -186) translate(-105 320)"></ellipse>
+<ellipse cx="109.5" cy="130.5" rx="28.5" ry="28.5" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 141 120) translate(117 -157) translate(81 322) translate(5 -27)"></ellipse>
+<line x1="109.036" y1="101.933" x2="252.232" y2="93.3999" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 60 149) translate(-100 -113) rotate(44.7823 190.491 101.933) translate(328.471 -97.7473) rotate(32.0894 190.49 101.933) translate(13.214 22.5918) translate(-15.417 22.0753) rotate(351.161 190.491 101.933) translate(4.83182 -1.2859) translate(13.5836 -9.61692) translate(-15.9762 2.18216)"></line>
+<line x1="109.036" y1="101.933" x2="271.945" y2="101.933" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 60 149) translate(-113 -87) translate(190.491 101.933) scale(1 1) translate(-190.491 -101.933) translate(-36 215) rotate(326.727 190.491 101.933) translate(-31.664 31.8495) translate(49.6867 -146.807) rotate(336.02 190.491 101.933) translate(4.39371 36.4101)"></line>
+<ellipse cx="109.5" cy="130.5" rx="28.5" ry="28.5" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.606797 0.794857 -0.794857 0.606797 187.086 40.8994)"></ellipse>
+<ellipse cx="250.5" cy="250.5" rx="28.5" ry="28.5" transform="matrix(0.606797 0.794857 -0.794857 0.606797 295.68 -14.8101)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></ellipse>
+<line x1="109.036" y1="101.933" x2="271.945" y2="101.933" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.606797 0.794857 -0.794857 0.606797 187.086 40.8994)"></line>
+<line x1="106.854" y1="159.023" x2="273.763" y2="159.023" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.606797 0.794857 -0.794857 0.606797 187.086 40.8994)"></line>
+<line x1="137" y1="129" x2="244" y2="129" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.606797 0.794857 -0.794857 0.606797 187.086 40.8994)"></line>
+<text x="187px" y="182px" transform="matrix(0.606797 0.794857 -0.794857 0.606797 208.107 -33.5915)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">CORRIDOR</text>
+<text x="193px" y="195px" transform="matrix(0.606797 0.794857 -0.794857 0.606797 198.849 -21.1485)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ALPHA</text>
+<text x="148px" y="324px" transform="matrix(0.606797 0.794857 -0.794857 0.606797 312.383 -42.1715)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">NAME</text>
+<text x="84px" y="273px" transform="matrix(0.606797 0.794857 -0.794857 0.606797 336.772 73.8249)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">2</text>
+<text x="110px" y="220px" transform="matrix(0.606797 0.794857 -0.794857 0.606797 330.286 63.6798)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">300</text>
+<text x="132px" y="300px" transform="matrix(0.606797 0.794857 -0.794857 0.606797 350.568 2.9047)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">120</text>
+<ellipse cx="250.5" cy="250.5" rx="28.5" ry="28.5" transform="matrix(0.684101 -0.729387 0.729387 0.684101 8.71818 226.209)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></ellipse>
+<line x1="109.036" y1="101.933" x2="271.945" y2="101.933" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.684101 -0.729387 0.729387 0.684101 80.9544 324.572)"></line>
+<line x1="106.854" y1="159.023" x2="273.763" y2="159.023" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.684101 -0.729387 0.729387 0.684101 80.9544 324.572)"></line>
+<line x1="137" y1="129" x2="244" y2="129" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(0.684101 -0.729387 0.729387 0.684101 80.9544 324.572)"></line>
+<text x="187px" y="182px" transform="matrix(0.684101 -0.729387 0.729387 0.684101 3.28971 315.419)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">CORRIDOR</text>
+<text x="148px" y="324px" transform="matrix(0.684101 -0.729387 0.729387 0.684101 -15.4557 208.098)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">NAME</text>
+<text x="228px" y="441px" transform="matrix(0.684101 -0.729387 0.729387 0.684101 -124.738 153.587)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">3</text>
+<text x="34px" y="308px" transform="matrix(0.684101 -0.729387 0.729387 0.684101 43.6082 130.507)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">BRAVO 050</text>
+<text x="120px" y="335px" transform="matrix(0.684101 -0.729387 0.729387 0.684101 -11.6036 107.514)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">230</text>
+<text x="174px" y="433px" transform="translate(-1 0) translate(-155 -145) rotate(302.697 199.062 428.632) translate(10.9176 26.2641)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">NAME 1</text>
+<text x="266px" y="431px" transform="rotate(58.3915 291.986 426.632) translate(-42.2518 -192.738) rotate(6.99598 291.511 426.672) rotate(358.461 291.615 426.709) translate(0.929931 4.91276)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">NAME 4</text>
+<text x="64px" y="89px" transform="matrix(1 0 0 1 -39 297)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">ACP</text>
+<text x="76px" y="112px" transform="matrix(1 0 0 1 -40 286)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">1</text>
+<text x="260px" y="66px" transform="matrix(1 0 0 1 180 325)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">CCP</text>
+<text x="278px" y="85px" transform="matrix(1 0 0 1 171 317)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">2</text>
+<text x="128px" y="93px" transform="matrix(1 0 0 1 9 114)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="134px" y="105px" transform="matrix(1 0 0 1 12 114)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">1</text>
+<text x="242px" y="90px" transform="matrix(1 0 0 1 -8 248)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">CCP</text>
+<text x="252px" y="112px" transform="matrix(1 0 0 1 -8 239)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">8</text>
+<text x="362px" y="91px" transform="matrix(1 0 0 1 -13 123)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="372px" y="114px" transform="matrix(1 0 0 1 -12 113)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">3</text>
+</g>
+</svg>
+
+</g>
+</svg>

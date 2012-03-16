@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPOAS---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPOAS-------X" width="400px" height="400px"><polyline points="110,50 160,100 160,300 110,350" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+<line x1="160" y1="100" x2="215" y2="80" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="160" y1="300" x2="215" y2="320" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<polyline points="186,77 215,80 195,100" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+<polyline points="186,323 215,320 195,300" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+<text x="85px" y="150px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.1</text>
+<text x="190px" y="150px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.3</text>
+<text x="85px" y="268px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.2</text>
+<text x="190px" y="268px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.4</text>
+<line x1="135" y1="128" x2="152" y2="105" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></line>
+<line x1="220" y1="126" x2="220" y2="90" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></line>
+<line x1="220" y1="274" x2="220" y2="310" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></line>
+<line x1="135" y1="272" x2="152" y2="295" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></line>
+<polygon points="146.5,108 153,104 151,111.5" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<polygon points="217,94 220,86 223,94" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<polygon points="146.5,292 153,296 151,288.5" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<polygon points="217,306 220,314 223,306" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+</svg>
+
+</g>
+</svg>

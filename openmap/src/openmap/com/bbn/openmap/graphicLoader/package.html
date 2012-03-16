@@ -1,0 +1,62 @@
+<!-- *****************************************************************-->
+<!-- *                                                                -->
+<!-- *  BBNT Solutions LLC, A part of GTE -->
+<!-- *  10 Moulton St.                                                -->
+<!-- *  Cambridge, MA 02138                                           -->
+<!-- *  (617) 873-2000                                                -->
+<!-- *                                                                -->
+<!-- *  Copyright (C) 1999-2000                                            -->
+<!-- *  This software is subject to copyright protection              -->
+<!-- *  under the laws of the United States and other countries.      -->
+<!-- *                                                                -->
+<!-- *****************************************************************-->
+<!-- *                                                                -->
+<!-- * $Source: /cvs/distapps/openmap/src/openmap/com/bbn/openmap/graphicLoader/package.html,v $-->
+<!-- * $Revision: 1.2 $                                              -->
+<!-- * $Date: 2003/06/26 01:13:15 $                                   -->
+<!-- * $Author: dietrick $                                            -->
+<!-- *                                                                -->
+<!-- *****************************************************************-->
+
+<body>
+
+The GraphicLoader package is designed to provide support for
+components that need to drive changes in OMGraphics over a map.  The
+GraphicLoader is an object that manages OMGraphics and their
+positions, and sends an OMGraphicList to its receiver when they need
+to be updated.  The AbstractGraphicLoader contains a timer that can
+be used to schedule updates to happen at regular updates.   <P>
+
+The package consists of a GraphicLoader, the interface that describes
+a component that controls OMGraphics.  The GraphicLoader can have its
+own timer that manages these location objects in a separate thread.
+The MMLGraphicLoader is an abstract extension to the
+AbstractGraphicLoader that can receive MouseEvents that occur over the
+map, in order to react accordingly.<P>
+
+The LOSGraphicLoader is an example of a GraphicLoader.  It manages
+GLPoints and PathGLPoints, along with a DTEDFrameCache (found in the
+MapHandler).  The GLPoints are moved around the map, and links are
+drawn between those points that have LOS between them. <P>
+
+To add a GraphicLoader to the OpenMap application, you can do it
+several ways:
+<UL>
+<LI>You can create a specific GraphicLoaderPlugIn that creates its
+  own GraphicLoader, and initializes it accordingly.  You would add
+  the GraphicLoaderPlugIn to the openmap.layers property in the
+  openmap.properties file.
+<LI>You can create a
+  com.bbn.openmap.plugin.graphicLoader.GraphicLoaderPlugIn by adding
+  an entry to the openmap.layer property in the openmap.properties
+  file, and define what kind of GraphicLoader to create in the
+  properties for the GraphicLoaderPlugIn.
+<LI>You can add a
+  com.bbn.openmap.plugin.graphicLoader.GraphicLoaderConnector to the
+  openmap.components property, and then add the GraphicLoader to the
+  openmap.components property as well.  The GraphicLoaderConnector
+  will find the GraphicLoader, and create a
+  GraphicLoaderPlugIn/PlugInLayer for the GraphicLoader and add it to
+  the LayerHandler on top of the map.
+</UL>
+</body>

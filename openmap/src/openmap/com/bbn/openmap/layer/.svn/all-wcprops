@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/2244/trunk/src/openmap/com/bbn/openmap/layer
+END
+SLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/2065/trunk/src/openmap/com/bbn/openmap/layer/SLayer.java
+END
+CacheLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2023/trunk/src/openmap/com/bbn/openmap/layer/CacheLayer.java
+END
+SinkLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/layer/SinkLayer.java
+END
+OMGraphicHandlerLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/OMGraphicHandlerLayer.java
+END
+AOILayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/AOILayer.java
+END
+DateLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/layer/DateLayer.java
+END
+ScaleDisplayLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2224/trunk/src/openmap/com/bbn/openmap/layer/ScaleDisplayLayer.java
+END
+GraticuleLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/GraticuleLayer.java
+END
+LabelLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/layer/LabelLayer.java
+END
+I18N_da_DK.properties
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/1573/trunk/src/openmap/com/bbn/openmap/layer/I18N_da_DK.properties
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/package.html
+END
+BufferedLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/BufferedLayer.java
+END
+I18N_pl_PL.properties
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/1484/trunk/src/openmap/com/bbn/openmap/layer/I18N_pl_PL.properties
+END
+DeclutterMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2084/trunk/src/openmap/com/bbn/openmap/layer/DeclutterMatrix.java
+END
+DemoLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/DemoLayer.java
+END
+DrawingToolLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/DrawingToolLayer.java
+END
+EarthquakeLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/EarthquakeLayer.java
+END
+ScaleFilterLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/ScaleFilterLayer.java
+END
+I18N.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1484/trunk/src/openmap/com/bbn/openmap/layer/I18N.properties
+END
+OverviewMapAreaLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/layer/OverviewMapAreaLayer.java
+END

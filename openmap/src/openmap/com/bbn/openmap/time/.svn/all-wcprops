@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/time
+END
+TimeBoundsListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1952/trunk/src/openmap/com/bbn/openmap/time/TimeBoundsListener.java
+END
+RealTimeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2083/trunk/src/openmap/com/bbn/openmap/time/RealTimeHandler.java
+END
+TimeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/time/TimeEvent.java
+END
+TimeBoundsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2018/trunk/src/openmap/com/bbn/openmap/time/TimeBoundsProvider.java
+END
+TimerStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2084/trunk/src/openmap/com/bbn/openmap/time/TimerStatus.java
+END
+TimeEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/1952/trunk/src/openmap/com/bbn/openmap/time/TimeEventListener.java
+END
+TimeBoundsHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/1976/trunk/src/openmap/com/bbn/openmap/time/TimeBoundsHandler.java
+END
+TimeBounds.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/2084/trunk/src/openmap/com/bbn/openmap/time/TimeBounds.java
+END
+TimerRateHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/1952/trunk/src/openmap/com/bbn/openmap/time/TimerRateHolder.java
+END
+Clock.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmap/!svn/ver/2148/trunk/src/openmap/com/bbn/openmap/time/Clock.java
+END
+TimeBoundsEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/time/TimeBoundsEvent.java
+END

@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/openmap/!svn/ver/2245/trunk/src/openmap/com/bbn/openmap/proj
+END
+ProjectionStackSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/proj/ProjectionStackSupport.java
+END
+GnomonicLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/proj/GnomonicLoader.java
+END
+CartesianLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/1606/trunk/src/openmap/com/bbn/openmap/proj/CartesianLoader.java
+END
+MercatorLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/proj/MercatorLoader.java
+END
+ProjectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/ProjectionFactory.java
+END
+BasicProjectionLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/1959/trunk/src/openmap/com/bbn/openmap/proj/BasicProjectionLoader.java
+END
+GeoProj.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/2245/trunk/src/openmap/com/bbn/openmap/proj/GeoProj.java
+END
+Cartesian.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2118/trunk/src/openmap/com/bbn/openmap/proj/Cartesian.java
+END
+Gnomonic.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/proj/Gnomonic.java
+END
+Mercator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/proj/Mercator.java
+END
+OrthographicLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/proj/OrthographicLoader.java
+END
+I18N_pl_PL.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/1488/trunk/src/openmap/com/bbn/openmap/proj/I18N_pl_PL.properties
+END
+Azimuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/proj/Azimuth.java
+END
+ProjMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2245/trunk/src/openmap/com/bbn/openmap/proj/ProjMath.java
+END
+ProjectionStackTrigger.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/proj/ProjectionStackTrigger.java
+END
+Clip.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/proj/Clip.java
+END
+Orthographic.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/proj/Orthographic.java
+END
+UTMProjectionLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2007/trunk/src/openmap/com/bbn/openmap/proj/UTMProjectionLoader.java
+END
+DrawUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/proj/DrawUtil.java
+END
+ProjectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/proj/ProjectionException.java
+END
+EqualArc.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/proj/EqualArc.java
+END
+ProjectionStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2163/trunk/src/openmap/com/bbn/openmap/proj/ProjectionStack.java
+END
+UTMProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/UTMProjection.java
+END
+ProjectionLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/proj/ProjectionLoader.java
+END
+DatumShiftProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/proj/DatumShiftProjection.java
+END
+AziDist.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/proj/AziDist.java
+END
+CADRGLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/proj/CADRGLoader.java
+END
+Proj.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/Proj.java
+END
+AspectRatioProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2096/trunk/src/openmap/com/bbn/openmap/proj/AspectRatioProjection.java
+END
+Projection.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/Projection.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/proj/package.html
+END
+LambertConformalLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1959/trunk/src/openmap/com/bbn/openmap/proj/LambertConformalLoader.java
+END
+LLXYLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/1959/trunk/src/openmap/com/bbn/openmap/proj/LLXYLoader.java
+END
+ellips.dat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/proj/ellips.dat
+END
+CADRG.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/proj/CADRG.java
+END
+Length.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/proj/Length.java
+END
+Planet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/1552/trunk/src/openmap/com/bbn/openmap/proj/Planet.java
+END
+GreatCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2059/trunk/src/openmap/com/bbn/openmap/proj/GreatCircle.java
+END
+Ellipsoid.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/Ellipsoid.java
+END
+LambertConformal.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/LambertConformal.java
+END
+RhumbCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/proj/RhumbCalculator.java
+END
+LLXY.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/proj/LLXY.java
+END
+LineType.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/proj/LineType.java
+END
+I18N.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/openmap/!svn/ver/1488/trunk/src/openmap/com/bbn/openmap/proj/I18N.properties
+END
+Cylindrical.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/proj/Cylindrical.java
+END

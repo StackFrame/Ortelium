@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGPWD--****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPGPWD------X" width="400px" height="400px"><path d="M50 75 L50 250 C60 350 190 350 200 275 L200 75 L200 275 C210 350 340 350 350 250
+			L350 75" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></path>
+<text x="148px" y="195px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial" transform="translate(110 165)">ANCHOR</text>
+<text x="160px" y="220px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial" transform="translate(110 165)">POINT</text>
+<polyline points="255,360 200,347.5 200,310" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></polyline>
+<polygon points="195,318 200,305 205,318" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+</svg>
+
+</g>
+</svg>

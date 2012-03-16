@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/gui/dock
+END
+DockPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/gui/dock/DockPanel.java
+END
+DockWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/gui/dock/DockWrapper.java
+END
+BasicDockPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1459/trunk/src/openmap/com/bbn/openmap/gui/dock/BasicDockPanel.java
+END
+DockConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/gui/dock/DockConstraint.java
+END
+TransparentButtonUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/gui/dock/TransparentButtonUI.java
+END
+DockLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/gui/dock/DockLayout.java
+END

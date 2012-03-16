@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPAAH---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPAAH-------X" width="400px" height="400px"><g transform="translate(-230 -210) scale(1.75 1.75)"><line x1="104" y1="143" x2="104" y2="300" transform="matrix(1 0 0 1.01911 61 15.2678)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="104" y1="143" x2="247" y2="123" transform="matrix(1.00465 -0.00437955 0.00450596 0.999479 59.2522 18.8342)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="247" y1="123" x2="279" y2="222" transform="matrix(1.02083 0 0 1.0101 55.1875 15.758)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="279" y1="222" x2="248" y2="303" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 61 18)"></line>
+<line x1="248" y1="303" x2="103" y2="303" transform="matrix(1.0092 0 0 1 60.0524 18)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<text x="62px" y="80px" transform="matrix(1 0 0 1 118 123)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">HIDACZ</text>
+<g id="T"><text x="62px" y="95px" transform="matrix(1 0 0 1 117 122)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">(Unit ID)</text>
+</g>
+<text x="108px" y="385px" transform="matrix(1 0 0 1 0 0) translate(72 -156) translate(0 1) translate(0 1)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">MIN ALT:</text>
+<text x="95px" y="418px" transform="matrix(1 0 0 1 0 0) translate(84 -172) translate(0 0) translate(0 -1) translate(0 -1) translate(1 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">MAX ALT:</text>
+<text x="107px" y="443px" transform="matrix(1 0 0 1 0 0) translate(70.6667 -186.667)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">TIME FROM:</text>
+<text x="120px" y="466px" transform="matrix(1 0 0 1 0 0) translate(58.6667 -197.333)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">TIME TO:</text>
+<g id="H"><text x="257px" y="365px" transform="matrix(1 0 0 1 0 0) translate(-16 -133.333)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">1000 FT</text>
+</g>
+<g id="H1"><text x="292px" y="411px" transform="matrix(1 0 0 1 0 0) translate(-45.3333 -168)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">5000 FT</text>
+</g>
+<g id="W"><text x="289px" y="431px" transform="matrix(1 0 0 1 0 0) translate(-26.6667 -173.333)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">250500Z</text>
+</g>
+<g id="W1"><text x="288px" y="463px" transform="matrix(1 0 0 1 0 0) translate(-48 -194.667)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">261700Z</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/test
+END
+test-verts1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/test/test-verts1.txt
+END
+test-verts2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/test/test-verts2.txt
+END
+test-verts3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/test/test-verts3.txt
+END
+GeoCrossDemoLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2065/trunk/src/openmap/com/bbn/openmap/layer/test/GeoCrossDemoLayer.java
+END
+GeoTestLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2083/trunk/src/openmap/com/bbn/openmap/layer/test/GeoTestLayer.java
+END
+HelloWorldLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/layer/test/HelloWorldLayer.java
+END
+TestLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/layer/test/TestLayer.java
+END
+GeoIntersectionLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/layer/test/GeoIntersectionLayer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/test/package.html
+END

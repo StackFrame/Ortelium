@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGAS---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPGAS-------X" width="400px" height="400px"><polygon points="339.485,97.4283 347.87,112.244 331.758,109.933" transform="matrix(1.28872 -3.15637e-016 3.06151e-016 1.25 -193.922 226.25) translate(0.775961 -52.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:1;stroke-linejoin:miter"></polygon>
+<line x1="289.087" y1="179.702" x2="222.694" y2="134.782" transform="matrix(1.25 0 0 1.25 -121.25 132.5) translate(0.8 -52.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2;stroke-linejoin:miter"></line>
+<line x1="223.682" y1="113.75" x2="149.682" y2="61.7501" transform="matrix(1.25 0 0 1.25 -121.25 132.5)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2;stroke-linejoin:miter"></line>
+<polygon points="341.209,98.8667 349.249,111 333.686,110.289" transform="matrix(1.28872 3.15637e-016 3.06151e-016 -1.25 -193.922 166.79) translate(2.32788 -52.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:1;stroke-linejoin:miter"></polygon>
+<line x1="315.326" y1="194.8" x2="245.993" y2="238.955" transform="matrix(1.25 0 0 1.25 -152.5 -207.5) translate(2.4 52.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2;stroke-linejoin:miter"></line>
+<line x1="248.393" y1="261.255" x2="174.682" y2="312.682" transform="matrix(1.25 0 0 1.25 -152.5 -207.5)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2;stroke-linejoin:miter"></line>
+<g id="A" transform="matrix(1.25 0 0 1.25 -53.75 48.75)"><rect x="74" y="108" width="22" height="21" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="80px" y="123px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;
+			">A</text>
+</g>
+<g id="PT.%201%20Center%20Point" transform="matrix(1.25 0 0 1.25 -42.5 47.5)"><text x="60px" y="194px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;
+			">PT. 1</text>
+<text x="54px" y="203px" transform="matrix(1 0 0 1 0 0) translate(0 1) translate(0 1) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;
+			">(CENTER</text>
+<text x="54px" y="219px" transform="matrix(1 0 0 1 0 0) translate(-1 0) translate(0 -1) translate(0 -1)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;
+			">POINT)</text>
+</g>
+<g id="PT.%202" transform="matrix(1.25 0 0 1.25 137.5 -70) translate(2.4 52.8)"><text x="168px" y="82px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;
+			">PT. 2</text>
+</g>
+<g id="PT.%203" transform="matrix(1.25 0 0 1.25 93.75 332.5) translate(0.8 -52.8)"><text x="192px" y="33px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;
+			">PT. 3</text>
+</g>
+<line x1="154.009" y1="267.037" x2="154" y2="307" transform="matrix(1.25 0 0 1.25 -140 -110)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="332" y1="110" x2="388" y2="110" transform="matrix(1.25 0 0 1.25 -140 -110) translate(2.4 52.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="330" y1="382" x2="378" y2="382" transform="matrix(1.25 0 0 1.25 -140 -110) translate(0.8 -52.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g transform="matrix(-2.29614e-016 -1.25 1.25 -2.29614e-016 157.453 123.797) translate(-52.8 2.4)"><polygon points="77.1111,91.8962 79.7333,95.083 75.0222,95.083" transform="matrix(1 0 0 1.9245 0 -89.6766)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+<g transform="matrix(-2.29614e-016 -1.25 1.25 -2.29614e-016 -37.5468 680.046) translate(52.8 0.8)"><polygon points="78.0667,91.977 80.4667,96.3694 75.84,96.3763" transform="matrix(1 0 0 1.9245 172 64.3234)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+<g transform="matrix(1.25 0 0 1.25 -260 -85)"><polygon points="78,91.8038 79.6571,94.3572 76.4571,94.3572" transform="matrix(1 0 0 1.9245 172 64.3234)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+<line x1="158" y1="118" x2="158" y2="158" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="157.951" y1="274.478" x2="158" y2="234" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+</svg>
+
+</g>
+</svg>

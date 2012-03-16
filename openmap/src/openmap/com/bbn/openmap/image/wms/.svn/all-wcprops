@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms
+END
+FormatRequestParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2017/trunk/src/openmap/com/bbn/openmap/image/wms/FormatRequestParameter.java
+END
+WmsRequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2118/trunk/src/openmap/com/bbn/openmap/image/wms/WmsRequestParameters.java
+END
+GetFeatureInfoRequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/2017/trunk/src/openmap/com/bbn/openmap/image/wms/GetFeatureInfoRequestParameters.java
+END
+GetMapRequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2118/trunk/src/openmap/com/bbn/openmap/image/wms/GetMapRequestParameters.java
+END
+IWmsLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/IWmsLayer.java
+END
+WmsRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/WmsRequestHandler.java
+END
+IWmsNestedLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/1899/trunk/src/openmap/com/bbn/openmap/image/wms/IWmsNestedLayer.java
+END
+DynamicWmsRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/DynamicWmsRequestHandler.java
+END
+DefaultLayerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2017/trunk/src/openmap/com/bbn/openmap/image/wms/DefaultLayerAdapter.java
+END
+LayerFeatureInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1858/trunk/src/openmap/com/bbn/openmap/image/wms/LayerFeatureInfoResponse.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/image/wms/Version.java
+END
+WMSException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/WMSException.java
+END
+GetCapabilitiesRequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/2118/trunk/src/openmap/com/bbn/openmap/image/wms/GetCapabilitiesRequestParameters.java
+END
+FeatureInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/FeatureInfoResponse.java
+END
+CapabilitiesSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/CapabilitiesSupport.java
+END
+WidthAndHeightRequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/2017/trunk/src/openmap/com/bbn/openmap/image/wms/WidthAndHeightRequestParameters.java
+END
+GetLegendGraphicRequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/2118/trunk/src/openmap/com/bbn/openmap/image/wms/GetLegendGraphicRequestParameters.java
+END
+DefaultWmsLayerStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/DefaultWmsLayerStyle.java
+END
+DefaultFeatureInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openmap/!svn/ver/2171/trunk/src/openmap/com/bbn/openmap/image/wms/DefaultFeatureInfoResponse.java
+END
+WmsLayerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/image/wms/WmsLayerFactory.java
+END
+IWmsLayerStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/image/wms/IWmsLayerStyle.java
+END
+Legend.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2017/trunk/src/openmap/com/bbn/openmap/image/wms/Legend.java
+END

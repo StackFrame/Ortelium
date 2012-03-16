@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2063/trunk/src/wmsservlet/WEB-INF/src/com/bbn/openmap/wmsservlet
+END
+OgcWmsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/2063/trunk/src/wmsservlet/WEB-INF/src/com/bbn/openmap/wmsservlet/OgcWmsServlet.java
+END
+HttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/1863/trunk/src/wmsservlet/WEB-INF/src/com/bbn/openmap/wmsservlet/HttpResponse.java
+END

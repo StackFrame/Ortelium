@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPAC----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPAC--------X" width="400px" height="400px"><g transform="translate(-200 -200) scale(1.5 1.5)"><line x1="160" y1="329" x2="349.623" y2="328.971" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 14 53)"></line>
+<line x1="160" y1="183" x2="349.956" y2="155.748" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 13 -6)"></line>
+<text x="179px" y="394px" transform="matrix(1 0 0 1 39.0311 -199.9)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">ACA</text>
+<text x="197px" y="415px" transform="matrix(1 0 0 1 19.7555 -176.769)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MIN ALT:</text>
+<text x="200px" y="428px" transform="matrix(1 0 0 1 16.2259 -167.133)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MAX ALT:</text>
+<text x="209px" y="442px" transform="matrix(1 0 0 1 9.0875 -153.69)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">GRIDS</text>
+<text x="214px" y="452px" transform="matrix(1 0 0 1 1.9966 -130.781)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">EFF:</text>
+<g id="H" transform="matrix(1 0 0 1 230 141)"><rect x="248" y="103" width="26" height="27" transform="matrix(1 0 0 1 -11 134) translate(-188 -165)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="58px" y="90px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">H</text>
+</g>
+<g id="H1" transform="matrix(1 0 0 1 141 184)"><rect x="248" y="103" width="26" height="27" transform="matrix(1 0 0 1 -11 134) translate(-95 -177)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="146px" y="79px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">H1</text>
+</g>
+<g id="H2" transform="matrix(1 0 0 1 174 168)"><rect x="248" y="103" width="26" height="27" transform="matrix(1 0 0 1 -11 134) translate(-147 -130)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="94px" y="126px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">H2</text>
+</g>
+<g id="W" transform="matrix(1 0 0 1 70 214)"><rect x="248" y="103" width="26" height="27" transform="matrix(1 0 0 1 -11 134) translate(-59 -147)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="184px" y="108px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W</text>
+</g>
+<g id="W1" transform="matrix(1 0 0 1 -1 229)"><rect x="248" y="103" width="26" height="27" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="252px" y="121px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W1</text>
+</g>
+<g id="T" transform="matrix(1 0 0 1 -88 94)"><rect x="248" y="103" width="26" height="27" transform="matrix(1 0 0 1 -11 134) translate(70 -134)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="316px" y="123px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<line x1="173.783" y1="176.122" x2="173.783" y2="382.922" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="316" y1="382" x2="315.925" y2="149.172" transform="matrix(1 0 0 1 47 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+</g>
+</svg>
+
+</g>
+</svg>

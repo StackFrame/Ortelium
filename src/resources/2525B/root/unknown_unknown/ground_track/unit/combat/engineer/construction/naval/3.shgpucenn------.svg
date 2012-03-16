@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="SHGPUCENN-*****" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.SHG-U----------" width="400px" height="400px"><polyline points="200,373 373,200 200,27 27,200 200,373" style="stroke-linecap:square;fill:rgb(255,128,128);stroke:rgb(0,0,0);stroke-width:10"></polyline>
+</svg>
+
+</g>
+<g transform="translate(60 113) scale(0.7 0.7) translate(0 0)" >
+<svg viewBox="0 0 400 400" id="_1.S-G-UCE--------" width="400px" height="400px"><line x1="200" y1="155" x2="200" y2="225" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="110" y1="155" x2="110" y2="255" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="290" y1="155" x2="290" y2="255" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="105" y1="155" x2="295" y2="155" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+</svg>
+
+</g>
+<g transform="translate(80 38) scale(0.6 0.6)" >
+<svg viewBox="0 0 400 400" id="_2.S-G-UCIN-------" width="400px" height="400px"><g><ellipse cx="200" cy="104" rx="16" ry="16" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></ellipse>
+<line x1="200" y1="120" x2="200" y2="280" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="120" y1="130" x2="280" y2="130" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<path d="M100 200 C150 300 250 300 300 200 C250 315 150 315 100 200" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:10"></path>
+<path d="M100 200 C108 245 113 245 113 245 L128 225 C115 220 110 210 103 203" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:10"></path>
+<path d="M300 200 C292 245 287 245 287 245 L272 225 C285 220 290 210 297 203" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:10"></path>
+</g>
+</svg>
+
+</g>
+</svg>

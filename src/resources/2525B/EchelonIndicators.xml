@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2011 StackFrame, LLC -->
+<!-- This is derived from MIL-STD-2525B w/CHANGE 1 TABLE V. -->
+<EchelonIndicators>
+ <EchelonIndicator indicator="Ø" description="TEAM/CREW"/>
+ <EchelonIndicator indicator="•" description="SQUAD"/>
+ <EchelonIndicator indicator="••" description="SECTION"/>
+ <EchelonIndicator indicator="•••" description="PLATOON/DETACHMENT"/>
+ <EchelonIndicator indicator="I" description="COMPANY/BATTERY/TROOP"/>
+ <EchelonIndicator indicator="II" description="BATTALION/SQUADRON"/>
+ <EchelonIndicator indicator="III" description="REGIMENT/GROUP"/>
+ <EchelonIndicator indicator="X" description="BRIGADE"/>
+ <EchelonIndicator indicator="XX" description="DIVISION"/>
+ <EchelonIndicator indicator="XXX" description="CORPS"/>
+ <EchelonIndicator indicator="XXXX" description="ARMY"/>
+ <EchelonIndicator indicator="XXXXX" description="ARMY GROUP/FRONT"/>
+ <EchelonIndicator indicator="XXXXXX" description="REGION"/>
+</EchelonIndicators>

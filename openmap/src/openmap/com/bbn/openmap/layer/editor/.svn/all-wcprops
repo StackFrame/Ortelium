@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/editor
+END
+DrawingEditorTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/editor/DrawingEditorTool.java
+END
+EditorLayerMouseMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/layer/editor/EditorLayerMouseMode.java
+END
+EditorLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2091/trunk/src/openmap/com/bbn/openmap/layer/editor/EditorLayer.java
+END
+EditorTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/layer/editor/EditorTool.java
+END
+AbstractEditorTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/2009/trunk/src/openmap/com/bbn/openmap/layer/editor/AbstractEditorTool.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/editor/package.html
+END

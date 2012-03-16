@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="GFGPGLB---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.GFGPGLB-------X" width="400px" height="400px"><defs><g id="xx"><rect x="178" y="188" width="44" height="24" style="fill:rgb(255,255,255);stroke:none"></rect>
+<text x="180px" y="210.8px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:30;font-family:Arial">XX</text>
+</g>
+</defs>
+<polyline points="15,230 200,170 385,230" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+<g transform="translate(80 -5)"><use xlink:href="#xx" transform="rotate(17.9 200 200)"></use>
+</g>
+<g transform="translate(-80 -5)"><use xlink:href="#xx" transform="rotate(-17.9 200 200)"></use>
+</g>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled
+END
+LabeledOMSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled/LabeledOMSpline.java
+END
+EditableLabeledOMPoly.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled/EditableLabeledOMPoly.java
+END
+LabeledOMGraphic.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/1494/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled/LabeledOMGraphic.java
+END
+LabeledOMPoly.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled/LabeledOMPoly.java
+END
+EditableLabeledOMSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled/EditableLabeledOMSpline.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/omGraphics/labeled/package.html
+END

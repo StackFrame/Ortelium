@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGLB---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPGLB-------X" width="400px" height="400px"><polyline points="15,230 200,170 385,230" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+<rect x="177" y="115" width="46" height="120" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:5"></rect>
+<line x1="177" y1="155" x2="223" y2="155" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="177" y1="195" x2="223" y2="195" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<rect x="80" y="180" width="46" height="40" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:5"></rect>
+<rect x="274" y="180" width="46" height="40" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:5"></rect>
+<text x="190.8px" y="145px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:30;font-family:Arial">T</text>
+<text x="189.7px" y="185px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:30;font-family:Arial">B</text>
+<text x="183px" y="225px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:30;font-family:Arial">T1</text>
+<text x="91px" y="210px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:30;font-family:Arial">N</text>
+<text x="286px" y="210px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:30;font-family:Arial">N</text>
+<polyline points="15,245 15,290 35,310" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></polyline>
+<polygon points="11,255 15,242 19,255" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<polyline points="385,245 385,290 365,310" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></polyline>
+<polygon points="389,255 385,242 381,255" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:3"></polygon>
+<text x="40px" y="325px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.1</text>
+<text x="310px" y="325px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">PT.2</text>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/plotLayer
+END
+GLOBEData.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/GLOBEData.java
+END
+AT.gst_small.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/AT.gst_small.txt
+END
+ScatterGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2022/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/ScatterGraph.java
+END
+GLOBETempData.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/GLOBETempData.java
+END
+PlotLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2023/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/PlotLayer.java
+END
+thin.pl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/thin.pl
+END
+GLOBESite.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/1463/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/GLOBESite.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/plotLayer/package.html
+END

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPSLH---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPSLH-------X" width="400px" height="400px"><g transform="translate(-240 -220) scale(1.75 1.75)"><path d="M273.898 203.824 C289.531 203.824 330.478 199.454 341.898 213.157 C349.751 222.581      351.209 336.121 345.231 344.49 C331.501 363.712 312.2 359.824 277.231 359.824" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 -38 -29)"></path>
+<text x="96px" y="120px" transform="matrix(1 0 0 1 0 0) translate(19 -44) translate(1 0) translate(58 82) translate(7 2)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PL</text>
+<g id="T" transform="translate(-51 -66) translate(58 82) translate(7 2)"><rect x="190" y="127" width="20" height="19" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="196px" y="141px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">T</text>
+</g>
+<text x="162px" y="75px" transform="matrix(1 0 0 1 0 0) translate(58 82) translate(7 2)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;     ">(HOLDING LINE)</text>
+<g id="PT.%201" transform="translate(73 90)"><text x="100px" y="220px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 1</text>
+</g>
+<g id="PT.%202" transform="translate(92 -40)"><text x="84px" y="251px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 2</text>
+</g>
+<line x1="230" y1="183" x2="214" y2="202" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="230" y1="325" x2="210" y2="309" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="111,126.17 116,134.83 106,134.83" transform="matrix(0.812313 0.583222 -0.87548 1.21937 254.356 -41.3656) translate(-1.18155 0.56513) translate(1.0604 0.983893) translate(-0.583222 -0.541141)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="111,126.17 116,134.83 106,134.83" transform="matrix(-0.63777 0.770227 -1.1562 -0.957363 451.446 364.258)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+</svg>
+
+</g>
+</svg>

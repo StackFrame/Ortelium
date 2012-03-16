@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPALU---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPALU-------X" width="400px" height="400px"><g transform="translate(-110 -110) scale(1.25 1.25)"><line x1="137.5" y1="170.714" x2="336.186" y2="171" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 12 42)"></line>
+<line x1="151.214" y1="251" x2="350.757" y2="250.714" transform="matrix(1 0 0 1 -2 20)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="168" y1="199" x2="303" y2="199" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 12 42)"></line>
+<text x="212px" y="192px" transform="matrix(1 0 0 1 18 42)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">UAV</text>
+<circle cx="121" cy="243.5" r="31" transform="matrix(1 0 0 0.935484 28 13.9953)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<circle cx="121" cy="243.5" r="31" transform="matrix(1 0 0 0.935484 225.714 14.1381)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<g id="PT.%201" transform="translate(-9 145)"><text x="88px" y="349px" transform="matrix(1 0 0 1 46 -106) translate(10 -146)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP </text>
+<text x="100px" y="361px" transform="matrix(1 0 0 1 43 -106) translate(11 -146)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">1</text>
+</g>
+<g id="PT.%202" transform="translate(5 106)"><text x="228px" y="333px" transform="matrix(1 0 0 1 105 -88) translate(-4 -109)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">ACP</text>
+<text x="236px" y="351px" transform="matrix(1 0 0 1 107 -96) translate(-2 -106) translate(-1 0) translate(-1 0) translate(0 -1)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">2</text>
+</g>
+<g id="W"><text x="192px" y="333px" transform="matrix(1 0 0 1 0 0) translate(-5.71429 -71.4286)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">270600Z-</text>
+</g>
+<g id="W1"><text x="168px" y="377px" transform="matrix(1 0 0 1 0 0) translate(81.4286 -115.714)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">270900Z</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

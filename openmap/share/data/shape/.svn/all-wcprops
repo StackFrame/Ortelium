@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/openmap/!svn/ver/1381/trunk/share/data/shape
+END
+vmap_edge_thin.shp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/331/trunk/share/data/shape/vmap_edge_thin.shp
+END
+dcwpo-browse.shp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/openmap/!svn/ver/331/trunk/share/data/shape/dcwpo-browse.shp
+END
+vmap_edge_thin.ssx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/331/trunk/share/data/shape/vmap_edge_thin.ssx
+END
+vmap_area_thin.shp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/331/trunk/share/data/shape/vmap_area_thin.shp
+END
+dcwpo-browse.ssx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/openmap/!svn/ver/331/trunk/share/data/shape/dcwpo-browse.ssx
+END
+vmap_area_thin.ssx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/331/trunk/share/data/shape/vmap_area_thin.ssx
+END

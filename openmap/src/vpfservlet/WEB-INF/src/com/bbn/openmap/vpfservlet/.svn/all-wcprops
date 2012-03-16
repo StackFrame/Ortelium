@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet
+END
+ComplexJoinRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/ComplexJoinRowMaker.java
+END
+ApplyIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/ApplyIterator.java
+END
+ContextInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/ContextInfo.java
+END
+Schema.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/Schema.java
+END
+SpatialGraphicServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/SpatialGraphicServlet.java
+END
+URLCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/URLCheck.java
+END
+VPFHttpServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/VPFHttpServlet.java
+END
+VPFTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/VPFTable.java
+END
+DispatchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/DispatchServlet.java
+END
+VDTRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/VDTRowMaker.java
+END
+ReferenceRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/ReferenceRowMaker.java
+END
+JoinRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/JoinRowMaker.java
+END
+HelloWWW.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/HelloWWW.java
+END
+DirectoryServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/DirectoryServlet.java
+END
+Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/Data.java
+END
+Applyable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/1265/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/Applyable.java
+END
+DocFileServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/DocFileServlet.java
+END
+DetailRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/DetailRowMaker.java
+END
+ComplexFeatureJoinRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/ComplexFeatureJoinRowMaker.java
+END
+PlainRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/PlainRowMaker.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/package.html
+END
+FCSRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/FCSRowMaker.java
+END
+TableSubsetRecordIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/TableSubsetRecordIterator.java
+END
+RowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/RowMaker.java
+END
+LibraryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/LibraryBean.java
+END
+FITRowMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/FITRowMaker.java
+END
+SpatialIndexServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/SpatialIndexServlet.java
+END
+DescribeDBServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/DescribeDBServlet.java
+END
+ThematicIndexServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/ThematicIndexServlet.java
+END
+TileHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openmap/!svn/ver/1494/trunk/src/vpfservlet/WEB-INF/src/com/bbn/openmap/vpfservlet/TileHolder.java
+END

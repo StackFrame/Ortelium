@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPPC----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPPC--------X" width="400px" height="400px"><g transform="translate(-240 -200) scale(1.75 1.75)"><line x1="167" y1="281" x2="177.615" y2="273.196" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="180.295" y1="271.196" x2="196.562" y2="259.263" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="202.835" y1="254.756" x2="217.302" y2="244.156" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="225.695" y1="237.89" x2="240.428" y2="227.156" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="247.695" y1="221.73" x2="256.295" y2="215.463" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="258" y1="216" x2="266.562" y2="223.93" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="271.462" y1="228.37" x2="286.062" y2="241.836" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="291.895" y1="247.236" x2="305.028" y2="259.303" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="311" y1="265" x2="319.995" y2="273.25" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<line x1="323.462" y1="276.383" x2="333.395" y2="285.583" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 5 -86)"></line>
+<path d="M149.056 244.194 L166.5 232 C180.801 222.003 201.164 237.202 216.5 228 C239.834 213.999      265.522 194.609 296.5 207 C320.731 216.693 384.385 270.515 364.5 302      C358.503 311.496 350.872 310.376 341.5 313 C264.144 334.66 280.278 303.789 224.5      301 C202.234 299.887 135.292 330.815 131.5 291 C129.937 274.588 136.537      253.661 149.056 244.222" transform="matrix(0.805728 0 0 1 51.5469 -1)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<circle cx="107" cy="132" r="13" transform="matrix(1 0 0 1 96 129)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<circle cx="250" cy="250" r="13" transform="matrix(1 0 0 1 3 11)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<circle cx="250" cy="250" r="13" transform="matrix(1 0 0 1 49 11)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></circle>
+<g id="H1" transform="translate(143 108)"><rect x="106" y="76" width="16" height="17" transform="matrix(1 0 0 1 0 0) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="110px" y="90px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">H</text>
+</g>
+<g id="H2" transform="translate(21 245)"><rect x="106" y="76" width="16" height="17" transform="matrix(1 0 0 1 136 166) translate(-17 -177)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="228px" y="78px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">H</text>
+</g>
+<g id="N1" transform="translate(-157 194) translate(1 -8)"><rect x="106" y="76" width="16" height="17" transform="matrix(1 0 0 1 136 166) translate(64 -175) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="310px" y="80px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">N</text>
+</g>
+<g id="N2" transform="translate(-41 192)"><rect x="106" y="76" width="16" height="17" transform="matrix(1 0 0 1 136 166) translate(128 -182) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="374px" y="74px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">N</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

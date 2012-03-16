@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGPRI--****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPGPRI------X" width="400px" height="400px"><g id="ANCHOR%20POINT" transform="matrix(1.75 0 0 1.85 -121 -530.05) translate(-5.71429 47.5676)"><text x="80px" y="394px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">ANCHOR</text>
+<text x="122px" y="421px" transform="matrix(1 0 0 1 0 0) translate(-35 -17)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">POINT</text>
+</g>
+<line x1="204" y1="274" x2="258" y2="274" transform="matrix(1.75 0 0 1.85 -240 -210) translate(-20 41.6216)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="205.167" y1="274.4" x2="188" y2="239" transform="matrix(1.75 0 0 1.85 -240 -210) translate(-20 41.6216)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="72,149 79.5056,162 64.4944,162" transform="matrix(1.14212e-016 1.97188 -1.75 1.13276e-016 486.25 154.925) translate(39.0491 20)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="110,180 290,180 200,375" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:1"></polygon>
+<circle cx="200" cy="130" r="100" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:10"></circle>
+<text x="182px" y="152px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:60;font-family:Arial">T</text>
+<rect x="170" y="100" width="60" height="60" transform="matrix(1 0 0 1 0 0) translate(0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></rect>
+</svg>
+
+</g>
+</svg>

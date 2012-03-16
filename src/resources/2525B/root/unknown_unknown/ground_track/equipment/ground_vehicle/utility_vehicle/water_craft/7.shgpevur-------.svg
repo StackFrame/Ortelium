@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="SHGPEVUR--*****" width="400px" height="400px" viewBox="0 0 400 400">
+<g transform="translate(0 29) scale(1 0.8)" >
+<svg viewBox="0 0 400 400" id="_0.SHG-EVU--------" width="400px" height="400px"><line x1="120" y1="130" x2="120" y2="270" style="fill:none;stroke:rgb(255,128,128);stroke-width:10"></line>
+<line x1="280" y1="130" x2="280" y2="270" style="fill:none;stroke:rgb(255,128,128);stroke-width:10"></line>
+<line x1="120" y1="265" x2="280" y2="265" style="fill:none;stroke:rgb(255,128,128);stroke-width:10"></line>
+<path d="M120 134 C190 160 210 160 280 134" style="fill:none;stroke:rgb(255,128,128);stroke-width:10"></path>
+</svg>
+
+</g>
+<g >
+<svg viewBox="0 0 400 400" id="_1.SHG-EVUR-------" width="400px" height="400px"><g style="fill:none;stroke:rgb(0,0,0);stroke-width:1;clip-rule:nonzero"><clipPath id="FrameClip"><rect x="120" y="140" width="160" height="120"></rect>
+</clipPath>
+<g style="clip-path:url(#FrameClip)"><path d="M20 159 C20 162 53 170 53 140 C53 110 95 110 95 140 C95 170 137 170 137 140 C137
+					110 179 110 179 140 C179 170 221 170 221 140 C221 110 263 110 263 140 C263
+					170 305 170 305 140 C305 110 347 110 347 140 C347 170 380 162 380 159" style="fill:none;stroke:rgb(255,128,128);stroke-width:20" transform="translate(100 125) scale(0.5 0.5)"></path>
+</g>
+</g>
+<ellipse cx="130" cy="260" rx="13" ry="13" style="fill:none;stroke:rgb(255,128,128);stroke-width:10"></ellipse>
+<ellipse cx="270" cy="260" rx="13" ry="13" style="fill:none;stroke:rgb(255,128,128);stroke-width:10"></ellipse>
+</svg>
+
+</g>
+</svg>

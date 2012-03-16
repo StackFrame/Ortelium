@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/openmap/!svn/ver/2031/trunk/ext/j3d-1_5_2/lib/ext
+END
+vecmath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/2031/trunk/ext/j3d-1_5_2/lib/ext/vecmath.jar
+END
+j3dcore.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/2031/trunk/ext/j3d-1_5_2/lib/ext/j3dcore.jar
+END
+j3dutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/2031/trunk/ext/j3d-1_5_2/lib/ext/j3dutils.jar
+END

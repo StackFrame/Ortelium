@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPSAB---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPSAB-------X" width="400px" height="400px"><g transform="translate(-220 -170) scale(1.75 1.75)"><path d="M212.898 172.824 C242.531 158.824 271.343 164.777 280.898 182.157 C288.92 196.749     290.209 305.121 284.231 313.49 C270.501 332.712 264.2 341.824 216.231 333.824" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 -3 -56)"></path>
+<text x="180px" y="317px" transform="matrix(1 0 0 1 0 0) translate(-15 -16)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;    ">PL</text>
+<g id="T" transform="translate(-65 -63) translate(-15 -16)"><rect x="266" y="366" width="16" height="20" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="270px" y="381px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;     ">T</text>
+</g>
+<text x="296px" y="336px" transform="matrix(1 0 0 1 0 0) translate(-75 -20) translate(0 1) translate(-15 -16)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;    ">(BRIDGEHEAD LINE)</text>
+<g id="PT.%201" transform="translate(47.2 -202.4)"><text x="96px" y="353px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 1</text>
+</g>
+<g id="PT.%202" transform="translate(-69.6 -152)"><text x="210px" y="397px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 2</text>
+</g>
+<line x1="204" y1="271" x2="180" y2="244" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="200" y1="125" x2="180" y2="143" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="48,54.3038 54,64.6962 42,64.6962" transform="matrix(-0.636532 0.77125 -1.1132 -0.918755 300.46 287.727)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="48,54.3038 54,64.6962 42,64.6962" transform="matrix(0.57896 0.815356 -1.17687 0.835659 241.034 36.4414)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+</svg>
+
+</g>
+</svg>

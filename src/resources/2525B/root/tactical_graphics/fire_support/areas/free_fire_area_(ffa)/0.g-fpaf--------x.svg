@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPAF----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPAF--------X" width="400px" height="400px"><g transform="translate(-185 -150) scale(1.5 1.5)"><path d="M119 150.933 C133.61 143.207 145.586 139.1 162.5 139.1 C191.244 139.1 201.63 162.553     225.5 167.1 C241.712 170.188 250.618 157.1 265.5 157.1 C310.434 157.1 350.93     225.24 330.5 266.1 L260.5 325.1 C250.713 330.226 136.776 329.049 126.5     323.1 C107.31 311.99 132.759 266.923 124.5 247.1 C113.253 220.106 110.548 169.538     119.517 150.417" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 33 -1)"></path>
+<text x="184px" y="246px" transform="matrix(1 0 0 1 38.9406 -28.7228) translate(7 7) translate(0 -19)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">FFA</text>
+<g id="T" transform="translate(175 156) translate(-2 -16)"><rect x="188" y="62" width="26" height="22" transform="matrix(1 0 0 1 49 177) translate(-181 -167)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="64px" y="88px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<g id="W" transform="translate(66 160)"><rect x="188" y="62" width="26" height="22" transform="matrix(1 0 0 1 49 177) translate(-100 -161)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="144px" y="94px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W</text>
+</g>
+<g id="W1" transform="translate(67 177)"><rect x="188" y="62" width="26" height="22" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="192px" y="77px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W1</text>
+<line x1="232" y1="249" x2="248" y2="249" transform="matrix(1 0 0 1 -67 -177)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

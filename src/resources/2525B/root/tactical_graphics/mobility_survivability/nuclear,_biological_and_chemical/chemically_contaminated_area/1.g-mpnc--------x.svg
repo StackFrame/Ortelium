@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*MPNC----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-M-NBCA------X" width="400px" height="400px"><defs><linearGradient id="black-white-stripes" x1="0%" y1="0%" x2="4%" y2="4%" spreadMethod="repeat" gradientUnits="objectBoundingBox"><stop offset="80%" style="stop-color:rgb(255,255,255);stop-opacity:1"></stop>
+<stop offset="80%" style="stop-color:rgb(0,0,0);stop-opacity:1"></stop>
+</linearGradient>
+</defs>
+<path d="M108.133 137.467 C133.721 134.705 195.644 116.768 220.267 109.733 C258.088 98.9274
+			318.3 79.1 348.267 109.067 C364.249 125.049 383.381 236.144 372.533 255.867
+			C360.069 278.528 296.616 273.237 277.733 281.6 C220.642 306.885 257.854 344.933
+			216 344.933 C193.738 344.933 103.731 297.645 39.0667 295.467 C-1.31956 294.106
+			17.0054 136.061 71.0667 141.467 z" style="fill:url(#black-white-stripes);stroke:rgb(0,0,0);stroke-width:5"></path>
+</svg>
+
+</g>
+<g transform="scale(0.8 0.8) translate(50 50)" >
+<svg viewBox="0 0 400 400" id="_1.G-M-C---------X" width="400px" height="400px"><circle cx="200" cy="235" r="40" transform="matrix(1 0 0 1 0 0) translate(160 220) scale(1 1) translate(-160 -220)" style="fill:rgb(255,255,128);stroke:rgb(0,0,0);stroke-width:5"></circle>
+<polyline points="185,199.75 185,125 215,125 215,199.75" style="fill:rgb(255,255,128);stroke:rgb(0,0,0);stroke-width:5"></polyline>
+<text x="188px" y="245px" transform="matrix(1 0 0 1 0 0) translate(0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:32;font-family:Arial">C</text>
+</svg>
+
+</g>
+<g transform="scale(0.8 0.8) translate(70 50)" >
+<svg viewBox="0 0 400 400" id="_2.G-M-C--------LX" width="400px" height="400px"><rect x="60" y="184" width="80" height="32" style="fill:rgb(255,255,255);stroke:rgb(255,255,255);stroke-width:1" transform="translate(67 200) scale(1 1) translate(-67 -200)"></rect>
+<text x="62px" y="213px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:36;font-family:Arial">CML</text>
+</svg>
+
+</g>
+</svg>

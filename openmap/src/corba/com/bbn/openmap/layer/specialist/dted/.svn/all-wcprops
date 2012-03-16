@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/openmap/!svn/ver/2243/trunk/src/corba/com/bbn/openmap/layer/specialist/dted
+END
+DTEDSpecialist.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2243/trunk/src/corba/com/bbn/openmap/layer/specialist/dted/DTEDSpecialist.java
+END
+DTEDCoverageSpecialist.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/2243/trunk/src/corba/com/bbn/openmap/layer/specialist/dted/DTEDCoverageSpecialist.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/522/trunk/src/corba/com/bbn/openmap/layer/specialist/dted/package.html
+END

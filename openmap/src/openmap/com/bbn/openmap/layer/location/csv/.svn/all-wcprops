@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/csv
+END
+CSVLocationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/csv/CSVLocationHandler.java
+END
+CSVLinkHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/layer/location/csv/CSVLinkHandler.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/layer/location/csv/package.html
+END

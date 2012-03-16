@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGPRD--****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPGPRD------X" width="400px" height="400px"><line x1="272" y1="235" x2="272" y2="282" transform="matrix(2 0 0 2 -313.001 -254) translate(-3 2)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="37,91.4378 44,103.562 30,103.562" transform="matrix(2 0 0 2.14444 157 -0.084) translate(-3 1.86529)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<g id="CENTER%20POINT" transform="matrix(2 0 0 2 -7 -290) translate(-3 2)"><text x="94px" y="314px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">CENTER</text>
+<text x="162px" y="374px" transform="matrix(1 0 0 1 0 0) translate(-62 -49)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;
+			">POINT</text>
+</g>
+<g transform="translate(0 -20)"><rect x="100" y="75" width="250" height="250" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></rect>
+<line x1="100" y1="325" x2="350" y2="75" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="100" y1="75" x2="350" y2="325" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<text x="28px" y="325px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:72;font-family:Arial">D</text>
+</g>
+</svg>
+
+</g>
+</svg>

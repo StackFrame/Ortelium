@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPALL---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPALL-------X" width="400px" height="400px"><g transform="translate(-180 -130) scale(1.5 1.5)"><line x1="142" y1="171" x2="327" y2="171" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 23 22)"></line>
+<line x1="158" y1="250" x2="343" y2="250" transform="matrix(1 0 0 1 9 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="168" y1="199" x2="303" y2="199" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 23 22)"></line>
+<text x="198px" y="190px" transform="matrix(1 0 0 1 39 22)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">LLTR</text>
+<g id="W" transform="matrix(1 0 0 1 94 152)"><rect x="186" y="65" width="26" height="22" transform="matrix(1 0 0 1 51 174) translate(-121 -169) translate(0 1) translate(0 1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="124px" y="88px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W</text>
+</g>
+<g id="W1" transform="matrix(1 0 0 1 81 159)"><rect x="186" y="65" width="26" height="22" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="190px" y="81px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W1</text>
+<line x1="244" y1="235" x2="258" y2="235" transform="matrix(1 0 0 1 -81 -159)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+</g>
+<g id="PT.1" transform="matrix(1 0 0 1 0 0)"><text x="84px" y="119px" transform="matrix(1 0 0 1 0 0) translate(55 66)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 1</text>
+</g>
+<g id="PT.2" transform="matrix(1 0 0 1 0 0)"><text x="220px" y="112px" transform="matrix(1 0 0 1 0 0) translate(119 73)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 2</text>
+</g>
+<line x1="144" y1="200" x2="154" y2="227" transform="matrix(1 0 0 1 9 -7)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="144" y1="200" x2="154" y2="227" transform="matrix(-1 0 0 1 502.026 -7)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g transform="translate(25 142) rotate(143.315 131 78.5) translate(-6.54106 -2.37885) rotate(4.11211 131.716 80.8954) rotate(3.72666 132.051 80.7684) translate(-0.875922 -0.482453) rotate(1.58402 132.336 80.613) rotate(2.74302 132.451 80.5359) translate(-0.526706 1.95798) translate(128.621 89.1957) scale(1 0.548076) translate(-128.621 -89.1957) translate(136.674 85.3028) scale(0.560355 1) translate(-136.674 -85.3028) translate(-1.95129 -4.41942) translate(-1.40289 -0.152874) translate(1.70194 -2.71577) translate(-1.62366 -0.757177) translate(0.740584 -1.66004)"><polygon points="131,74.1699 136,82.8301 126,82.8301" transform="matrix(1 0 0 2.19393 0 -93.7236)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+<g transform="translate(94 -30) rotate(209.157 251 251.5) translate(0.533164 8.48162) rotate(356.488 249.687 253.627) translate(-0.901497 0.432786) translate(-0.901497 0.432786) rotate(355.142 249.437 253.451) translate(0.934908 -0.354891) translate(252.597 262.292) scale(1 0.667308) translate(-252.597 -262.292) translate(0.515135 -4.30027) translate(-2.86961 -0.77196) translate(253.582 251.453) scale(0.839556 1) translate(-253.582 -251.453) translate(2.57258 -2.03007) translate(251.95 262.934) scale(1 0.812639) translate(-251.95 -262.934) translate(253.649 251.412) scale(0.64964 1) translate(-253.649 -251.412) translate(-2.07102 -8.08536) rotate(356.346 249.13 253.168) translate(-1.75236 0.543881) rotate(1.87815 248.934 252.917) translate(1.73359 -0.601021) translate(1.73359 -0.601021) translate(-1.73359 0.601021)"><polygon points="131,74.1699 136,82.8301 126,82.8301" transform="matrix(1 0 0 2.19393 120 79.2764)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/2018/trunk/src/j3d/com/bbn/openmap/tools/j3d
+END
+OM3DConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/1493/trunk/src/j3d/com/bbn/openmap/tools/j3d/OM3DConstants.java
+END
+ControlledManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1496/trunk/src/j3d/com/bbn/openmap/tools/j3d/ControlledManager.java
+END
+MapContentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/1496/trunk/src/j3d/com/bbn/openmap/tools/j3d/MapContentManager.java
+END
+OMKeyBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/1493/trunk/src/j3d/com/bbn/openmap/tools/j3d/OMKeyBehavior.java
+END
+LayerMapContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2018/trunk/src/j3d/com/bbn/openmap/tools/j3d/LayerMapContent.java
+END
+OM3DViewerLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/1624/trunk/src/j3d/com/bbn/openmap/tools/j3d/OM3DViewerLauncher.java
+END
+OMGraphicUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/1959/trunk/src/j3d/com/bbn/openmap/tools/j3d/OMGraphicUtil.java
+END
+MapContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1493/trunk/src/j3d/com/bbn/openmap/tools/j3d/MapContent.java
+END
+J3DGeo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1770/trunk/src/j3d/com/bbn/openmap/tools/j3d/J3DGeo.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/522/trunk/src/j3d/com/bbn/openmap/tools/j3d/package.html
+END
+NavBehaviorProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/1265/trunk/src/j3d/com/bbn/openmap/tools/j3d/NavBehaviorProvider.java
+END
+launcher.gif
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/522/trunk/src/j3d/com/bbn/openmap/tools/j3d/launcher.gif
+END
+Camera.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/openmap/!svn/ver/1496/trunk/src/j3d/com/bbn/openmap/tools/j3d/Camera.java
+END
+UniverseManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/1493/trunk/src/j3d/com/bbn/openmap/tools/j3d/UniverseManager.java
+END
+OM3DManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/1493/trunk/src/j3d/com/bbn/openmap/tools/j3d/OM3DManager.java
+END
+OM3DGraphicHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/1493/trunk/src/j3d/com/bbn/openmap/tools/j3d/OM3DGraphicHandler.java
+END

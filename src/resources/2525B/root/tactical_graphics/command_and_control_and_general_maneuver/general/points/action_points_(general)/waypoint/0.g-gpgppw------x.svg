@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPGPPW--****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-G-GPPW------X" width="400px" height="400px"><line x1="50" y1="350" x2="350" y2="50" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="50" y1="50" x2="350" y2="350" transform="matrix(1 0 0 1 0 0)" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+</svg>
+
+</g>
+<g transform="translate(90 0)" >
+<svg viewBox="0 0 400 400" id="_1.G-----------PTS" width="400px" height="400px"><rect x="175" y="175" width="50" height="50" style="fill:none;stroke:rgb(0,0,0);stroke-width:5" transform="translate(0 0) translate(0 0)"></rect>
+<text x="189px" y="213px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:36;font-family:Arial">T</text>
+</svg>
+
+</g>
+<g transform="translate(0 -90)" >
+<svg viewBox="0 0 400 400" id="_2.GC------------X" width="400px" height="400px"><text x="149px" y="195px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">CENTER</text>
+<text x="160px" y="220px" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:24;font-family:Arial">POINT</text>
+</svg>
+
+</g>
+<g transform="translate(0 50)" >
+<svg viewBox="0 0 400 400" id="_3.GAR3----------X" width="400px" height="400px"><line x1="200" y1="85" x2="200" y2="140" style="fill:none;stroke:rgb(0,0,0);stroke-width:3"></line>
+<polygon points="200,143 193,128 207,128" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:1"></polygon>
+</svg>
+
+</g>
+</svg>

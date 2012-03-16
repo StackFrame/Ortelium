@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*TPL-----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-TPL---------X" width="400px" height="400px"><g transform="translate(-110 -110) scale(1.25 1.25)"><path d="M319 171 C399.069 171 417.652 276.535 313 282" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<line x1="313" y1="282" x2="230" y2="282" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="205" y1="282" x2="126" y2="282" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="127" y1="282" x2="141" y2="270" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="126.987" y1="282.733" x2="139.387" y2="295.533" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="122" y1="296" x2="122" y2="317" transform="matrix(1 0 0 1 2.84217e-014 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="121.758" y1="316.349" x2="136" y2="332" transform="matrix(1 0 0 1 2.84217e-014 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="75,234.67 80,243.33 70,243.33" transform="matrix(1 0 0 1.38564 47 -36.1681)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<line x1="122" y1="296" x2="122" y2="317" transform="matrix(-1 0 0 1 437.008 -2)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="121.758" y1="316.349" x2="136" y2="332" transform="matrix(-1 0 0 1 437.008 -2)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="75,234.67 80,243.33 70,243.33" transform="matrix(-1 0 0 1.38564 390.008 -38.1681)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<line x1="122" y1="296" x2="122" y2="317" transform="matrix(0.598422 -0.801181 -0.801181 -0.598422 474.533 440.521)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="75,234.67 80,243.33 70,243.33" transform="matrix(0.598422 -0.801181 -1.11015 -0.829197 531.636 424.509)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<line x1="294.378" y1="153.21" x2="270" y2="153" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g id="PT.%201" transform="matrix(1 0 0 1 48 196)"><text x="92px" y="139px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 1</text>
+</g>
+<g id="PT.%202" transform="matrix(1 0 0 1 71 204)"><text x="194px" y="129px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 2</text>
+</g>
+<g id="PT.%203" transform="matrix(1 0 0 1 -39 58)"><text x="272px" y="98px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 3</text>
+</g>
+<text x="62px" y="183px" transform="matrix(1 0 0 1 0 0) translate(149 103)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:18;     ">D</text>
+<g id="W" transform="translate(149 138)"><rect x="56" y="110" width="24" height="19" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="62px" y="124px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">W</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmap/!svn/ver/2217/trunk/src/openmap/com/bbn/openmap/util/wanderer
+END
+OneWaySync.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2217/trunk/src/openmap/com/bbn/openmap/util/wanderer/OneWaySync.java
+END
+SLOC.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/util/wanderer/SLOC.java
+END
+ChangeCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/util/wanderer/ChangeCase.java
+END
+Purge.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/util/wanderer/Purge.java
+END
+TestWandererCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/util/wanderer/TestWandererCallback.java
+END
+WandererCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/util/wanderer/WandererCallback.java
+END
+Wanderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/util/wanderer/Wanderer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/util/wanderer/package.html
+END

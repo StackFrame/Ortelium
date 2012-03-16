@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPALM---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPALM-------X" width="400px" height="400px"><g transform="translate(-190 -140) scale(1.5 1.5)"><line x1="142" y1="171" x2="327" y2="171" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 36)"></line>
+<line x1="158" y1="250" x2="343" y2="250" transform="matrix(1 0 0 1 11 14)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="168" y1="199" x2="303" y2="199" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 36)"></line>
+<text x="204px" y="191px" transform="matrix(1 0 0 1 38 36)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MRR</text>
+<g id="W" transform="matrix(1 0 0 1 28 192)"><rect x="182" y="48" width="28" height="23" transform="matrix(1 0 0 1 0 0) translate(1 -2)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="192px" y="63px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;      ">W</text>
+</g>
+<g id="W1" transform="matrix(1 0 0 1 -2 182)"><rect x="182" y="48" width="28" height="23" transform="matrix(1 0 0 1 54 191) translate(29 -183)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="270px" y="73px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-size:12;font-family:Arial Black;font-weight:bold;      ">W1</text>
+</g>
+<line x1="244" y1="249" x2="258" y2="249" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g id="PT.%201" transform="matrix(1 0 0 1 0 0)"><text x="82px" y="128px" transform="matrix(1 0 0 1 65 73)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 1</text>
+</g>
+<line x1="156" y1="209" x2="172" y2="235" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g id="PT.%202" transform="matrix(1 0 0 1 0 0)"><text x="226px" y="137px" transform="matrix(1 0 0 1 117 64)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;      ">PT. 2</text>
+</g>
+<line x1="156" y1="209" x2="172" y2="235" transform="matrix(-1 0 0 1 517.126 -2)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<g transform="rotate(137.326 235.5 146) translate(106.674 -22.0255) rotate(4.04021 235.682 148.243) rotate(4.96562 235.996 148.195) translate(0.279271 4.99219)"><polygon points="235.5,142.103 240,149.897 231,149.897" transform="matrix(1 0 0 1.5396 0 -78.7817)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+<g transform="rotate(216.689 340.5 249) translate(6.65063 15.6211)"><polygon points="235.5,142.103 240,149.897 231,149.897" transform="matrix(1 0 0 1.5396 38 26.2183) translate(67 -1.29904)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

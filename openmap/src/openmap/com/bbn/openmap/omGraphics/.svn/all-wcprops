@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/openmap/!svn/ver/2244/trunk/src/openmap/com/bbn/openmap/omGraphics
+END
+HorizontalGrabPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/omGraphics/HorizontalGrabPoint.java
+END
+DrawingAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/DrawingAttributes.java
+END
+OMWarpingImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/omGraphics/OMWarpingImage.java
+END
+I18N_da_DK.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1573/trunk/src/openmap/com/bbn/openmap/omGraphics/I18N_da_DK.properties
+END
+OMText.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2223/trunk/src/openmap/com/bbn/openmap/omGraphics/OMText.java
+END
+enclosepoly.gif
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/omGraphics/enclosepoly.gif
+END
+OMGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGrid.java
+END
+addnode.gif
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2065/trunk/src/openmap/com/bbn/openmap/omGraphics/addnode.gif
+END
+OMLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/omGraphics/OMLine.java
+END
+OMEllipse.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2223/trunk/src/openmap/com/bbn/openmap/omGraphics/OMEllipse.java
+END
+OMRangeRings.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/2058/trunk/src/openmap/com/bbn/openmap/omGraphics/OMRangeRings.java
+END
+OMRaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/omGraphics/OMRaster.java
+END
+EditableOMAbstractLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1486/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMAbstractLine.java
+END
+NatCubicSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/NatCubicSpline.java
+END
+EditableOMGraphic.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2212/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMGraphic.java
+END
+OMGraphicConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGraphicConstants.java
+END
+OMGraphicHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGraphicHandler.java
+END
+OMTextLabeler.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/OMTextLabeler.java
+END
+OMBitmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/omGraphics/OMBitmap.java
+END
+OMArrowHead.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMArrowHead.java
+END
+OMGraphic.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGraphic.java
+END
+EditableOMPoly.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMPoly.java
+END
+OMGraphicAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGraphicAdapter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/omGraphics/package.html
+END
+EditableOMDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2026/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMDistance.java
+END
+OMScalingIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2244/trunk/src/openmap/com/bbn/openmap/omGraphics/OMScalingIcon.java
+END
+Cubic.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/omGraphics/Cubic.java
+END
+GrabPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/GrabPoint.java
+END
+OMSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMSpline.java
+END
+EditableOMCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMCircle.java
+END
+OMGeometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2086/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGeometry.java
+END
+OMRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMRect.java
+END
+I18N.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/1486/trunk/src/openmap/com/bbn/openmap/omGraphics/I18N.properties
+END
+OMLabeler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMLabeler.java
+END
+OMList.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/OMList.java
+END
+EditableOMText.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMText.java
+END
+OMGraphicHash.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGraphicHash.java
+END
+EditableOMLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMLine.java
+END
+BasicStrokeEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/omGraphics/BasicStrokeEditor.java
+END
+I18N_pl_PL.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1486/trunk/src/openmap/com/bbn/openmap/omGraphics/I18N_pl_PL.properties
+END
+FilterSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/FilterSupport.java
+END
+OMRasterObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2243/trunk/src/openmap/com/bbn/openmap/omGraphics/OMRasterObject.java
+END
+FontSizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/FontSizer.java
+END
+EditableOMRangeRings.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMRangeRings.java
+END
+addpoint.gif
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/omGraphics/addpoint.gif
+END
+EditableOMScalingRaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMScalingRaster.java
+END
+EditableOMDecoratedSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMDecoratedSpline.java
+END
+OMShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/omGraphics/OMShape.java
+END
+OffsetGrabPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/OffsetGrabPoint.java
+END
+OMScalingRaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2244/trunk/src/openmap/com/bbn/openmap/omGraphics/OMScalingRaster.java
+END
+NatCubicClosedSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/NatCubicClosedSpline.java
+END
+EditableOMGraphicList.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMGraphicList.java
+END
+OMAreaList.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/omGraphics/OMAreaList.java
+END
+deletepoint.gif
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/omGraphics/deletepoint.gif
+END
+OMDecoratedSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMDecoratedSpline.java
+END
+OMArc.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/OMArc.java
+END
+SinkGraphic.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2065/trunk/src/openmap/com/bbn/openmap/omGraphics/SinkGraphic.java
+END
+OMGraphicList.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGraphicList.java
+END
+BasicStrokeEditorMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/omGraphics/BasicStrokeEditorMenu.java
+END
+OMAbstractLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMAbstractLine.java
+END
+OMAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/omGraphics/OMAction.java
+END
+OMColor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2118/trunk/src/openmap/com/bbn/openmap/omGraphics/OMColor.java
+END
+DrawingAttributesPropertyEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/2103/trunk/src/openmap/com/bbn/openmap/omGraphics/DrawingAttributesPropertyEditor.java
+END
+OMPoly.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/OMPoly.java
+END
+EditableOMPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMPoint.java
+END
+VerticalGrabPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/omGraphics/VerticalGrabPoint.java
+END
+EditableOMSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMSpline.java
+END
+OMGeometryList.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/omGraphics/OMGeometryList.java
+END
+EditableOMRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/EditableOMRect.java
+END
+GraphicAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/1858/trunk/src/openmap/com/bbn/openmap/omGraphics/GraphicAttributes.java
+END
+OMPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/openmap/!svn/ver/2206/trunk/src/openmap/com/bbn/openmap/omGraphics/OMPoint.java
+END
+OMDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2018/trunk/src/openmap/com/bbn/openmap/omGraphics/OMDistance.java
+END
+OMColorChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/omGraphics/OMColorChooser.java
+END
+OMCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/openmap/!svn/ver/2082/trunk/src/openmap/com/bbn/openmap/omGraphics/OMCircle.java
+END

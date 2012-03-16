@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2011 StackFrame, LLC -->
+<!-- This is derived from MIL-STD-2525B w/CHANGE 1 APPENDIX A TABLE A-II. -->
+<SymbolModifierCodes>
+ <SymbolModifierCode code="--" description="NULL"/>
+ <SymbolModifierCode code="-A" description="TEAM/CREW"/>
+ <SymbolModifierCode code="-B" description="SQUAD"/>
+ <SymbolModifierCode code="-C" description="SECTION"/>
+ <SymbolModifierCode code="-D" description="PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="-E" description="COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="-F" description="BATTALLION/SQUADRON"/>
+ <SymbolModifierCode code="-G" description="REGIMENT/GROUP"/>
+ <SymbolModifierCode code="-H" description="BRIGADE"/>
+ <SymbolModifierCode code="-I" description="DIVISION"/>
+ <SymbolModifierCode code="-J" description="CORPS/MEF"/>
+ <SymbolModifierCode code="-K" description="ARMY"/>
+ <SymbolModifierCode code="-L" description="ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="-M" description="REGION"/>
+ <SymbolModifierCode code="A-" description="HEADQUARTERS (HQ)"/>
+ <SymbolModifierCode code="AA" description="HQ TEAM/CREW"/>
+ <SymbolModifierCode code="AB" description="HQ SQUAD"/>
+ <SymbolModifierCode code="AC" description="HQ SECTION"/>
+ <SymbolModifierCode code="AD" description="HQ PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="AE" description="HQ COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="AF" description="HQ BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="AG" description="HQ REGIMENT/GROUP"/>
+ <SymbolModifierCode code="AH" description="HQ BRIGADE"/>
+ <SymbolModifierCode code="AI" description="HQ DIVISION"/>
+ <SymbolModifierCode code="AJ" description="HQ CORPS/MEF"/>
+ <SymbolModifierCode code="AK" description="HQ ARMY"/>
+ <SymbolModifierCode code="AL" description="HQ ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="AM" description="HQ REGION"/>
+ <SymbolModifierCode code="B-" description="TASK FORCE (TF) HQ"/>
+ <SymbolModifierCode code="BA" description="TF HQ TEAM/CREW"/>
+ <SymbolModifierCode code="BB" description="TF HQ SQUAD"/>
+ <SymbolModifierCode code="BC" description="TF HQ SECTION"/>
+ <SymbolModifierCode code="BD" description="TF HQ PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="BE" description="TF HQ COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="BF" description="TF HQ BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="BG" description="TF HQ REGIMENT/GROUP"/>
+ <SymbolModifierCode code="BH" description="TF HQ BRIGADE"/>
+ <SymbolModifierCode code="BI" description="TF HQ DIVISION"/>
+ <SymbolModifierCode code="BJ" description="TF HQ CORPS/MEF"/>
+ <SymbolModifierCode code="BK" description="TF HQ ARMY"/>
+ <SymbolModifierCode code="BL" description="TF HQ ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="BM" description="TF HQ REGION"/>
+ <SymbolModifierCode code="C-" description="FEINT DUMMY (FD) HQ"/>
+ <SymbolModifierCode code="CA" description="FD HQ TEAM/CREW"/>
+ <SymbolModifierCode code="CB" description="FD HQ SQUAD"/>
+ <SymbolModifierCode code="CC" description="FD HQ SECTION"/>
+ <SymbolModifierCode code="CD" description="FD HQ PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="CE" description="FD HQ COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="CF" description="FD HQ BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="CG" description="FD HQ REGIMENT/GROUP"/>
+ <SymbolModifierCode code="CH" description="FD HQ BRIGADE"/>
+ <SymbolModifierCode code="CI" description="FD HQ DIVISION"/>
+ <SymbolModifierCode code="CJ" description="FD HQ CORPS/MEF"/>
+ <SymbolModifierCode code="CK" description="FD HQ ARMY"/>
+ <SymbolModifierCode code="CL" description="FD HQ ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="CM" description="FD HQ REGION"/>
+ <SymbolModifierCode code="D-" description="FEINT DUMMY/TASK FORCE (FD/TF) HQ"/>
+ <SymbolModifierCode code="DA" description="FD/TF HQ TEAM/CREW"/>
+ <SymbolModifierCode code="DB" description="FD/TF HQ SQUAD"/>
+ <SymbolModifierCode code="DC" description="FD/TF HQ SECTION"/>
+ <SymbolModifierCode code="DD" description="FD/TF HQ PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="DE" description="FD/TF HQ COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="DF" description="FD/TF HQ BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="DG" description="FD/TF HQ REGIMENT/GROUP"/>
+ <SymbolModifierCode code="DH" description="FD/TF HQ BRIGADE"/>
+ <SymbolModifierCode code="DI" description="FD/TF HQ DIVISION"/>
+ <SymbolModifierCode code="DJ" description="FD/TF HQ CORPS/MEF"/>
+ <SymbolModifierCode code="DK" description="FD/TF HQ ARMY"/>
+ <SymbolModifierCode code="DL" description="FD/TF HQ ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="DM" description="FD/TF HQ REGION"/>
+ <SymbolModifierCode code="E-" description="TASK FORCE (TF)"/>
+ <SymbolModifierCode code="EA" description="TF TEAM/CREW"/>
+ <SymbolModifierCode code="EB" description="TF SQUAD"/>
+ <SymbolModifierCode code="EC" description="TF SECTION"/>
+ <SymbolModifierCode code="ED" description="TF PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="EE" description="TF COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="EF" description="TF BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="EG" description="TF REGIMENT/GROUP"/>
+ <SymbolModifierCode code="EH" description="TF BRIGADE"/>
+ <SymbolModifierCode code="EI" description="TF DIVISION"/>
+ <SymbolModifierCode code="EJ" description="TF CORPS/MEF"/>
+ <SymbolModifierCode code="EK" description="TF ARMY"/>
+ <SymbolModifierCode code="EL" description="TF ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="EM" description="TF REGION"/>
+ <SymbolModifierCode code="F-" description="FEINT DUMMY (FD)"/>
+ <SymbolModifierCode code="FA" description="FD TEAM/CREW"/>
+ <SymbolModifierCode code="FB" description="FD SQUAD"/>
+ <SymbolModifierCode code="FC" description="FD SECTION"/>
+ <SymbolModifierCode code="FD" description="FD PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="FE" description="FD COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="FF" description="FD BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="FG" description="FD REGIMENT/GROUP"/>
+ <SymbolModifierCode code="FH" description="FD BRIGADE"/>
+ <SymbolModifierCode code="FI" description="FD DIVISION"/>
+ <SymbolModifierCode code="FJ" description="FD CORPS/MEF"/>
+ <SymbolModifierCode code="FK" description="FD ARMY"/>
+ <SymbolModifierCode code="FL" description="FD ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="FM" description="FD REGION"/>
+ <SymbolModifierCode code="G-" description="FEINT DUMMY/TASK FORCE (FD/TF)"/>
+ <SymbolModifierCode code="GA" description="FD/TF TEAM/CREW"/>
+ <SymbolModifierCode code="GB" description="FD/TF SQUAD"/>
+ <SymbolModifierCode code="GC" description="FD/TF SECTION"/>
+ <SymbolModifierCode code="GD" description="FD/TF PLATOON/DETACHMENT"/>
+ <SymbolModifierCode code="GE" description="FD/TF COMPANY/BATTERY/TROOP"/>
+ <SymbolModifierCode code="GF" description="FD/TF BATTALION/SQUADRON"/>
+ <SymbolModifierCode code="GG" description="FD/TF REGIMENT/GROUP"/>
+ <SymbolModifierCode code="GH" description="FD/TF BRIGADE"/>
+ <SymbolModifierCode code="GI" description="FD/TF DIVISION"/>
+ <SymbolModifierCode code="GJ" description="FD/TF CORPS/MEF"/>
+ <SymbolModifierCode code="GK" description="FD/TF ARMY"/>
+ <SymbolModifierCode code="GL" description="FD/TF ARMY GROUP/FRONT"/>
+ <SymbolModifierCode code="GM" description="FD/TF REGION"/>
+ <SymbolModifierCode code="H-" description="INSTALLATION"/>
+ <SymbolModifierCode code="HB" description="FEINT DUMMY INSTALLATION"/>
+ <SymbolModifierCode code="MO" description="MOBILITY WHEELED/LIMITED CROSS COUNTRY"/>
+ <SymbolModifierCode code="MP" description="MOBILITY CROSS COUNTRY"/>
+ <SymbolModifierCode code="MQ" description="MOBILITY TRACKED"/>
+ <SymbolModifierCode code="MR" description="MOBILITY WHEELED AND TRACKED COMBINATION"/>
+ <SymbolModifierCode code="MS" description="MOBILITY TOWED"/>
+ <SymbolModifierCode code="MT" description="MOBILITY RAIL"/>
+ <SymbolModifierCode code="MU" description="MOBILITY OVER THE SNOW"/>
+ <SymbolModifierCode code="MV" description="MOBILITY SLED"/>
+ <SymbolModifierCode code="MW" description="MOBILITY PACK ANIMALS"/>
+ <SymbolModifierCode code="MX" description="MOBILITY BARGE"/>
+ <SymbolModifierCode code="MY" description="MOBILITY AMPHIBIOUS"/>
+ <SymbolModifierCode code="NL" description="TOWED ARRAY (LONG)"/>
+ <SymbolModifierCode code="NS" description="TOWED ARRAY (SHORT)"/>
+</SymbolModifierCodes>

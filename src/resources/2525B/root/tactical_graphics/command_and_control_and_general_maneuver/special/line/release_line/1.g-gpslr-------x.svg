@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPSLR---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPSLR-------X" width="400px" height="400px"><g transform="translate(5 0) scale(0.8 0.8)"><path d="M133.5 99 C169.434 102.593 209.312 93.9732 244.5 99 C266.059 102.08 285.273 108.111      307.5 107 C325.408 106.105 339.381 97.131 358.071 99" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<path d="M133.5 62 C133.5 115.987 131.222 166.222 124.5 220 C119.823 257.415 135.88 297.098      128.5 334 C126.159 345.706 120.5 356.622 120.5 369 C120.5 387.852 126.5 406.811      126.5 426" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<path d="M353.5 67 C354.877 90.4061 362.78 114.443 360.5 138 C356.948 174.7 346.053 207.369      347.5 245 C349.174 288.511 359.286 344.357 355.5 386 C354.126 401.114 350.931      413.306 352.5 429" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<path d="M119.967 367 C155.978 364.23 190.282 374.449 226.5 373 C265.322 371.447 318.257 351.074      355.929 366.143" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<path d="M86.5 191 C155.669 213.233 227.829 203.688 299.5 206 C346.433 207.514 362.873 223.525      415.5 213" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<path d="M74.5 265 C154.332 239.79 149.483 256.001 219.5 251 C294.069 245.674 342.541 241.095      418.5 248" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<text x="40px" y="60px" transform="matrix(1 0 0 1 19 29)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">RL</text>
+<g transform="matrix(0.840945 0 0 0.97117 -16.0252 -67.8305)"><text x="36px" y="425px" transform="translate(47 10)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">RL</text>
+<text x="24px" y="453px" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">(PL CHARLIE)</text>
+</g>
+<text x="178px" y="79px" transform="matrix(1 0 0 1 23 8)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">ENEMY</text>
+<text x="170px" y="226px" transform="matrix(1 0 0 1 -20 8)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">RIVER</text>
+<g transform="matrix(1 0 0 1 -169 -123)"><rect x="286" y="410" width="24" height="39" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="284px" y="436px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -131.516 727.596)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">XX</text>
+</g>
+<text x="40px" y="60px" transform="matrix(1 0 0 1 374 33)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">RL</text>
+<g transform="matrix(0.863667 0 0 1 205.084 112)"><text x="36px" y="425px" transform="matrix(1 0 0 1 206 -179)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">RL</text>
+<text x="183px" y="264px" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">(PL CHARLIE)</text>
+</g>
+<g transform="matrix(1 0 0 1 -119 -104)"><rect x="238" y="231" width="24" height="39" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="284px" y="436px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -179.516 548.596)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">XX</text>
+</g>
+<g transform="matrix(1 0 0 1 109 -106)"><rect x="238" y="231" width="24" height="39" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="284px" y="436px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -179.516 548.596)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">XX</text>
+</g>
+<g transform="matrix(1 0 0 1 101 57)"><rect x="238" y="231" width="24" height="39" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="284px" y="436px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -179.516 548.596)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">XX</text>
+</g>
+<text x="26px" y="31px" transform="matrix(1 0 0 1 0 0) translate(-20.9302 81.3953)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:18;     ">(PL</text>
+<g id="T1"><text x="86px" y="27px" transform="matrix(1 0 0 1 0 0) translate(-44.186 83.7209) translate(0 1) translate(0 1)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:18;      ">BRAVO)</text>
+</g>
+<text x="213px" y="16px" transform="matrix(1 0 0 1 0 0) translate(152.326 94.186)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:18;     ">(PL</text>
+<g id="T2"><text x="316px" y="25px" transform="matrix(1 0 0 1 0 0) translate(87.2093 84.8837)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:18;      ">BRAVO)</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

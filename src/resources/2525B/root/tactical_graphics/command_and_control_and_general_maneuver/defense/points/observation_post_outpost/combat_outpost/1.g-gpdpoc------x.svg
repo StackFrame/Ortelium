@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPDPOC--****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPDPO-------X" width="400px" height="400px"><polygon points="60,300 200,57.5 340,300" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polygon>
+</svg>
+
+</g>
+<g >
+<svg viewBox="0 0 400 400" id="_1.G-GPDPOC------X" width="400px" height="400px"><defs><g id="lines"><line x1="100" y1="300" x2="100" y2="340" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="140" y1="300" x2="140" y2="340" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="180" y1="300" x2="180" y2="340" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="220" y1="300" x2="220" y2="340" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="260" y1="300" x2="260" y2="340" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+<line x1="300" y1="300" x2="300" y2="340" style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></line>
+</g>
+</defs>
+<use xlink:href="#lines"></use>
+<use transform="rotate(60 200 300) translate(-70 -160.5)" xlink:href="#lines"></use>
+<use transform="rotate(-60 200 300) translate(70 -160.5)" xlink:href="#lines"></use>
+</svg>
+
+</g>
+</svg>

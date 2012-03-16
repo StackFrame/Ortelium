@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="SFGPUSTI--*****" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.SFG-U----------" width="400px" height="400px"><rect x="20" y="80" width="360" height="240" style="fill:rgb(128,224,255);stroke:rgb(0,0,0);stroke-width:10"></rect>
+</svg>
+
+</g>
+<g transform="translate(60 109) scale(0.7 0.7)" >
+<svg viewBox="0 0 400 400" id="_1.S-G-UST--------" width="400px" height="400px"><ellipse cx="200" cy="200" rx="80" ry="80" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></ellipse>
+<line x1="136" y1="156" x2="264" y2="244" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="136" y1="244" x2="264" y2="156" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="200" y1="120" x2="200" y2="280" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+</svg>
+
+</g>
+<g transform="translate(80 19) scale(0.6 0.6)" >
+<svg viewBox="0 0 400 400" id="_2.S-G-UCM--------" width="400px" height="400px"><path d="M170 276 L170 144 C170 119 230 119 230 144 L230 276" style="stroke:rgb(0,0,0);stroke-width:10;fill:none" transform="translate(0 0) translate(0 0)"></path>
+<line x1="200" y1="276" x2="200" y2="124" style="fill:none;stroke:rgb(0,0,0);stroke-width:10" transform="translate(200 184) scale(1 1) translate(-200 -184)"></line>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPLS----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPLS--------X" width="400px" height="400px"><g transform="translate(-240 -200) scale(1.75 1.75)"><line x1="135.749" y1="216.919" x2="314" y2="217" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 26 2)"></line>
+<line x1="318" y1="180" x2="318" y2="253" transform="matrix(1 0 0 1 21 2)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="318" y1="180" x2="318" y2="253" transform="matrix(1 0 0 1 -156 5)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<text x="176px" y="292px" transform="matrix(1 0 0 1 33 -47) translate(18 -8)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">SMOKE</text>
+<g id="T" transform="translate(109 92)"><rect x="134" y="104" width="16" height="17" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="138px" y="117px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<g id="PT.%201" transform="translate(104 -32)"><text x="88px" y="289px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 1</text>
+</g>
+<g id="PT.%202" transform="translate(62 -38)"><text x="204px" y="297px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 2</text>
+</g>
+<line x1="168" y1="228" x2="188" y2="249" transform="matrix(1 0 0 1 0 0) translate(1.6 -0.8)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="330" y1="226" x2="306" y2="248" transform="matrix(1 0 0 1 0 0) translate(-3.6 4)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="114,71.3038 120,81.6962 108,81.6962" transform="matrix(0.702981 -0.711209 1.30029 1.28524 -7.61169 212.457)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="114,71.3038 120,81.6962 108,81.6962" transform="matrix(0.611211 0.791468 -1.44703 1.11746 364.921 56.7197)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+</g>
+</svg>
+
+</g>
+</svg>

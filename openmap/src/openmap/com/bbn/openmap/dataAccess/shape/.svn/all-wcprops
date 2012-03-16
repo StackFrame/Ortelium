@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape
+END
+EsriPolygonZList.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1698/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolygonZList.java
+END
+EsriPolygonZ.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolygonZ.java
+END
+EsriPolygonList.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2018/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolygonList.java
+END
+DrawingToolRenderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/DrawingToolRenderException.java
+END
+EsriPolygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolygon.java
+END
+DbfTableModelFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/2047/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/DbfTableModelFactory.java
+END
+EsriTextPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriTextPoint.java
+END
+EsriPolygonMList.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1698/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolygonMList.java
+END
+DrawingAttributesUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/DrawingAttributesUtility.java
+END
+EsriPolygonM.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolygonM.java
+END
+DbfHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/DbfHandler.java
+END
+MetaDbfTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/2102/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/MetaDbfTableModel.java
+END
+DbfFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/DbfFile.java
+END
+EsriGraphicList.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriGraphicList.java
+END
+EsriGraphic.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriGraphic.java
+END
+EsriPolylineZList.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1698/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolylineZList.java
+END
+EsriPolylineZ.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolylineZ.java
+END
+EsriPointList.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2018/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPointList.java
+END
+EsriPolylineList.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/2018/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolylineList.java
+END
+EsriPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPoint.java
+END
+EsriPolyline.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolyline.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/package.html
+END
+ShapeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2074/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/ShapeUtils.java
+END
+ShapeGeoIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/ShapeGeoIndex.java
+END
+DbfTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/DbfTableModel.java
+END
+EsriShapeExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriShapeExport.java
+END
+EsriIconPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriIconPoint.java
+END
+EsriPolylineMList.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1698/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolylineMList.java
+END
+EsriGraphicFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriGraphicFactory.java
+END
+EsriPolylineM.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/openmap/!svn/ver/1925/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/EsriPolylineM.java
+END
+ShapeConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/1897/trunk/src/openmap/com/bbn/openmap/dataAccess/shape/ShapeConstants.java
+END

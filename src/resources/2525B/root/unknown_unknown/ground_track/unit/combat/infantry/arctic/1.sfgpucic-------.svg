@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="SFGPUCIC--*****" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.SFG-U----------" width="400px" height="400px"><rect x="20" y="80" width="360" height="240" style="fill:rgb(128,224,255);stroke:rgb(0,0,0);stroke-width:10"></rect>
+</svg>
+
+</g>
+<g >
+<svg viewBox="0 0 400 400" id="_1.SFG-UCI--------" width="400px" height="400px"><line x1="380" y1="80" x2="20" y2="320" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+<line x1="20" y1="80" x2="380" y2="320" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></line>
+</svg>
+
+</g>
+<g transform="translate(40 60) scale(0.8 0.8)" >
+<svg viewBox="0 0 400 400" id="_2.S-G-UCAAC------" width="400px" height="400px"><line x1="128" y1="270" x2="272" y2="270" style="stroke:rgb(0,0,0);fill:none;stroke-width:10"></line>
+<path d="M130 240 C115 240 115 270 130 270" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></path>
+<path d="M270 240 C285 240 285 270 270 270" style="fill:none;stroke:rgb(0,0,0);stroke-width:10"></path>
+</svg>
+
+</g>
+</svg>

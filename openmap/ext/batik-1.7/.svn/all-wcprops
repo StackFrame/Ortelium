@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/LICENSE
+END
+batik-svgpp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/batik-svgpp.jar
+END
+batik-ttf2svg.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/batik-ttf2svg.jar
+END
+batik-squiggle.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/batik-squiggle.jar
+END
+batik-slideshow.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/batik-slideshow.jar
+END
+batik.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/batik.jar
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/CHANGES
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/README
+END
+batik-rasterizer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/openmap/!svn/ver/2031/trunk/ext/batik-1.7/batik-rasterizer.jar
+END

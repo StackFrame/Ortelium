@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/util/quadtree
+END
+QuadTreeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2176/trunk/src/openmap/com/bbn/openmap/util/quadtree/QuadTreeNode.java
+END
+QuadTreeLeaf.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/quadtree/QuadTreeLeaf.java
+END
+MutableDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/util/quadtree/MutableDistance.java
+END
+QuadTreeRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/util/quadtree/QuadTreeRect.java
+END
+QuadTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/openmap/!svn/ver/2018/trunk/src/openmap/com/bbn/openmap/util/quadtree/QuadTree.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/util/quadtree/package.html
+END

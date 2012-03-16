@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPAAH---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPAAH-------X" width="400px" height="400px"><g transform="translate(-230 -210) scale(1.75 1.75)"><line x1="104" y1="143" x2="104" y2="300" transform="matrix(1 0 0 1.01911 61 15.2678)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="104" y1="143" x2="247" y2="123" transform="matrix(1.00465 -0.00437955 0.00450596 0.999479 59.2522 18.8342)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="247" y1="123" x2="279" y2="222" transform="matrix(1.02083 0 0 1.0101 55.1875 15.758)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="279" y1="222" x2="248" y2="303" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 61 18)"></line>
+<line x1="248" y1="303" x2="103" y2="303" transform="matrix(1.0092 0 0 1 60.0524 18)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></line>
+<text x="164px" y="191px" transform="matrix(1 0 0 1 51.5 17.5) translate(-43 -31) translate(26 13)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">HIDACZ</text>
+<text x="166px" y="211px" transform="matrix(1 0 0 1 50 15.5) translate(-46 -12) translate(26 13)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MIN ALT:</text>
+<text x="171px" y="219px" transform="matrix(1 0 0 1 44.5 17.5) translate(-46 -3) translate(26 13)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">MAX ALT:</text>
+<text x="173px" y="231px" transform="matrix(1 0 0 1 44 17) translate(-47 6) translate(26 13)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">TIME FROM:</text>
+<text x="173px" y="244px" transform="matrix(1 0 0 1 44 15) translate(-18 38) translate(-27 -22) translate(26 13)" style="fill:rgb(0,0,0);font-size:12;font-family:Arial Black;font-weight:bold">TIME TO:</text>
+<g id="T" transform="translate(97 126) translate(26 13)"><rect x="392" y="111" width="26" height="15" transform="matrix(1 0 0 1 -155 132) translate(-160 -189) translate(0 1) translate(-1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="84px" y="67px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<g id="H" transform="translate(38 151) translate(26 13)"><rect x="392" y="111" width="26" height="15" transform="matrix(1 0 0 1 -155 132) translate(-43 -190)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="202px" y="65px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">H</text>
+</g>
+<g id="H1" transform="translate(-18 159) translate(1 0) translate(1 0) translate(26 13)"><rect x="392" y="111" width="26" height="15" transform="matrix(1 0 0 1 -155 132) translate(14 -181) translate(0 1) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="256px" y="75px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">H1</text>
+</g>
+<g id="W" transform="translate(-64 155) translate(1 0) translate(1 0) translate(26 13)"><rect x="392" y="111" width="26" height="15" transform="matrix(1 0 0 1 -155 132) translate(77 -158) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="322px" y="97px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W</text>
+</g>
+<g id="W1" transform="translate(-160 151) translate(1 0) translate(1 0) translate(26 13)"><rect x="392" y="111" width="26" height="15" transform="matrix(1 0 0 1 0 0) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="396px" y="123px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W1</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

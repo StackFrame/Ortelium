@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/tools/dnd
+END
+DefaultDnDCatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/tools/dnd/DefaultDnDCatcher.java
+END
+DefaultTransferableObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/dnd/DefaultTransferableObject.java
+END
+ComponentDragGestureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/dnd/ComponentDragGestureListener.java
+END
+DropListenerSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/1957/trunk/src/openmap/com/bbn/openmap/tools/dnd/DropListenerSupport.java
+END
+DnDListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/tools/dnd/DnDListener.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/openmap/!svn/ver/522/trunk/src/openmap/com/bbn/openmap/tools/dnd/package.html
+END

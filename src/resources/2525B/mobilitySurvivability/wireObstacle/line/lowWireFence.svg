@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*MPOWL---****X"
+     width="400px"
+     height="400px"
+     viewBox="0 0 400 400">
+  <g>
+    <svg viewBox="0 0 400 400"
+         id="_0.G-MPOWL-------X"
+         width="400px"
+         height="400px">
+      <polyline points="40.9048,249.286 115.762,198.619 299.857,198.619 382.333,138.905"
+                transform="matrix(1 0 0 1 0 0)"
+                style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+      <text x="64px"
+            y="93px"
+            transform="matrix(1 0 0 1 0 0) rotate(324.023 102.34 77.4581) translate(102.91 254.293) translate(34.604 -55.6128)"
+            style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-family:Arial;font-size:60">x x</text>
+      <text x="77px"
+            y="118px"
+            transform="matrix(1 0 0 1 0 0) translate(46.6667 144.667) translate(-4.66667 -65.3333)"
+            style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:60;font-family:Arial">x x x x</text>
+      <text x="76px"
+            y="152px"
+            transform="matrix(1 0 0 1 0 0) translate(-38 138) rotate(325.164 114.34 136.458) translate(33.49 -56.2907)"
+            style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:60;font-family:Arial">x x</text>
+    </svg>
+  </g>
+</svg>

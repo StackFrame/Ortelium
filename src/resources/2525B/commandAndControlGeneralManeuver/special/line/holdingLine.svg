@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPSLH---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPSLH-------X" width="400px" height="400px"><g transform="translate(0 -10) scale(0.8 0.8)"><path d="M273.898 203.824 C289.531 203.824 330.478 199.454 341.898 213.157 C349.751 222.581      351.209 336.121 345.231 344.49 C331.501 363.712 312.2 359.824 277.231 359.824" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -28.932 476.551)"></path>
+<path d="M124.5 180 C136.623 191.315 150.351 197.876 162.5 208 C172.447 216.289 169.468 230.774      178.5 238 C194.186 250.549 226.974 272.25 245.5 282 C259.216 289.219 257.888      277.942 263.5 272 C282.641 251.733 307.415 250.085 328.5 229 C344.223      213.277 347.923 194.662 367.5 179" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 1 -28)"></path>
+<path d="M110.5 218 C137.342 238.877 157.015 278.007 188.5 293 C198.706 297.86 209.127 295.776      219.5 302 C229.67 308.102 246.787 332.856 260.5 326 L278.5 306 C288.265      299.319 298.333 302.133 308.5 294 C341.861 267.311 360.565 224.967 400.5 205" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 1 -28)"></path>
+<path d="M173.5 283 C173.5 309.146 169.355 334.67 170.5 361 C171.16 376.183 177.208 392.13      176.5 407 C175.59 426.103 167.461 439.614 169.5 460" style="fill:none;stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 1 -28)"></path>
+<path d="M251.5 162 C251.5 188.146 247.355 213.67 248.5 240 C249.16 255.183 255.208 271.13      254.5 286 C253.59 305.103 245.461 318.614 247.5 339" transform="matrix(1 0 0 1 79 85)" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<text x="84px" y="324px" transform="matrix(0.793528 0.608534 -0.608534 0.793528 280.132 -91.7822)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">RIVER</text>
+<text x="52px" y="80px" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18" transform="matrix(1 0 0 1 -32 62)">HOLDING</text>
+<text x="78px" y="104px" transform="matrix(1 0 0 1 -37 55)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">LINE</text>
+<text x="78px" y="104px" transform="matrix(1 0 0 1 330 39)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">LINE</text>
+<text x="206px" y="239px" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18" transform="matrix(1 0 0 1 181 -113)">HOLDING</text>
+<text x="228px" y="128px" transform="matrix(1 0 0 1 12 -30.75)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">EN</text>
+<g transform="matrix(1 0 0 1 32 48.5)"><line x1="222" y1="52" x2="222.167" y2="76.9" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="221.897" y1="76.1487" x2="212.022" y2="68.1487" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="222.522" y1="76.0237" x2="231.292" y2="66.8727" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+</g>
+<g transform="matrix(1 0 0 1 83 120)"><rect x="239" y="233" width="22" height="34" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="92px" y="360px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -104.516 355.596)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">XX</text>
+</g>
+<g transform="matrix(1 0 0 1 69 7)"><rect x="96" y="337" width="22" height="34" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="92px" y="360px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -247.516 459.596)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">XX</text>
+</g>
+<g transform="matrix(1 0 0 1 173 -79)"><line x1="98" y1="305" x2="98" y2="421" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="97.5455" y1="420" x2="83.6566" y2="398.889" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="98.3232" y1="420.222" x2="112" y2="397" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<path d="M98.0556 306.222 C94.6467 272.133 52.117 276.915 52.5 307" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+</g>
+<text x="50px" y="449px" transform="matrix(1 0 0 1 0 0) translate(-41.8605 -265.116)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;     ">(PL</text>
+<g id="T1"><text x="126px" y="461px" transform="matrix(1 0 0 1 0 0) translate(-80.2326 -277.907)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;      ">ALPHA)</text>
+</g>
+<text x="315px" y="463px" transform="matrix(1 0 0 1 0 0) translate(66.2791 -295.349)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;     ">(PL</text>
+<g id="T2"><text x="388px" y="466px" transform="matrix(1 0 0 1 0 0) translate(29.0698 -298.837)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;      ">ALPHA)</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*GPOLP---****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-GPOLP-------X" width="400px" height="400px"><g transform="translate(-50 -60) scale(1 1)"><g transform="matrix(1 0 0 1 -9 -52)"><line x1="165" y1="205" x2="179" y2="205" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 14)"></line>
+<line x1="187" y1="205" x2="206" y2="205" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 14)"></line>
+<line x1="212" y1="205" x2="227" y2="205" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 14)"></line>
+<line x1="233" y1="205" x2="247" y2="205" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 14)"></line>
+<line x1="255" y1="205" x2="269" y2="205" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 14)"></line>
+<line x1="280" y1="205" x2="295" y2="205" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 25 14)"></line>
+</g>
+<path d="M179.5 148 C184.536 198.359 169.589 336.11 164.5 387" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<path d="M311.5 146 C313.409 170.811 307.299 185.104 307.5 209 C307.5 209 308.75 357.75 309.5      379" style="fill:none;stroke:rgb(0,0,0);stroke-width:2"></path>
+<text x="206px" y="378px" transform="matrix(1 0 0 1 -72 -216)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">PLD</text>
+<text x="231px" y="257px" transform="matrix(1 0 0 1 88 -95)" style="fill:rgb(0,0,0);font-size:18;font-family:Arial Black;font-weight:bold">PLD</text>
+<text x="182px" y="412px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -262.097 515.597)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">21 ID(L)</text>
+<text x="196px" y="405px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -202.541 532.153)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">54 ID(M)</text>
+<text x="196px" y="405px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -114.541 530.153)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">54 ID(M)</text>
+<text x="184px" y="390px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -50.958 559.736)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">65 ID(M)(SA)</text>
+<g transform="matrix(1 0 0 1 93 -92)"><rect x="70" y="363" width="20" height="36" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="66px" y="387px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -300.516 460.596)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">XX</text>
+</g>
+<g transform="matrix(1 0 0 1 0 0)"><rect x="240" y="232" width="20" height="36" transform="translate(59 43)" style="fill:rgb(255,255,255);stroke:none;stroke-width:2"></rect>
+<text x="66px" y="387px" transform="matrix(-1.83691e-016 -1 1 -1.83691e-016 -130.516 329.596) translate(-43 59)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:18">XX</text>
+</g>
+<text x="170px" y="46px" transform="matrix(1 0 0 1 0 0) translate(-103.488 130.233) translate(0 1) translate(0 1) translate(0 1)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;     ">(PL</text>
+<g id="T1"><text x="51px" y="76px" transform="matrix(1 0 0 1 0 0) translate(50 103.488)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;      ">ALPHA)</text>
+</g>
+<text x="251px" y="57px" transform="matrix(1 0 0 1 0 0) translate(66.2791 124.419)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;     ">(PL</text>
+<g id="T2"><text x="253px" y="80px" transform="matrix(1 0 0 1 0 0) translate(98.8372 100) translate(0 1)" style="fill:rgb(0,0,0);stroke-width:1;font-size:18;font-family:Arial Black;font-weight:bold;      ">ALPHA)</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

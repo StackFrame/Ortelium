@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525
+END
+CodeScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeScheme.java
+END
+CodePosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodePosition.java
+END
+CodeMETOCCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeMETOCCategory.java
+END
+positions.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/991/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/positions.properties
+END
+CodeCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeCategory.java
+END
+SymbolReferenceLibrary.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/SymbolReferenceLibrary.java
+END
+CodeBattleDimension.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeBattleDimension.java
+END
+SymbolPartTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/SymbolPartTree.java
+END
+CodeStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeStatus.java
+END
+GIFSymbolImageMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openmap/!svn/ver/1368/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/GIFSymbolImageMaker.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/openmap/!svn/ver/1343/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/package.html
+END
+CodePositionTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/1301/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodePositionTree.java
+END
+CodeMOOTWModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeMOOTWModifier.java
+END
+CodeAffiliation.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/2053/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeAffiliation.java
+END
+CodeWarfightingModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeWarfightingModifier.java
+END
+CodeSizeModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeSizeModifier.java
+END
+CodeOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeOptions.java
+END
+CodeOrderOfBattle.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeOrderOfBattle.java
+END
+SymbolChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/openmap/!svn/ver/1731/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/SymbolChooser.java
+END
+SymbolImageMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/openmap/!svn/ver/1314/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/SymbolImageMaker.java
+END
+hierarchy.properties
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/openmap/!svn/ver/1076/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/hierarchy.properties
+END
+BasicSymbolImageMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/openmap/!svn/ver/2192/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/BasicSymbolImageMaker.java
+END
+SymbolPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/SymbolPart.java
+END
+CodeFunctionID.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeFunctionID.java
+END
+PNGSymbolImageMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/openmap/!svn/ver/1368/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/PNGSymbolImageMaker.java
+END
+CodeMOOTWCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/tools/symbology/milStd2525/CodeMOOTWCategory.java
+END

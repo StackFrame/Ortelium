@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*FPLF----****X" width="400px" height="400px" viewBox="0 0 400 400">
+<g >
+<svg viewBox="0 0 400 400" id="_0.G-FPLF--------X" width="400px" height="400px"><g transform="translate(-120 -140) scale(1.25 1.25)"><line x1="148" y1="186" x2="308" y2="186" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2" transform="matrix(1 0 0 1 32 60)"></line>
+<text x="136px" y="274px" transform="matrix(1 0 0 1 68 -36)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">FSCL</text>
+<text x="225px" y="257px" transform="matrix(1 0 0 1 82 -17)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">FSCL</text>
+<text x="202px" y="294px" transform="matrix(1 0 0 1 145 -43)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">PL</text>
+<text x="238px" y="257px" transform="matrix(1 0 0 1 -107 -6)" style="fill:rgb(0,0,0);font-family:Arial Black;font-weight:bold;font-size:12">PL</text>
+<g id="T1" transform="matrix(1 0 0 1 106 -84)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 0 0) translate(1 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="82px" y="322px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<g id="T2" transform="matrix(1 0 0 1 151 -71)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 165 -66) translate(-109 52) translate(0 0) translate(0 1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="136px" y="309px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T</text>
+</g>
+<g id="T1%201" transform="matrix(1 0 0 1 53 -108)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 165 -66) translate(-140 102) translate(76 316.5) scale(1.33333 1) translate(-76 -316.5) translate(85 325) scale(1 1.23529) translate(-85 -325) translate(-0.75 0) translate(-0.75 0) translate(0 0.809524) translate(0 0.809524) translate(-0.75 0)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="102px" y="358px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T1</text>
+</g>
+<g id="T1%202" transform="matrix(1 0 0 1 208 -112)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 165 -66) translate(-82 107) translate(1 0) translate(1 0) translate(94 316.5) scale(1.27778 1) translate(-94 -316.5) translate(85 308) scale(1 1.35294) translate(-85 -308) translate(3.13043 -2.95652) translate(-0.782609 0.73913)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="162px" y="363px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">T1</text>
+</g>
+<g id="W1" transform="matrix(1 0 0 1 -5 -143)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 165 -66) translate(-43 152)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="200px" y="409px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W</text>
+</g>
+<g id="W1%201" transform="matrix(1 0 0 1 -48 -141)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 165 -66) translate(35 152) translate(76 316.5) scale(1.33333 1) translate(-76 -316.5) translate(85 325) scale(1 1.23529) translate(-85 -325) translate(-0.75 0) translate(-0.75 0) translate(0 0.809524)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="276px" y="407px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W1</text>
+</g>
+<g id="W2" transform="matrix(1 0 0 1 -43 -85)"><rect x="76" y="308" width="18" height="17" transform="matrix(1 0 0 1 165 -66) translate(75 92) translate(-3 3) translate(0 1) translate(0 -1) translate(1 0) translate(1 0) translate(0 -1)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="318px" y="349px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W</text>
+</g>
+<g id="W1%202"><rect x="76" y="308" width="18" height="17" transform="matrix(1.38889 0 0 1.23529 202.444 -131.471)" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:2"></rect>
+<text x="296px" y="325px" transform="matrix(1 0 0 1 15 -61)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">W1</text>
+</g>
+<line x1="216" y1="259" x2="222" y2="259" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="294" y1="260" x2="302" y2="260" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="182" y1="256" x2="182" y2="279" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="181.78" y1="278.546" x2="192" y2="292" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="340" y1="253" x2="340" y2="273" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<line x1="340.266" y1="272.404" x2="326" y2="283" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></line>
+<polygon points="81,83.6699 86,92.3301 76,92.3301" transform="matrix(1 0 0 2.07846 102 77.0952)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<polygon points="81,83.6699 86,92.3301 76,92.3301" transform="matrix(1 0 0 2.07846 260 76.0954)" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);stroke-width:2"></polygon>
+<g id="PT.%201" transform="matrix(1 0 0 1 -39 -22)"><text x="234px" y="320px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 1</text>
+</g>
+<g id="PT.%202" transform="matrix(1 0 0 1 -109 -46)"><text x="400px" y="338px" transform="matrix(1 0 0 1 0 0)" style="fill:rgb(0,0,0);stroke-width:1;font-family:Arial Black;font-weight:bold;font-size:12;     ">PT. 2</text>
+</g>
+</g>
+</svg>
+
+</g>
+</svg>

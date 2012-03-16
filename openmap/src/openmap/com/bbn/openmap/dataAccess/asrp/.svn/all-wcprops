@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp
+END
+SourceFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/SourceFile.java
+END
+ASRPConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/ASRPConstants.java
+END
+GeneralASRPFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/GeneralASRPFile.java
+END
+GeneralInformationFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/GeneralInformationFile.java
+END
+RasterGeoDataFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/RasterGeoDataFile.java
+END
+ASRPDirectoryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/openmap/!svn/ver/2190/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/ASRPDirectoryHandler.java
+END
+QualityFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/QualityFile.java
+END
+GeoReferenceFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/GeoReferenceFile.java
+END
+ASRPDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/openmap/!svn/ver/2241/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/ASRPDirectory.java
+END
+TransmittalHeaderFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/openmap/!svn/ver/1265/trunk/src/openmap/com/bbn/openmap/dataAccess/asrp/TransmittalHeaderFile.java
+END
