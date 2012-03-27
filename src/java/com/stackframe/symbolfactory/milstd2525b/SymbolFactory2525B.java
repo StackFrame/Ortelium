@@ -48,6 +48,10 @@ public class SymbolFactory2525B implements SymbolFactory {
         return s;
     }
 
+    private static String setStatusPresent(String code) {
+        return code.substring(0, 3) + "P"  + code.substring(4, 15);
+    }
+    
     public Document create(String code, Map<String, String> modifiers) {
         code = code.toUpperCase();
         if (code == null || code.length() != 15) {
@@ -66,6 +70,10 @@ public class SymbolFactory2525B implements SymbolFactory {
             code = removeSymbolModifier(code);
         }
 
+        if (scheme.getCode() == 'G') {
+            code = setStatusPresent(code);
+        }
+        
         if (document == null) {
             document = repo.get(code);
 
