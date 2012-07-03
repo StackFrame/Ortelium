@@ -18,6 +18,7 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.logging.Logger;
+import java.util.logging.Level;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -39,6 +40,7 @@ public class SymbolRepository {
     private final Logger logger = Logger.getLogger(getClass().getName());
 
     public SymbolRepository(SIDCParser SIDCParser) {
+        logger.setLevel(Level.SEVERE); 
         this.SIDCParser = SIDCParser;
         try {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -92,7 +94,7 @@ public class SymbolRepository {
 //            if (symbolsByCode.containsKey(id)){return;}
             Document old = symbolsByCode.put(id, document);
             if (old != null) {
-                logger.warning("collision for " + id + " between " + document.getDocumentURI() + " and " + old.getDocumentURI());
+                logger.warning("collision (case insensitive file system?)  for " + id + " between " + document.getDocumentURI() + " and " + old.getDocumentURI());
                 byte[] oldBytes = ByteStreams.toByteArray(URI.create(old.getDocumentURI()).toURL().openStream());
                 byte[] newBytes = ByteStreams.toByteArray(URI.create(document.getDocumentURI()).toURL().openStream());
                 if (Arrays.equals(oldBytes, newBytes)) {
