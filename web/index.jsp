@@ -86,5 +86,6 @@
         <p><a href="symbols">All Symbols</a> (Warning: This will show ${fn:length(symbolRepository.codes)} symbols and may make your browser unhappy.)</p>
 
         <p>Trouble? Suggestions? Contact <a href="mailto:support@stackframe.com">support@stackframe.com</a>.</p>
+        <p>Ortelium is &copy; 2011-2012 StackFrame, LLC and is licensed under <a href="gpl-2.0-standalone.html">version 2 of the General Public License</a>.</p>
     </body>
 </html>
