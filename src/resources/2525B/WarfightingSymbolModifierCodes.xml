@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<%--
+<!--
 Copyright (C) 2011-2012 StackFrame, LLC
 
 This program is free software; you can redistribute it and/or modify it under
@@ -13,7 +13,7 @@ details. For all other purposes, contact sales@stackframe.com for a license.
 
 You should have received a copy of version 2 of the GNU General Public
 License along with this program; if not, contact info@stackframe.com.
---%>
+-->
 <!-- This is derived from MIL-STD-2525B w/CHANGE 1 APPENDIX A TABLE A-II. -->
 <SymbolModifierCodes>
  <SymbolModifierCode code="--" description="NULL"/>
