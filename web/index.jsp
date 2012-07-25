@@ -28,6 +28,7 @@ License along with this program; if not, contact info@stackframe.com.
         <h1 id="title">Ortelium Symbol Factory</h1>
         <p>Ortelium generates map symbols. It currently has prototype support for <a href="http://en.wikipedia.org/wiki/2525B">2525B</a>.</p>
         <p>Ortelium is a product of <a href="http://www.stackframe.com/software/Ortelium">StackFrame, LLC</a>.</p>
+        <h2>Create Symbols from Code</h2>
         <form action="symbol" method="GET">
             <label for="code"><abbr title="Symbol Identification Code">SIDC</abbr>:</label>
             <input type="text" name="SIDC" id="code" size="15" value="SNGPUCFSA-*****"><br>
@@ -94,7 +95,15 @@ License along with this program; if not, contact info@stackframe.com.
         </ul>
 
         <p><a href="symbols">All Symbols</a> (Warning: This will show ${fn:length(symbolRepository.codes)} symbols and may make your browser unhappy.)</p>
-
+        
+        <h2>Search for Symbol Codes</h2>
+        <form action="search" method="GET">
+            <label for="root_code"><abbr title="Symbol Identification Code">SIDC</abbr>:</label>
+            <input type="text" name="SIDC_ROOT" id="root_code" size="15" value="SUAPM-----*****">
+            <label for="recursive">Find All Children?</label>
+            <input type="checkbox" name="find_child" id="recursive" size="3" value="true" checked><br>
+            <input type="submit" value="Search">
+        </form>    
         <p>Trouble? Suggestions? Contact <a href="mailto:support@stackframe.com">support@stackframe.com</a>.</p>
         <p>Ortelium is &copy; 2011-2012 StackFrame, LLC and is licensed under <a href="gpl-2.0-standalone.html">version 2 of the General Public License</a>.</p>
     </body>
