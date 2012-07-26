@@ -26,7 +26,8 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>codeQuery</servlet-name>
-        <url-pattern>/symbolchildren</url-pattern>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

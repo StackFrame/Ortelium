@@ -23,16 +23,15 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.net.URI;
 import java.net.URL;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.logging.Logger;
+import java.util.*;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.EntityResolver;
@@ -46,7 +45,7 @@ import org.xml.sax.SAXException;
 public class SymbolRepository {
 
     private final DocumentBuilder documentBuilder;
-    private final Map<String, Document> symbolsByCode = Collections.synchronizedMap(new LinkedHashMap<String, Document>());
+    private final Map<String, SymbolRepoNode> nodeToCode = Collections.synchronizedMap(new LinkedHashMap<String, SymbolRepoNode>());
     private final SIDCParser SIDCParser;
     private final Logger logger = Logger.getLogger(getClass().getName());
 
@@ -68,7 +67,13 @@ public class SymbolRepository {
             throw new AssertionError(pce);
         }
 
-        loadResources(getClass().getResource("/2525B"));
+        //what would happen if this wasn't here?
+        synchronized(nodeToCode)
+        {
+            loadResources(getClass().getResource("/2525B"));
+        } 
+        
+        findChildren();
     }
 
     private void loadResources(URL root) {
@@ -102,11 +107,14 @@ public class SymbolRepository {
             }
 
             document = SVGUtils.namespacify(document);
-//            if (symbolsByCode.containsKey(id)){return;}
-            Document old = symbolsByCode.put(id, document);
+            
+            SymbolRepoNode newNode = new SymbolRepoNode(document);
+            
+            //Put will return a previous value associated with id, null otherwise
+            SymbolRepoNode old = nodeToCode.put(id, newNode);
             if (old != null) {
-                logger.warning("collision (case insensitive file system?)  for " + id + " between " + document.getDocumentURI() + " and " + old.getDocumentURI());
-                byte[] oldBytes = ByteStreams.toByteArray(URI.create(old.getDocumentURI()).toURL().openStream());
+                logger.warning("collision (case insensitive file system?)  for " + id + " between " + document.getDocumentURI() + " and " + old.getDocument().getDocumentURI());
+                byte[] oldBytes = ByteStreams.toByteArray(URI.create(old.getDocument().getDocumentURI()).toURL().openStream());
                 byte[] newBytes = ByteStreams.toByteArray(URI.create(document.getDocumentURI()).toURL().openStream());
                 if (Arrays.equals(oldBytes, newBytes)) {
                     logger.warning("DUPLICATE");
@@ -118,8 +126,83 @@ public class SymbolRepository {
         }
     }
 
+    private void findChildren() 
+    {
+        Collection<String> justCodes = getCodes();
+        
+        for(String nodeName : justCodes)
+        {
+        
+            /*No more dashes indicate that the node is 
+            * the last child.
+            */
+            int dashIndex = nodeName.indexOf("-");
+            
+            if(dashIndex != -1)
+            {
+                String prefix = nodeName.substring(0, dashIndex);
+                String regex = "[A-Z]";
+                Collection<String> children = new HashSet<String>();
+                Collection<String> moreCodes = getCodes();
+                
+                for(String testName : moreCodes)
+                {
+                    String prefixTest = testName.substring(0, dashIndex);
+                    String regexTest = testName.substring(dashIndex, dashIndex + 1);
+                    
+                    if((prefixTest.equals(prefix)) && (regexTest.matches(regex)))
+                    {     
+                        //children.add(testName);
+                    }
+                    //test
+                    children.add(testName);
+                        
+                }
+                
+                //test
+                //children.add(re);
+                
+                SymbolRepoNode toCorrect = nodeToCode.get(nodeName);
+                toCorrect.setChildren(children);
+                
+            }    
+            
+        }
+    }
+     
+    protected JSONObject createJSONObject(String code, boolean recursive) throws JSONException
+    {        
+        JSONObject jObject = new JSONObject();
+        jObject.put("root", code);
+        Collection<String> children = nodeToCode.get(code).getChildren();
+        
+        JSONArray jArray = new JSONArray(children.toArray());
+        jObject.put(code, jArray);
+            
+       /* if(recursive)
+        {
+            LinkedList<String> toProcess = new LinkedList<String>(children);
+            
+            for(String child : toProcess)
+            {
+                Collection<String> grandChildren = nodeToCode.get(child).getChildren();
+                
+                if(!grandChildren.isEmpty())
+                {
+                    toProcess.addAll(grandChildren);
+                    JSONArray grandJArray = new JSONArray(grandChildren.toArray());
+                    jObject.put(child, grandJArray);
+             
+                }
+                    
+            }    
+        }*/
+        
+        return jObject;
+    }       
+                    
     public Collection<String> getCodes() {
-        return symbolsByCode.keySet();
+        return nodeToCode.keySet();
     }
 
     public Map<String, String> getCodeDescriptions() {
@@ -132,7 +215,7 @@ public class SymbolRepository {
     }
 
     public Document get(String code) {
-        Document document = symbolsByCode.get(code);
+        Document document = nodeToCode.get(code).getDocument();
         if (document == null) {
             return null;
         } else {
