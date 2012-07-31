@@ -128,18 +128,19 @@ public class SymbolRepository {
 
     private void findChildren() 
     {
-        Collection<String> justCodes = getCodes();
-        
+        //need to get S codes now, G codes later
+        Collection<String> justCodes = getCodesByCodingScheme('S');
         for(String nodeName : justCodes)
         {
         
-            /*No more dashes indicate that the node is 
-            * the last child.
-            */
+            /*If we need weather codes someday, we need
+             a special case to handle their hierarchy.*/
+            
             int dashIndex = nodeName.indexOf("-");
             
             if(dashIndex != -1)
             {
+                
                 String prefix = nodeName.substring(0, dashIndex);
                 String regex = "[A-Z]";
                 Collection<String> children = new HashSet<String>();
@@ -149,24 +150,22 @@ public class SymbolRepository {
                 {
                     String prefixTest = testName.substring(0, dashIndex);
                     String regexTest = testName.substring(dashIndex, dashIndex + 1);
+                    String dashTest = testName.substring(dashIndex + 1, dashIndex + 2);
                     
-                    if((prefixTest.equals(prefix)) && (regexTest.matches(regex)))
+                   
+                    if((prefixTest.equals(prefix)) && (regexTest.matches(regex)) && 
+                        dashTest.equals("-"))
                     {     
-                        //children.add(testName);
+                                                
+                        children.add(testName);
                     }
-                    //test
-                    children.add(testName);
-                        
+           
                 }
-                
-                //test
-                //children.add(re);
-                
+                              
                 SymbolRepoNode toCorrect = nodeToCode.get(nodeName);
                 toCorrect.setChildren(children);
                 
-            }    
-            
+            }                
         }
     }
      
@@ -174,37 +173,51 @@ public class SymbolRepository {
     {        
         JSONObject jObject = new JSONObject();
         jObject.put("root", code);
-        Collection<String> children = nodeToCode.get(code).getChildren();
         
-        JSONArray jArray = new JSONArray(children.toArray());
-        jObject.put(code, jArray);
-            
-       /* if(recursive)
-        {
-            LinkedList<String> toProcess = new LinkedList<String>(children);
-            
-            for(String child : toProcess)
-            {
-                Collection<String> grandChildren = nodeToCode.get(child).getChildren();
-                
-                if(!grandChildren.isEmpty())
-                {
-                    toProcess.addAll(grandChildren);
-                    JSONArray grandJArray = new JSONArray(grandChildren.toArray());
-                    jObject.put(child, grandJArray);
-             
-                }
-                    
-            }    
-        }*/
+        
+        findDescendants(code, jObject, recursive);
         
         return jObject;
     }       
-                    
+    
+    private void findDescendants (String code, JSONObject jObject, boolean recursive) throws JSONException
+    {
+        Collection<String> children = nodeToCode.get(code).getChildren();
+        JSONArray jArray = new JSONArray(children.toArray());
+        jObject.put(code, jArray);    
+        if(recursive && !children.isEmpty()) 
+        {
+            for(String child : children)
+            {
+                findDescendants(child, jObject, recursive);
+            }    
+        }    
+    }        
+    
+    
     public Collection<String> getCodes() {
         return nodeToCode.keySet();
     }
 
+    public Collection<String>getCodesByCodingScheme(char scheme)
+    {
+        Collection<String> justCodes = getCodes();
+        Collection<String> returnCodes = new HashSet<String>();
+        
+        for(String code : justCodes)
+        {
+            if(code.charAt(0) == scheme)
+            {
+                returnCodes.add(code);
+            }    
+        }    
+          
+        
+        return returnCodes;
+    }        
+    
+    
+    
     public Map<String, String> getCodeDescriptions() {
         return new MapMaker().makeComputingMap(new Function<String, String>() {
 
@@ -215,7 +228,13 @@ public class SymbolRepository {
     }
 
     public Document get(String code) {
-        Document document = nodeToCode.get(code).getDocument();
+        SymbolRepoNode node = nodeToCode.get(code);
+        System.out.println("is node null? " + node);
+        if(node == null)
+        {
+            return null;
+        }    
+        Document document = node.getDocument();
         if (document == null) {
             return null;
         } else {

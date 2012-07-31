@@ -52,12 +52,16 @@ public class SymbolQueryServlet extends HttpServlet {
             return;
         }
         
-        String test = (String)request.getParameter("find_child");
+        if(code.charAt(0) != 'S'){
+            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "presently, only warfigthing graphics supported");
+        }
         
-        boolean recursive = true;
-        if(test.equals("false"))
+        String test = (String)request.getParameter("find_child");
+       
+        boolean recursive = false;
+        if((test != null) && (test.equals("true"))) 
         {
-            recursive = false;        
+            recursive = true;        
         }
         
         
