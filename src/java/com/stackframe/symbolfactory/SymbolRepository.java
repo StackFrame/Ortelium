@@ -67,7 +67,7 @@ public class SymbolRepository {
             throw new AssertionError(pce);
         }
 
-        //what would happen if this wasn't here?
+        
         synchronized(nodeToCode)
         {
             loadResources(getClass().getResource("/2525B"));
@@ -126,6 +126,7 @@ public class SymbolRepository {
         }
     }
 
+    /*Organizes children from keys contained within the nodeToCode Map.*/
     private void findChildren() 
     {
         //need to get S codes now, G codes later
@@ -152,7 +153,6 @@ public class SymbolRepository {
                     String regexTest = testName.substring(dashIndex, dashIndex + 1);
                     String dashTest = testName.substring(dashIndex + 1, dashIndex + 2);
                     
-                   
                     if((prefixTest.equals(prefix)) && (regexTest.matches(regex)) && 
                         dashTest.equals("-"))
                     {     
@@ -169,11 +169,14 @@ public class SymbolRepository {
         }
     }
      
+    /*
+     * This method shall return a JSONObject containing the children of a particular SIDC code.
+     * If recursive is true, every direct descendant will be found.
+     */   
     protected JSONObject createJSONObject(String code, boolean recursive) throws JSONException
     {        
         JSONObject jObject = new JSONObject();
         jObject.put("root", code);
-        
         
         findDescendants(code, jObject, recursive);
         
@@ -194,7 +197,6 @@ public class SymbolRepository {
         }    
     }        
     
-    
     public Collection<String> getCodes() {
         return nodeToCode.keySet();
     }
@@ -212,11 +214,8 @@ public class SymbolRepository {
             }    
         }    
           
-        
         return returnCodes;
     }        
-    
-    
     
     public Map<String, String> getCodeDescriptions() {
         return new MapMaker().makeComputingMap(new Function<String, String>() {
@@ -229,11 +228,12 @@ public class SymbolRepository {
 
     public Document get(String code) {
         SymbolRepoNode node = nodeToCode.get(code);
-        System.out.println("is node null? " + node);
+        
         if(node == null)
         {
             return null;
         }    
+        
         Document document = node.getDocument();
         if (document == null) {
             return null;

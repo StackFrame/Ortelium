@@ -39,7 +39,6 @@ public class SymbolQueryServlet extends HttpServlet {
     
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     
-        //....
         String code = request.getParameter("SIDC_ROOT");
         if (code == null) {
             response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected an SIDC code");
@@ -83,8 +82,7 @@ public class SymbolQueryServlet extends HttpServlet {
             throw new ServletException(e);
             
         }    
-        //No real reason to have a JSONObjectWriter...really
-        //response.setStatus(HttpServletResponse.SC_OK);
+        
         try{
         
             response.setContentType("text/html; charset=UTF-8");
