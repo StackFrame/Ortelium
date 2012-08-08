@@ -40,19 +40,23 @@ public class SymbolQueryServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     
         String code = request.getParameter("SIDC_ROOT");
+        
         if (code == null) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected an SIDC code");
+            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "malformed SIDC code");
             return;
         }
         
-        code = code.trim();
-        if (code.length() != 15) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected an SIDC code of 15 characters");
-            return;
-        }
+        if(!code.equals(""))
+        {
+            code = code.trim();
+            if (code.length() != 15) {
+                response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected an SIDC code of 15 characters");
+                return;
+            }
         
-        if(code.charAt(0) != 'S'){
-            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "presently, only warfigthing graphics supported");
+            if(code.charAt(0) != 'S'){
+                response.sendError(HttpServletResponse.SC_BAD_REQUEST, "presently, only warfigthing graphics supported");
+            }
         }
         
         String test = (String)request.getParameter("find_child");
@@ -84,7 +88,8 @@ public class SymbolQueryServlet extends HttpServlet {
         }    
         
         try{
-        
+            //will we need this after test?
+            response.setHeader("Access-Control-Allow-Origin","*");
             response.setContentType("text/html; charset=UTF-8");
             response.getWriter().write(toReturn.toString());
             response.getWriter().flush();

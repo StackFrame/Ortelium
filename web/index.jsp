@@ -97,9 +97,10 @@ License along with this program; if not, contact info@stackframe.com.
         <p><a href="symbols">All Symbols</a> (Warning: This will show ${fn:length(symbolRepository.codes)} symbols and may make your browser unhappy.)</p>
         
         <h2>Search for Symbol Codes</h2>
+        <p>An empty code will return the complete war fighting hierarchy if checked, most general roots if unchecked.</p> 
         <form action="search" method="GET">
             <label for="root_code"><abbr title="Symbol Identification Code">SIDC</abbr>:</label>
-            <input type="text" name="SIDC_ROOT" id="root_code" size="15" value="SUAPM-----*****">
+            <input type="text" name="SIDC_ROOT" id="root_code" size="15" value="">
             <label for="recursive">Find All Children?</label>
             <input type="checkbox" name="find_child" id="recursive" size="3" value="true" checked><br>
             <input type="submit" value="Search">

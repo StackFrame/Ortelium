@@ -46,6 +46,7 @@ public class SymbolRepository {
 
     private final DocumentBuilder documentBuilder;
     private final Map<String, SymbolRepoNode> nodeToCode = Collections.synchronizedMap(new LinkedHashMap<String, SymbolRepoNode>());
+    private final Set<String> roots = new HashSet<String>();
     private final SIDCParser SIDCParser;
     private final Logger logger = Logger.getLogger(getClass().getName());
 
@@ -105,7 +106,7 @@ public class SymbolRepository {
             } catch (IllegalArgumentException iae) {
                 throw new RuntimeException("invalid SIDC of " + id + " for " + file);
             }
-
+            
             document = SVGUtils.namespacify(document);
             
             SymbolRepoNode newNode = new SymbolRepoNode(document);
@@ -138,6 +139,15 @@ public class SymbolRepository {
              a special case to handle their hierarchy.*/
             
             int dashIndex = nodeName.indexOf("-");
+            
+            /*The root S codes have 4 letters, will
+             have to correct this to accomidate G codes.*/
+            
+            if(dashIndex == 4)
+            {
+                roots.add(nodeName);
+            }
+                
             
             if(dashIndex != -1)
             {
@@ -174,12 +184,35 @@ public class SymbolRepository {
      * If recursive is true, every direct descendant will be found.
      */   
     protected JSONObject createJSONObject(String code, boolean recursive) throws JSONException
-    {        
+    {   
         JSONObject jObject = new JSONObject();
-        jObject.put("root", code);
         
-        findDescendants(code, jObject, recursive);
+        if (code.equals(""))
+        {        
+            jObject.put("root", "all");
+            
+            if(recursive)
+            {
+               for(String root: roots)
+               {
+                   findDescendants(root, jObject, recursive);
+               }    
+            }
+            else
+            {
+                JSONArray jArray = new JSONArray(roots.toArray());
+                jObject.put("immediate_children", jArray);
+            }        
+            
+        }    
+        else 
+        {
         
+            jObject.put("root", code);
+        
+            findDescendants(code, jObject, recursive);
+        }
+            
         return jObject;
     }       
     
