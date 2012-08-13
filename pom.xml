@@ -13,6 +13,11 @@
       <name>Java EE Repo</name>
       <url>http://download.java.net/maven2</url>
     </repository>
+    <repository>
+      <id>maven-restlet</id>
+      <name>Restlet</name>
+      <url>http://maven.restlet.org</url>
+    </repository>
   </repositories>
   <dependencies>
     <dependency>
@@ -43,32 +48,41 @@
       <version>1.7</version>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.grizzly</groupId>
-      <artifactId>grizzly-framework</artifactId>
-      <version>2.2.13</version>
+      <groupId>org.restlet.jse</groupId>
+      <artifactId>org.restlet</artifactId>
+      <version>2.0.14</version>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.grizzly</groupId>
-      <artifactId>grizzly-http</artifactId>
-      <version>2.2.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.grizzly</groupId>
-      <artifactId>grizzly-http-server</artifactId>
-      <version>2.2.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.grizzly</groupId>
-      <artifactId>grizzly-http-servlet</artifactId>
-      <version>2.2.13</version>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.grizzly</groupId>
-      <artifactId>grizzly-portunif</artifactId>
-      <version>2.2.13</version>
+      <groupId>org.restlet.jse</groupId>
+      <artifactId>org.restlet.ext.simple</artifactId>
+      <version>2.0.14</version>
     </dependency>
   </dependencies>
   <build>
     <sourceDirectory>src/java</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src/resources</directory>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <archive>
+            <index>true</index>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              <mainClass>com.stackframe.Ortelium</mainClass>
+            </manifest>
+          </archive>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
