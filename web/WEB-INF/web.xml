@@ -12,6 +12,10 @@
         <servlet-name>symbols</servlet-name>
         <jsp-file>/symbols.jsp</jsp-file>
     </servlet>
+    <servlet>
+        <servlet-name>codeQuery</servlet-name>
+        <servlet-class>com.stackframe.symbolfactory.SymbolQueryServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>iconGenerator</servlet-name>
         <url-pattern>/symbol</url-pattern>
@@ -19,6 +23,10 @@
     <servlet-mapping>
         <servlet-name>symbols</servlet-name>
         <url-pattern>/symbols</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>codeQuery</servlet-name>
+        <url-pattern>/search</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
