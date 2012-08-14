@@ -1,4 +1,3 @@
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,-,,-,,-,,--        --        --,,,,,,,,,**,,**,,,*,WARFIGHTING SYMBOLS
 WAR.SPC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,P,,*,,--        --        --,,,,,,,,,**,,**,,,*,SPACE TRACK
 WAR.SPC.SAT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,P,,*,,S-       --        --,,,,,,,,,**,,**,,,*,SATELLITE
@@ -20,7 +19,6 @@ WAR.AIRTRK.MIL.FIXD.TNK.DROG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     KD     
 WAR.AIRTRK.MIL.FIXD.CGOALT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     C-      --,,,,,,,,,**,,**,,,*,CARGO AIRLIFT (TRANSPORT)
 WAR.AIRTRK.MIL.FIXD.CGOALT.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     CL     --,,,,,,,,,**,,**,,,*,CARGO AIRLIFT (LIGHT)
 WAR.AIRTRK.MIL.FIXD.CGOALT.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     CM    --,,,,,,,,,**,,**,,,*,CARGO AIRLIFT (MEDIUM)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.AIRTRK.MIL.FIXD.CGOALT.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     CH     --,,,,,,,,,**,,**,,,*,CARGO AIRLIFT (HEAVY)
 WAR.AIRTRK.MIL.FIXD.ECM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     J-        --,,,,,,,,,**,,**,,,*,ELECTRONIC COUNTERMEASURES (ECM/JAMMER)
 WAR.AIRTRK.MIL.FIXD.MEDV,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     O-      --,,,,,,,,,**,,**,,,*,MEDICAL EVACUATION (MEDEVAC)
@@ -46,7 +44,6 @@ WAR.AIRTRK.MIL.FIXD.DRN.ABNCP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QD    
 WAR.AIRTRK.MIL.FIXD.DRN.FTR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QF     --,,,,,,,,,**,,**,,,*,FIGHTER
 WAR.AIRTRK.MIL.FIXD.DRN.CSAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QH     --,,,,,,,,,**,,**,,,*,SEARCH & RESCUE (CSAR)
 WAR.AIRTRK.MIL.FIXD.DRN.ECM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QJ      --,,,,,,,,,**,,**,,,*,ELECTRONIC COUNTERMEASURES (JAMMER)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.AIRTRK.MIL.FIXD.DRN.TNK,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QK     --,,,,,,,,,**,,**,,,*,TANKER
 WAR.AIRTRK.MIL.FIXD.DRN.VSTOL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QL     --,,,,,,,,,**,,**,,,*,V/STOL
 WAR.AIRTRK.MIL.FIXD.DRN.SOF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MF     QM    --,,,,,,,,,**,,**,,,*,SPECIAL OPERATIONS FORCES (SOF)
@@ -72,7 +69,6 @@ WAR.AIRTRK.MIL.ROT.UTY.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    UL     --,
 WAR.AIRTRK.MIL.ROT.UTY.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    UM    --,,,,,,,,,**,,**,,,*,UTILITY (MEDIUM)
 WAR.AIRTRK.MIL.ROT.UTY.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    UH     --,,,,,,,,,**,,**,,,*,UTILITY (HEAVY)
 WAR.AIRTRK.MIL.ROT.MNECM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    I-        --,,,,,,,,,**,,**,,,*,MINE COUNTERMEASURES
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.AIRTRK.MIL.ROT.CSAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    H-      --,,,,,,,,,**,,**,,,*,COMBAT SEARCH AND RESCUE (CSAR)
 WAR.AIRTRK.MIL.ROT.RECON,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    R-      --,,,,,,,,,**,,**,,,*,RECONNAISSANCE
 WAR.AIRTRK.MIL.ROT.DRN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,MH    Q-      --,,,,,,,,,**,,**,,,*,DRONE (RPV/UA)
@@ -98,7 +94,6 @@ WAR.AIRTRK.WPN.MSLIF.SLM.SSUM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   SU     -
 WAR.AIRTRK.WPN.MSLIF.SLM.ABM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   SB      --,,,,,,,,,**,,**,,,*,ANTIBALLISTIC MISSILE (ABM)
 WAR.AIRTRK.WPN.MSLIF.ALM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   A-      --,,,,,,,,,**,,**,,,*,AIR LAUNCHED MISSILE
 WAR.AIRTRK.WPN.MSLIF.ALM.ASM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   AS     --,,,,,,,,,**,,**,,,*,AIR-TO-SURFACE MISSILE (ASM)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.AIRTRK.WPN.MSLIF.ALM.AAM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   AA     --,,,,,,,,,**,,**,,,*,AIR-TO-AIR MISSILE (AAM)
 WAR.AIRTRK.WPN.MSLIF.ALM.ASPC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   AP     --,,,,,,,,,**,,**,,,*,AIR-TO-SPACE MISSILE
 WAR.AIRTRK.WPN.MSLIF.SBSM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,A,,*,,WM   U-      --,,,,,,,,,**,,**,,,*,SUBSURFACE-TO-SURFACE MISSILE (S/SSM)
@@ -124,7 +119,6 @@ WAR.GRDTRK.UNT.CBT.ADF.MSL.LIT.MOT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     D
 WAR.GRDTRK.UNT.CBT.ADF.MSL.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     DM    M-,,,,,,,,,**,,**,,,*,AIR DEFENSE MISSILE MEDIUM
 WAR.GRDTRK.UNT.CBT.ADF.MSL.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     DM    H-,,,,,,,,,**,,**,,,*,AIR DEFENSE MISSILE HEAVY
 WAR.GRDTRK.UNT.CBT.ADF.MSL.HMAD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     DH     --,,,,,,,,,**,,**,,,*,H/MAD
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.ADF.MSL.HMAD.HWK,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     DH     H-,,,,,,,,,**,,**,,,*,HAWK
 WAR.GRDTRK.UNT.CBT.ADF.MSL.HMAD.PATT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     DH     P-,,,,,,,,,**,,**,,,*,PATRIOT
 WAR.GRDTRK.UNT.CBT.ADF.GUNUNT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     DG     --,,,,,,,,,**,,**,,,*,GUN UNIT
@@ -150,7 +144,6 @@ WAR.GRDTRK.UNT.CBT.ARM.WHD.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AW   
 WAR.GRDTRK.UNT.CBT.ARM.WHD.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AW    H-,,,,,,,,,**,,**,,,*,ARMOR, WHEELED HEAVY
 WAR.GRDTRK.UNT.CBT.ARM.WHD.RCY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AW    R-,,,,,,,,,**,,**,,,*,ARMOR, WHEELED RECOVERY
 WAR.GRDTRK.UNT.CBT.AARM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AA     --,,,,,,,,,**,,**,,,*,ANTIARMOR
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.AARM.DMD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AA     D-,,,,,,,,,**,,**,,,*,ANTIARMOR DISMOUNTED
 WAR.GRDTRK.UNT.CBT.AARM.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AA     L-,,,,,,,,,**,,**,,,*,ANTIARMOR LIGHT
 WAR.GRDTRK.UNT.CBT.AARM.ABN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     AA     M-,,,,,,,,,**,,**,,,*,ANTIARMOR AIRBORNE
@@ -176,7 +169,6 @@ WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR   
 WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR     UL,,,,,,,,,**,,**,,,*,LIGHT UTILITY ROTARY WING
 WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR     UM,,,,,,,,,**,,**,,,*,MEDIUM UTILITY ROTARY WING
 WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR     UH,,,,,,,,,**,,**,,,*,HEAVY UTILITY ROTARY WING
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.AVN.ROT.C2,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR     UC,,,,,,,,,**,,**,,,*,C2 ROTARY WING
 WAR.GRDTRK.UNT.CBT.AVN.ROT.MEDV,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR     UE,,,,,,,,,**,,**,,,*,MEDEVAC ROTARY WING
 WAR.GRDTRK.UNT.CBT.AVN.ROT.MNECM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     VR     M-,,,,,,,,,**,,**,,,*,MINE COUNTERMEASURE ROTARY WING
@@ -201,7 +193,6 @@ WAR.GRDTRK.UNT.CBT.ENG.CBT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     --
 WAR.GRDTRK.UNT.CBT.ENG.CBT.AAST,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     S-,,,,,,,,,**,,**,,,*,ENGINEER COMBAT AIR ASSAULT
 WAR.GRDTRK.UNT.CBT.ENG.CBT.ABN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     A-,,,,,,,,,**,,**,,,*,ENGINEER COMBAT AIRBORNE
 WAR.GRDTRK.UNT.CBT.ENG.CBT.ARC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     C-,,,,,,,,,**,,**,,,*,ENGINEER COMBAT ARCTIC
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.ENG.CBT.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     L-,,,,,,,,,**,,**,,,*,ENGINEER COMBAT LIGHT (SAPPER)
 WAR.GRDTRK.UNT.CBT.ENG.CBT.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     M-,,,,,,,,,**,,**,,,*,ENGINEER COMBAT MEDIUM
 WAR.GRDTRK.UNT.CBT.ENG.CBT.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     EC     H-,,,,,,,,,**,,**,,,*,ENGINEER COMBAT HEAVY
@@ -227,7 +218,6 @@ WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR
 WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL.SRSPD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR      SS,,,,,,,,,**,,**,,,*,SINGLE ROCKET SELF-PROPELLED
 WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL.SRTRK,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR      SR,,,,,,,,,**,,**,,,*,SINGLE ROCKET TRUCK
 WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL.SRTOW,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR      ST,,,,,,,,,**,,**,,,*,SINGLE ROCKET TOWED
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR      M-,,,,,,,,,**,,**,,,*,MULTIPLE ROCKET LAUNCHER
 WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL.MRSPD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR      MS,,,,,,,,,**,,**,,,*,MULTIPLE ROCKET SELF-PROPELLED
 WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL.MRTRK,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FR      MR,,,,,,,,,**,,**,,,*,MULTIPLE ROCKET TRUCK
@@ -253,7 +243,6 @@ WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FS 
 WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.AAST,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FS      S-,,,,,,,,,**,,**,,,*,AIR ASSAULT
 WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.ABN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FS      A-,,,,,,,,,**,,**,,,*,AIRBORNE
 WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FS      L-,,,,,,,,,**,,**,,,*,LIGHT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.MNT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FS      O-,,,,,,,,,**,,**,,,*,MOUNTAIN
 WAR.GRDTRK.UNT.CBT.FLDART.METO,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FO     --,,,,,,,,,**,,**,,,*,METEOROLOGICAL
 WAR.GRDTRK.UNT.CBT.FLDART.METO.AAST,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     FO     S-,,,,,,,,,**,,**,,,*,AIR ASSAULT METEOROLOGICAL
@@ -278,7 +267,6 @@ WAR.GRDTRK.UNT.CBT.RECON.MAR.FOR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     RR 
 WAR.GRDTRK.UNT.CBT.RECON.MAR.LAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     RR     L-,,,,,,,,,**,,**,,,*,RECONNAISSANCE MARINE LIGHT ARMORED RECONNAISSNACE (LAR)
 WAR.GRDTRK.UNT.CBT.RECON.LRS,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     RX     --,,,,,,,,,**,,**,,,*,RECONNAISSANCE LONG RANGE SURVEILLANCE (LRS)
 WAR.GRDTRK.UNT.CBT.MSL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     M-      --,,,,,,,,,**,,**,,,*,MISSILE (SURF-SURF)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CBT.MSL.TAC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     MT    --,,,,,,,,,**,,**,,,*,MISSILE (SURF-SURF) TACTICAL
 WAR.GRDTRK.UNT.CBT.MSL.STGC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     MS     --,,,,,,,,,**,,**,,,*,MISSILE (SURF-SURF) STRATEGIC
 WAR.GRDTRK.UNT.CBT.ISF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UC     S-       --,,,,,,,,,**,,**,,,*,INTERNAL SECURITY FORCES
@@ -303,7 +291,6 @@ WAR.GRDTRK.UNT.CS.CBRN.CML.RECON,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AC 
 WAR.GRDTRK.UNT.CS.CBRN.CML.RECON.WARMVH,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AC     RW,,,,,,,,,**,,**,,,*,CHEMICAL WHEELED ARMORED VEHICLE
 WAR.GRDTRK.UNT.CS.CBRN.CML.RECON.WAVS,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AC     RS,,,,,,,,,**,,**,,,*,CHEMICAL WHEELED ARMORED VEHICLE RECONNAISSANCE SURVEILLANCE
 WAR.GRDTRK.UNT.CS.CBRN.NUC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AN     --,,,,,,,,,**,,**,,,*,NUCLEAR
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CS.CBRN.BIO,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AB     --,,,,,,,,,**,,**,,,*,BIOLOGICAL
 WAR.GRDTRK.UNT.CS.CBRN.BIO.RECEQP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AB     R-,,,,,,,,,**,,**,,,*,RECON EQUIPPED
 WAR.GRDTRK.UNT.CS.CBRN.DECON,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     AD     --,,,,,,,,,**,,**,,,*,DECONTAMINATION
@@ -329,7 +316,6 @@ WAR.GRDTRK.UNT.CS.MILINT.TACEXP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     MT  
 WAR.GRDTRK.UNT.CS.MILINT.INTGN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     MQ    --,,,,,,,,,**,,**,,,*,INTERROGATION
 WAR.GRDTRK.UNT.CS.MILINT.JINTCT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     MJ     --,,,,,,,,,**,,**,,,*,JOINT INTELLIGENCE CENTER
 WAR.GRDTRK.UNT.CS.LAWENU,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     L-       --,,,,,,,,,**,,**,,,*,LAW ENFORCEMENT UNIT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CS.LAWENU.SHRPAT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     LS      --,,,,,,,,,**,,**,,,*,SHORE PATROL
 WAR.GRDTRK.UNT.CS.LAWENU.MILP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     LM    --,,,,,,,,,**,,**,,,*,MILITARY POLICE
 WAR.GRDTRK.UNT.CS.LAWENU.CLE,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     LC     --,,,,,,,,,**,,**,,,*,CIVILIAN LAW ENFORCEMENT
@@ -355,7 +341,6 @@ WAR.GRDTRK.UNT.CS.SIGUNT.ECRG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     SX    
 WAR.GRDTRK.UNT.CS.IWU,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     I-        --,,,,,,,,,**,,**,,,*,INFORMATION WARFARE UNIT
 WAR.GRDTRK.UNT.CS.LNDSUP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     P-       --,,,,,,,,,**,,**,,,*,LANDING SUPPORT
 WAR.GRDTRK.UNT.CS.EOD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,UU     E-       --,,,,,,,,,**,,**,,,*,EXPLOSIVE ORDNANCE DISPOSAL
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CSS,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     --        --,,,,,,,,,**,,**,,,*,COMBAT SERVICE SUPPORT
 WAR.GRDTRK.UNT.CSS.ADMIN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     A-      --,,,,,,,,,**,,**,,,*,ADMINISTRATIVE (ADMIN)
 WAR.GRDTRK.UNT.CSS.ADMIN.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AT     --,,,,,,,,,**,,**,,,*,ADMIN THEATER
@@ -381,7 +366,6 @@ WAR.GRDTRK.UNT.CSS.ADMIN.RELG.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AR
 WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AP     --,,,,,,,,,**,,**,,,*,PUBLIC AFFAIRS
 WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AP     T-,,,,,,,,,**,,**,,,*,PUBLIC AFFAIRS THEATER
 WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AP     C-,,,,,,,,,**,,**,,,*,PUBLIC AFFAIRS CORPS
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AP     B-,,,,,,,,,**,,**,,,*,PUBLIC AFFAIRS BROADCAST
 WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AP     BT,,,,,,,,,**,,**,,,*,PUBLIC AFFAIRS BROADCAST THEATER
 WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     AP     BC,,,,,,,,,**,,**,,,*,PUBLIC AFFAIRS BROADCAST CORPS
@@ -407,7 +391,6 @@ WAR.GRDTRK.UNT.CSS.MED.MEDTF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MM   --
 WAR.GRDTRK.UNT.CSS.MED.MEDTF.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MM   T-,,,,,,,,,**,,**,,,*,MEDICAL TREATMENT FACILITY THEATER
 WAR.GRDTRK.UNT.CSS.MED.MEDTF.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MM   C-,,,,,,,,,**,,**,,,*,MEDICAL TREATMENT FACILITY CORPS
 WAR.GRDTRK.UNT.CSS.MED.VNY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MV    --,,,,,,,,,**,,**,,,*,MEDICAL VETERINARY
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CSS.MED.VNY.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MV    T-,,,,,,,,,**,,**,,,*,MEDICAL VETERINARY THEATER
 WAR.GRDTRK.UNT.CSS.MED.VNY.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MV    C-,,,,,,,,,**,,**,,,*,MEDICAL VETERINARY CORPS
 WAR.GRDTRK.UNT.CSS.MED.DEN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     MD    --,,,,,,,,,**,,**,,,*,MEDICAL DENTAL
@@ -433,7 +416,6 @@ WAR.GRDTRK.UNT.CSS.SLP.CLS3.AVN.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     
 WAR.GRDTRK.UNT.CSS.SLP.CLS3.AVN.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     S3      AC,,,,,,,,,**,,**,,,*,SUPPLY CLASS III AVIATION CORPS
 WAR.GRDTRK.UNT.CSS.SLP.CLS4,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     S4      --,,,,,,,,,**,,**,,,*,SUPPLY CLASS IV
 WAR.GRDTRK.UNT.CSS.SLP.CLS4.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     S4      T-,,,,,,,,,**,,**,,,*,SUPPLY CLASS IV THEATER
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CSS.SLP.CLS4.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     S4      C-,,,,,,,,,**,,**,,,*,SUPPLY CLASS IV CORPS
 WAR.GRDTRK.UNT.CSS.SLP.CLS5,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     S5      --,,,,,,,,,**,,**,,,*,SUPPLY CLASS V
 WAR.GRDTRK.UNT.CSS.SLP.CLS5.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     S5      T-,,,,,,,,,**,,**,,,*,SUPPLY CLASS V THEATER
@@ -459,7 +441,6 @@ WAR.GRDTRK.UNT.CSS.SLP.LDY.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SL   
 WAR.GRDTRK.UNT.CSS.SLP.H2O,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SW    --,,,,,,,,,**,,**,,,*,SUPPLY WATER
 WAR.GRDTRK.UNT.CSS.SLP.H2O.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SW    T-,,,,,,,,,**,,**,,,*,SUPPLY WATER THEATER
 WAR.GRDTRK.UNT.CSS.SLP.H2O.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SW    C-,,,,,,,,,**,,**,,,*,SUPPLY WATER CORPS
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CSS.SLP.H2O.PUR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SW    P-,,,,,,,,,**,,**,,,*,SUPPLY WATER PURIFICATION
 WAR.GRDTRK.UNT.CSS.SLP.H2O.PUR.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SW    PT,,,,,,,,,**,,**,,,*,SUPPLY WATER PURIFICATION THEATER
 WAR.GRDTRK.UNT.CSS.SLP.H2O.PUR.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     SW    PC,,,,,,,,,**,,**,,,*,SUPPLY WATER PURIFICATION CORPS
@@ -485,7 +466,6 @@ WAR.GRDTRK.UNT.CSS.MAINT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     X-      --,
 WAR.GRDTRK.UNT.CSS.MAINT.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     XT     --,,,,,,,,,**,,**,,,*,MAINTENANCE THEATER
 WAR.GRDTRK.UNT.CSS.MAINT.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     XC     --,,,,,,,,,**,,**,,,*,MAINTENANCE CORPS
 WAR.GRDTRK.UNT.CSS.MAINT.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     XH     --,,,,,,,,,**,,**,,,*,MAINTENANCE HEAVY
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.UNT.CSS.MAINT.HVY.THT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     XH     T-,,,,,,,,,**,,**,,,*,MAINTENANCE HEAVY THEATER
 WAR.GRDTRK.UNT.CSS.MAINT.HVY.CRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     XH     C-,,,,,,,,,**,,**,,,*,MAINTENANCE HEAVY CORPS
 WAR.GRDTRK.UNT.CSS.MAINT.RCY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,US     XR     --,,,,,,,,,**,,**,,,*,MAINTENANCE RECOVERY
@@ -511,7 +491,6 @@ WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR.TELAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW
 WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    MA    I-,,,,,,,,,**,,**,,,*,INTERMEDIATE RANGE AD MISSILE LAUNCHER
 WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TLAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    MA    IR,,,,,,,,,**,,**,,,*,TRANSPORTER LAUNCHER AND RADAR (TLAR)
 WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TELAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    MA    IE,,,,,,,,,**,,**,,,*,TRANSPORTER ERECTOR LAUNCHER AND RADAR (TELAR)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    MA    L-,,,,,,,,,**,,**,,,*,LONG RANGE AD MISSILE LAUNCHER
 WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TLAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    MA    LR,,,,,,,,,**,,**,,,*,TRANSPORTER LAUNCHER AND RADAR (TLAR)
 WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TELAR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    MA    LE,,,,,,,,,**,,**,,,*,TRANSPORTER ERECTOR LAUNCHER AND RADAR (TELAR)
@@ -537,7 +516,6 @@ WAR.GRDTRK.EQT.WPN.MRL.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    XH     --,
 WAR.GRDTRK.EQT.WPN.ATRL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    T-       --,,,,,,,,,**,,**,,,*,ANTITANK ROCKET LAUNCHER
 WAR.GRDTRK.EQT.WPN.ATRL.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    TL      --,,,,,,,,,**,,**,,,*,ANTITANK ROCKET LAUNCHER LIGHT
 WAR.GRDTRK.EQT.WPN.ATRL.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    TM    --,,,,,,,,,**,,**,,,*,ANTITANK ROCKET LAUNCHER MEDIUM
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.WPN.ATRL.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    TH     --,,,,,,,,,**,,**,,,*,ANTITANK ROCKET LAUNCHER HEAVY
 WAR.GRDTRK.EQT.WPN.RIFWPN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    R-      --,,,,,,,,,**,,**,,,*,RIFLE/AUTOMATIC WEAPON
 WAR.GRDTRK.EQT.WPN.RIFWPN.RIF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    RR     --,,,,,,,,,**,,**,,,*,RIFLE
@@ -563,7 +541,6 @@ WAR.GRDTRK.EQT.WPN.ATG.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    GL     --,
 WAR.GRDTRK.EQT.WPN.ATG.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    GM    --,,,,,,,,,**,,**,,,*,ANTITANK GUN MEDIUM
 WAR.GRDTRK.EQT.WPN.ATG.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    GH     --,,,,,,,,,**,,**,,,*,ANTITANK GUN HEAVY
 WAR.GRDTRK.EQT.WPN.ATG.RECL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    GR     --,,,,,,,,,**,,**,,,*,ANTITANK GUN RECOILLESS
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.WPN.DFG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    D-      --,,,,,,,,,**,,**,,,*,DIRECT FIRE GUN
 WAR.GRDTRK.EQT.WPN.DFG.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    DL     --,,,,,,,,,**,,**,,,*,DIRECT FIRE GUN LIGHT
 WAR.GRDTRK.EQT.WPN.DFG.LIT.SPD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EW    DL     S-,,,,,,,,,**,,**,,,*,DIRECT FIRE GUN LIGHT SELF-PROPELLED
@@ -589,7 +566,6 @@ WAR.GRDTRK.EQT.GRDVEH.ARMD.ARMPC.RCY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV    
 WAR.GRDTRK.EQT.GRDVEH.ARMD.ARMINF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     AI      --,,,,,,,,,**,,**,,,*,ARMORED INFANTRY
 WAR.GRDTRK.EQT.GRDVEH.ARMD.C2V,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     AC     --,,,,,,,,,**,,**,,,*,C2V/ACV
 WAR.GRDTRK.EQT.GRDVEH.ARMD.CSSVEH,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     AS     --,,,,,,,,,**,,**,,,*,COMBAT SERVICE SUPPORT VEHICLE
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.GRDVEH.ARMD.LARMVH,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     AL     --,,,,,,,,,**,,**,,,*,LIGHT ARMORED VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.UTYVEH,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     U-      --,,,,,,,,,**,,**,,,*,UTILITY VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.UTYVEH.BUS,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     UB     --,,,,,,,,,**,,**,,,*,BUS
@@ -615,7 +591,6 @@ WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MLVEH.TRKMV,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV
 WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MCVEH,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     EA     --,,,,,,,,,**,,**,,,*,MINE CLEARING VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MCVEH.ARMVM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     EA     A-,,,,,,,,,**,,**,,,*,ARMORED MOUNTED MINE CLEARING VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MCVEH.TM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     EA     T-,,,,,,,,,**,,**,,,*,TRAILER MOUNTED MINE CLEARING VEHICLE
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.GRDVEH.ENGVEH.DZR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     ED     --,,,,,,,,,**,,**,,,*,DOZER
 WAR.GRDTRK.EQT.GRDVEH.ENGVEH.DZR.ARMD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     ED     A-,,,,,,,,,**,,**,,,*,ARMORED DOZER
 WAR.GRDTRK.EQT.GRDVEH.ENGVEH.AST,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     ES      --,,,,,,,,,**,,**,,,*,ARMORED ASSAULT
@@ -641,7 +616,6 @@ WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SUV,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV 
 WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SBOX,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     CU     M-,,,,,,,,,**,,**,,,*,SMALL BOX TRUCK, UTILITY VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.LBOX,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     CU     H-,,,,,,,,,**,,**,,,*,LARGE BOX TRUCK, UTILITY VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     CJ      --,,,,,,,,,**,,**,,,*,JEEP TYPE VEHICLE
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP.SMAL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     CJ      L-,,,,,,,,,**,,**,,,*,SMALL/LIGHT JEEP TYPE VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     CJ      M-,,,,,,,,,**,,**,,,*,MEDIUM JEEP TYPE VEHICLE
 WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP.LRG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EV     CJ      H-,,,,,,,,,**,,**,,,*,LARGE/HEAVY JEEP TYPE VEHICLE
@@ -667,7 +641,6 @@ WAR.GRDTRK.EQT.SPL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     --        --,,,,,
 WAR.GRDTRK.EQT.SPL.IED,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     I-        --,,,,,,,,,**,,**,,,*,IMPROVISED EXPLOSIVE DEVICE
 WAR.GRDTRK.EQT.SPL.LSR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     L-       --,,,,,,,,,**,,**,,,*,LASER
 WAR.GRDTRK.EQT.SPL.CBRNEQ,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     N-      --,,,,,,,,,**,,**,,,*,CBRN EQUIPMENT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.EQT.SPL.FLMTHR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     F-       --,,,,,,,,,**,,**,,,*,FLAME THROWER
 WAR.GRDTRK.EQT.SPL.LNDMNE,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     M-      --,,,,,,,,,**,,**,,,*,LAND MINES
 WAR.GRDTRK.EQT.SPL.LNDMNE.CLM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,EX     MC    --,,,,,,,,,**,,**,,,*,CLAYMORE
@@ -693,7 +666,6 @@ WAR.GRDTRK.INS.SRUF.EPF.FOSF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IU      EF    
 WAR.GRDTRK.INS.SRUF.PWS,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IU      P-       --,,,,,,,,,H*,,**,,,*,PUBLIC WATER SERVICES
 WAR.GRDTRK.INS.MMF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IM      --        --,,,,,,,,,H*,,**,,,*,MILITARY MATERIEL FACILITY
 WAR.GRDTRK.INS.MMF.NENY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IM      F-       --,,,,,,,,,H*,,**,,,*,NUCLEAR ENERGY
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.GRDTRK.INS.MMF.NENY.ATMER,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IM      FA     --,,,,,,,,,H*,,**,,,*,ATOMIC ENERGY REACTOR
 WAR.GRDTRK.INS.MMF.NENY.NMP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IM      FP      --,,,,,,,,,H*,,**,,,*,NUCLEAR MATERIAL PRODUCTION
 WAR.GRDTRK.INS.MMF.NENY.NMP.WPNGR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,G,,*,,IM      FP      W-,,,,,,,,,H*,,**,,,*,WEAPONS GRADE
@@ -719,7 +691,6 @@ WAR.SSUF.CBTT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,C-      --        --,,,,,,,,,
 WAR.SSUF.CBTT.LNE,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CL     --        --,,,,,,,,,**,,**,,,*,LINE
 WAR.SSUF.CBTT.LNE.CRR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CL     CV     --,,,,,,,,,**,,**,,,*,CARRIER
 WAR.SSUF.CBTT.LNE.BBS,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CL     BB     --,,,,,,,,,**,,**,,,*,BATTLESHIP
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SSUF.CBTT.LNE.CRU,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CL     CC     --,,,,,,,,,**,,**,,,*,CRUISER
 WAR.SSUF.CBTT.LNE.DD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CL     DD     --,,,,,,,,,**,,**,,,*,DESTROYER
 WAR.SSUF.CBTT.LNE.FFR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CL     FF      --,,,,,,,,,**,,**,,,*,FRIGATE/CORVETTE
@@ -745,7 +716,6 @@ WAR.SSUF.CBTT.PAT.ASUW.ASMSL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CP      SU    
 WAR.SSUF.CBTT.PAT.ASUW.TPD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CP      SU     T-,,,,,,,,,**,,**,,,*,TORPEDO PATROL CRAFT
 WAR.SSUF.CBTT.PAT.ASUW.GUN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CP      SU     G-,,,,,,,,,**,,**,,,*,GUN PATROL CRAFT
 WAR.SSUF.CBTT.HOV,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,CH     --        --,,,,,,,,,**,,**,,,*,HOVERCRAFT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SSUF.CBTT.NAVGRP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,G-      --        --,,,,,,,,,**,,**,,,*,NAVY GROUP
 WAR.SSUF.CBTT.NAVGRP.NAVTF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,GT     --        --,,,,,,,,,**,,**,,,*,NAVY TASK FORCE
 WAR.SSUF.CBTT.NAVGRP.NAVTG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,GG     --        --,,,,,,,,,**,,**,,,*,NAVY TASK GROUP
@@ -771,7 +741,6 @@ WAR.SSUF.NMIL.MCT.RORO,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    R-      --,,,,
 WAR.SSUF.NMIL.MCT.OLR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    O-      --,,,,,,,,,**,,**,,,*,OILER/TANKER
 WAR.SSUF.NMIL.MCT.TUG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    TU     --,,,,,,,,,**,,**,,,*,TUG
 WAR.SSUF.NMIL.MCT.FRY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    F-       --,,,,,,,,,**,,**,,,*,FERRY
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SSUF.NMIL.MCT.PSG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    P-       --,,,,,,,,,**,,**,,,*,PASSENGER
 WAR.SSUF.NMIL.MCT.HAZMAT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    H-      --,,,,,,,,,**,,**,,,*,HAZARDOUS MATERIALS (HAZMAT)
 WAR.SSUF.NMIL.MCT.TOWVES,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,S,,*,,XM    TO     --,,,,,,,,,**,,**,,,*,TOWING VESSEL
@@ -797,7 +766,6 @@ WAR.SBSUF.SUB.NPRN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SN     --        --,,,,,
 WAR.SBSUF.SUB.NPRN.SURF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SN     F-       --,,,,,,,,,**,,**,,,*,SURFACED NUCLEAR PROPULSION SUBMARINE
 WAR.SBSUF.SUB.NPRN.ATK,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SN     A-      --,,,,,,,,,**,,**,,,*,ATTACK SUBMARINE (SSN)
 WAR.SBSUF.SUB.NPRN.MSL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SN     M-      --,,,,,,,,,**,,**,,,*,MISSILE SUBMARINE (TYPE UNKNOWN)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SBSUF.SUB.NPRN.GDD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SN     G-      --,,,,,,,,,**,,**,,,*,GUIDED MISSILE SUBMARINE (SSGN)
 WAR.SBSUF.SUB.NPRN.BLST,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SN     B-      --,,,,,,,,,**,,**,,,*,BALLISTIC MISSILE SUBMARINE (SSBN)
 WAR.SBSUF.SUB.CNVPRN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,SC      --        --,,,,,,,,,**,,**,,,*,CONVENTIONAL PROPULSION
@@ -823,7 +791,6 @@ WAR.SBSUF.UH2WPN.TPD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WT    --        --,,,,
 WAR.SBSUF.UH2WPN.SMNE,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   --        --,,,,,,,,,**,,**,,,*,SEA MINE
 WAR.SBSUF.UH2WPN.SMNE.NTRLZD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   D-      --,,,,,,,,,**,,**,,,*,SEA MINE NEUTRALIZED
 WAR.SBSUF.UH2WPN.SMNE.SMG,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   G-      --,,,,,,,,,**,,**,,,*,SEA MINE (GROUND)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SBSUF.UH2WPN.SMNE.SMG.NTRLZD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   GD     --,,,,,,,,,**,,**,,,*,SEA MINE (GROUND) NEUTRALIZED
 WAR.SBSUF.UH2WPN.SMNE.SMG.EXER,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   GX     --,,,,,,,,,**,,**,,,*,GROUND (BOTTOM) EXERCISE MINE
 WAR.SBSUF.UH2WPN.SMNE.SMG.MILEC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   GE     --,,,,,,,,,**,,**,,,*,GROUND (BOTTOM) MINE-LIKE ECHO (MILEC)
@@ -849,7 +816,6 @@ WAR.SBSUF.UH2WPN.SMNE.SMOP.NTRLZD,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   OD  
 WAR.SBSUF.UH2WPN.SMNE.EXER,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   X-      --,,,,,,,,,**,,**,,,*,GENERAL EXERCISE MINE
 WAR.SBSUF.UH2WPN.SMNE.MILEC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   E-       --,,,,,,,,,**,,**,,,*,GENERAL MINE-LIKE ECHO (MILEC)
 WAR.SBSUF.UH2WPN.SMNE.ANCHOR,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   A-      --,,,,,,,,,**,,**,,,*,GENERAL MINE ANCHOR
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SBSUF.UH2WPN.SMNE.MILCO,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   C-      --,,,,,,,,,**,,**,,,*,GENERAL MINE-LIKE CONTACT (MILCO)
 WAR.SBSUF.UH2WPN.SMNE.NGREAC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   R-      --,,,,,,,,,**,,**,,,*,GENERAL NEGATIVE REACQUISITION
 WAR.SBSUF.UH2WPN.SMNE.OBSTRC,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,U,,*,,WM   B-      --,,,,,,,,,**,,**,,,*,GENERAL OBSTRUCTOR
@@ -875,7 +841,6 @@ WAR.SOFUNT.AVN.FIXD.RFE,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AF     K-      --,,
 WAR.SOFUNT.AVN.FIXD.UTY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AF     U-      --,,,,,,,,,**,,**,,,*,SOF UNIT UTILITY
 WAR.SOFUNT.AVN.FIXD.UTY.LIT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AF     UL     --,,,,,,,,,**,,**,,,*,SOF UNIT UTILITY (LIGHT)
 WAR.SOFUNT.AVN.FIXD.UTY.MDM,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AF     UM    --,,,,,,,,,**,,**,,,*,SOF UNIT UTILITY (MEDIUM)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,BATTLE DIMENSION,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 WAR.SOFUNT.AVN.FIXD.UTY.HVY,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AF     UH     --,,,,,,,,,**,,**,,,*,SOF UNIT UTILITY (HEAVY)
 WAR.SOFUNT.AVN.VSTOL,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AV     --        --,,,,,,,,,**,,**,,,*,SOF UNIT V/STOL
 WAR.SOFUNT.AVN.ROT,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,AH     --        --,,,,,,,,,**,,**,,,*,SOF UNIT ROTARY WING
@@ -897,7 +862,6 @@ WAR.SOFUNT.GRD.PSYOP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,GP     --        --,,,
 WAR.SOFUNT.GRD.PSYOP.FIXAVN,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,GP     A-      --,,,,,,,,,**,,**,,,*,SOF UNIT FIXED WING AVIATION
 WAR.SOFUNT.GRD.CVLAFF,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,GC     --        --,,,,,,,,,**,,**,,,*,SOF UNIT CIVIL AFFAIRS
 WAR.SOFUNT.SUP,,,,,,,,,,,,,,,,,,,,,,,,,,S,,*,,F,,*,,B-      --        --,,,,,,,,,**,,**,,,*,SOF UNIT SUPPORT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,-,,-,,--        --        --,,,,,,,,,--,,--,,,X,TACTICAL GRAPHICS
 TACGRP.TSK,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,--        --        --,,,,,,,,,**,,**,,,X,TASKS
 TACGRP.TSK.BLK,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,B-      --        --,,,,,,,,,**,,**,,,X,BLOCK
@@ -920,7 +884,6 @@ TACGRP.TSK.NEUT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,N-      --        --,,,,,,,
 TACGRP.TSK.OCC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,O-      --        --,,,,,,,,,**,,**,,,X,OCCUPY
 TACGRP.TSK.PNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,P-       --        --,,,,,,,,,**,,**,,,X,PENETRATE
 TACGRP.TSK.RIP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,R-      --        --,,,,,,,,,**,,**,,,X,RELIEF IN PLACE (RIP)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.TSK.RTN,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,Q-      --        --,,,,,,,,,**,,**,,,X,RETAIN
 TACGRP.TSK.RTM,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,M-      --        --,,,,,,,,,**,,**,,,X,RETIREMENT
 TACGRP.TSK.SCE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,T,,*,,S-       --        --,,,,,,,,,**,,**,,,X,SECURE
@@ -945,7 +908,6 @@ TACGRP.C2GM.GNL.PNT.USW.SNBY.PTNCTR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     
 TACGRP.C2GM.GNL.PNT.USW.SNBY.DIFAR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     UY     D-,,,,,,,,,**,,**,,,X,DIRECTIONAL FREQUENCY ANALYZING AND RECORDING (DIFAR)
 TACGRP.C2GM.GNL.PNT.USW.SNBY.LOFAR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     UY     L-,,,,,,,,,**,,**,,,X,LOW FREQUENCY ANALYZING AND RECORDING (LOFAR)
 TACGRP.C2GM.GNL.PNT.USW.SNBY.CASS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     UY     C-,,,,,,,,,**,,**,,,X,COMMAND ACTIVE SONOBUOY SYSTEM (CASS)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.GNL.PNT.USW.SNBY.DICASS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     UY     S-,,,,,,,,,**,,**,,,X,DIRECTIONAL COMMAND ACTIVE SONOBUOY SYSTEM (DICASS)
 TACGRP.C2GM.GNL.PNT.USW.SNBY.BT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     UY     B-,,,,,,,,,**,,**,,,X,BATHYTHERMOGRAPH TRANSMITTING (BT)
 TACGRP.C2GM.GNL.PNT.USW.SNBY.ANM,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     UY     A-,,,,,,,,,**,,**,,,X,ANM
@@ -970,7 +932,6 @@ TACGRP.C2GM.GNL.PNT.REFPNT.PNTINR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     RI
 TACGRP.C2GM.GNL.PNT.WPN,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     W-     --,,,,,,,,,**,,**,,,X,WEAPON
 TACGRP.C2GM.GNL.PNT.WPN.AIMPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     WA    --,,,,,,,,,**,,**,,,X,AIM POINT
 TACGRP.C2GM.GNL.PNT.WPN.DRPPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     WD    --,,,,,,,,,**,,**,,,X,DROP POINT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.GNL.PNT.WPN.ENTPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     WE    --,,,,,,,,,**,,**,,,X,ENTRY POINT
 TACGRP.C2GM.GNL.PNT.WPN.GRDZRO,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     WG    --,,,,,,,,,**,,**,,,X,GROUND ZERO
 TACGRP.C2GM.GNL.PNT.WPN.MSLPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     WM   --,,,,,,,,,**,,**,,,X,MSL DETECT POINT
@@ -996,7 +957,6 @@ TACGRP.C2GM.GNL.PNT.ACTL.ASBWF,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AA   
 TACGRP.C2GM.GNL.PNT.ACTL.ASBWR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AH     --,,,,,,,,,**,,**,,,X,ANTISUBMARINE WARFARE, ROTARY WING
 TACGRP.C2GM.GNL.PNT.ACTL.SUWF,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AB     --,,,,,,,,,**,,**,,,X,SUCAP - FIXED WING
 TACGRP.C2GM.GNL.PNT.ACTL.SUWR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AC     --,,,,,,,,,**,,**,,,X,SUCAP - ROTARY WING
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.GNL.PNT.ACTL.MIWF,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AD     --,,,,,,,,,**,,**,,,X,MIW - FIXED WING
 TACGRP.C2GM.GNL.PNT.ACTL.MIWR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AE     --,,,,,,,,,**,,**,,,X,MIW - ROTARY WING
 TACGRP.C2GM.GNL.PNT.ACTL.SKEIP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     AS     --,,,,,,,,,**,,**,,,X,STRIKE IP
@@ -1022,7 +982,6 @@ TACGRP.C2GM.GNL.PNT.ACTPNT.RELPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     PE
 TACGRP.C2GM.GNL.PNT.ACTPNT.STRPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     PS      --,,,,,,,,,**,,**,,,X,START POINT
 TACGRP.C2GM.GNL.PNT.ACTPNT.AMNPNT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     PA     --,,,,,,,,,**,,**,,,X,AMNESTY POINT
 TACGRP.C2GM.GNL.PNT.ACTPNT.WAP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     PW    --,,,,,,,,,**,,**,,,X,WAYPOINT
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.GNL.PNT.SCTL,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     C-      --,,,,,,,,,**,,**,,,X,SEA SURFACE CONTROL STATION
 TACGRP.C2GM.GNL.PNT.SCTL.USV,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     CU     --,,,,,,,,,**,,**,,,X,UNMANNED SURFACE VEHICLE (USV) CONTROL STATION
 TACGRP.C2GM.GNL.PNT.SCTL.USV.RMV,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     CU     R-,,,,,,,,,**,,**,,,X,REMOTE MULTIMISSION VEHICLE (RMV) USV CONTROL STATION
@@ -1047,7 +1006,6 @@ TACGRP.C2GM.GNL.PNT.UCTL.SBSTN.ASW,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GP     B
 TACGRP.C2GM.GNL.LNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GL     --        --,,,,,,,,,**,,**,,,X,LINES
 TACGRP.C2GM.GNL.LNE.BNDS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GL     B-      --,,,,,,,,,**,,**,,,X,BOUNDARIES
 TACGRP.C2GM.GNL.LNE.FLOT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GL     F-       --,,,,,,,,,**,,**,,,X,FORWARD LINE OF OWN TROOPS (FLOT)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.GNL.LNE.LOC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GL     C-      --,,,,,,,,,**,,**,,,X,LINE OF CONTACT
 TACGRP.C2GM.GNL.LNE.PHELNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GL     P-       --,,,,,,,,,**,,**,,,X,PHASE LINE
 TACGRP.C2GM.GNL.LNE.LITLNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,GL     L-       --,,,,,,,,,**,,**,,,X,LIGHT LINE
@@ -1073,7 +1031,6 @@ TACGRP.C2GM.AVN.LNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AL     --        --,,,,
 TACGRP.C2GM.AVN.LNE.ACDR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AL     C-      --,,,,,,,,,**,,**,,,X,AIR CORRIDOR
 TACGRP.C2GM.AVN.LNE.MRR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AL     M-      --,,,,,,,,,**,,**,,,X,MINIMUM RISK ROUTE (MRR)
 TACGRP.C2GM.AVN.LNE.SAAFR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AL     S-       --,,,,,,,,,**,,**,,,X,STANDARD-USE ARMY AIRCRAFT FLIGHT ROUTE (SAAFR)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.AVN.LNE.UAR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AL     U-      --,,,,,,,,,**,,**,,,X,UNMANNED AIRCRAFT (UA) ROUTE
 TACGRP.C2GM.AVN.LNE.LLTR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AL     L-       --,,,,,,,,,**,,**,,,X,LOW LEVEL TRANSIT ROUTE (LLTR)
 TACGRP.C2GM.AVN.ARS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,AA     --        --,,,,,,,,,**,,**,,,X,AREAS
@@ -1098,7 +1055,6 @@ TACGRP.C2GM.DEF.PNT.TGTREF,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     T-       
 TACGRP.C2GM.DEF.PNT.OBSPST,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     O-      --,,,,,,,,,**,,**,,,X,OBSERVATION POST/OUTPOST
 TACGRP.C2GM.DEF.PNT.OBSPST.CBTPST,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     OC     --,,,,,,,,,**,,**,,,X,COMBAT OUTPOST
 TACGRP.C2GM.DEF.PNT.OBSPST.RECON,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     OR     --,,,,,,,,,**,,**,,,X,OBSERVATION POST OCCUPIED BY DISMOUNTED SCOUTS OR RECONNAISSANCE
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.DEF.PNT.OBSPST.FWDOP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     OF     --,,,,,,,,,**,,**,,,X,FORWARD OBSERVER POSITION
 TACGRP.C2GM.DEF.PNT.OBSPST.SOP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     OS     --,,,,,,,,,**,,**,,,X,SENSOR OUTPOST/LISTENING POST (OP/LP)
 TACGRP.C2GM.DEF.PNT.OBSPST.CBRNOP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,DP     ON     --,,,,,,,,,**,,**,,,X,CBRN OBSERVATION POST (DISMOUNTED)
@@ -1124,7 +1080,6 @@ TACGRP.C2GM.OFF.LNE.DIRATK,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     K-      -
 TACGRP.C2GM.OFF.LNE.DIRATK.AVN,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     KA     --,,,,,,,,,**,,**,,,X,AVIATION
 TACGRP.C2GM.OFF.LNE.DIRATK.GRD,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     KG     --,,,,,,,,,**,,**,,,X,GROUND
 TACGRP.C2GM.OFF.LNE.DIRATK.GRD.MANATK,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     KG     M-,,,,,,,,,**,,**,,,X,MAIN ATTACK
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.OFF.LNE.DIRATK.GRD.SUPATK,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     KG     S-,,,,,,,,,**,,**,,,X,SUPPORTING ATTACK
 TACGRP.C2GM.OFF.LNE.FCL,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     F-       --,,,,,,,,,**,,**,,,X,FINAL COORDINATION LINE
 TACGRP.C2GM.OFF.LNE.INFNLE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,OL     I-        --,,,,,,,,,**,,**,,,X,INFILTRATION LANE
@@ -1150,7 +1105,6 @@ TACGRP.C2GM.SPL.ARA.AOO,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,SA     O-      --,,
 TACGRP.C2GM.SPL.ARA.AHD,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,SA     A-      --,,,,,,,,,**,,**,,,X,AIRHEAD
 TACGRP.C2GM.SPL.ARA.ENCMT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,SA     E-       --,,,,,,,,,**,,**,,,X,ENCIRCLEMENT
 TACGRP.C2GM.SPL.ARA.NAI,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,SA     N-      --,,,,,,,,,**,,**,,,X,NAMED AREA OF INTEREST (NAI)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.C2GM.SPL.ARA.TAI,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,G,,*,,SA     T-       --,,,,,,,,,**,,**,,,X,TARGETED AREA OF INTEREST (TAI)
 TACGRP.MOBSU,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,--        --        --,,,,,,,,,**,,**,,,X,MOBILITY/SURVIVABILITY
 TACGRP.MOBSU.OBST,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,O-      --        --,,,,,,,,,**,,**,,,X,OBSTACLES
@@ -1175,7 +1129,6 @@ TACGRP.MOBSU.OBST.BBY,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OB     --        --,,
 TACGRP.MOBSU.OBST.MNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OM    --        --,,,,,,,,,**,,**,,,X,MINES
 TACGRP.MOBSU.OBST.MNE.USPMNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OM    U-      --,,,,,,,,,**,,**,,,X,UNSPECIFIED MINE
 TACGRP.MOBSU.OBST.MNE.ATMNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OM    T-       --,,,,,,,,,**,,**,,,X,ANTITANK MINE (AT)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.MOBSU.OBST.MNE.ATMAHD,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OM    D-      --,,,,,,,,,**,,**,,,X,ANTITANK MINE WITH ANTIHANDLING DEVICE
 TACGRP.MOBSU.OBST.MNE.ATMDIR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OM    E-       --,,,,,,,,,**,,**,,,X,ANTITANK MINE (DIRECTIONAL)
 TACGRP.MOBSU.OBST.MNE.APMNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OM    P-       --,,,,,,,,,**,,**,,,X,ANTIPERSONNEL (AP) MINES
@@ -1201,7 +1154,6 @@ TACGRP.MOBSU.OBST.TRIPWR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OT     --        -
 TACGRP.MOBSU.OBST.WREOBS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OW    --        --,,,,,,,,,**,,**,,,X,WIRE OBSTACLE
 TACGRP.MOBSU.OBST.WREOBS.USP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OW    U-      --,,,,,,,,,**,,**,,,X,UNSPECIFIED
 TACGRP.MOBSU.OBST.WREOBS.SNGFNC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OW    S-       --,,,,,,,,,**,,**,,,X,SINGLE FENCE
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.MOBSU.OBST.WREOBS.DBLFNC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OW    D-      --,,,,,,,,,**,,**,,,X,DOUBLE FENCE
 TACGRP.MOBSU.OBST.WREOBS.DAFNC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OW    A-      --,,,,,,,,,**,,**,,,X,DOUBLE APRON FENCE
 TACGRP.MOBSU.OBST.WREOBS.LWFNC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,OW    L-       --,,,,,,,,,**,,**,,,X,LOW WIRE FENCE
@@ -1227,7 +1179,6 @@ TACGRP.MOBSU.OBSTBP.CSGSTE.FRY,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,BC     F-   
 TACGRP.MOBSU.OBSTBP.CSGSTE.FRDESY,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,BC     E-       --,,,,,,,,,**,,**,,,X,FORD EASY
 TACGRP.MOBSU.OBSTBP.CSGSTE.FRDDFT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,BC     D-      --,,,,,,,,,**,,**,,,X,FORD DIFFICULT
 TACGRP.MOBSU.OBSTBP.CSGSTE.LANE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,BC     L-       --,,,,,,,,,**,,**,,,X,LANE
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.MOBSU.OBSTBP.CSGSTE.RFT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,BC     R-      --,,,,,,,,,**,,**,,,X,RAFT SITE
 TACGRP.MOBSU.OBSTBP.CSGSTE.ERP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,BC     P-       --,,,,,,,,,**,,**,,,X,ENGINEER REGULATING POINT
 TACGRP.MOBSU.SU,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,S-       --        --,,,,,,,,,**,,**,,,X,SURVIVABILITY
@@ -1253,7 +1204,6 @@ TACGRP.MOBSU.CBRN.DECONP.USP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     P-     
 TACGRP.MOBSU.CBRN.DECONP.ALTUSP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     A-      --,,,,,,,,,**,,**,,,X,ALTERNATE DECON SITE/POINT (UNSPECIFIED)
 TACGRP.MOBSU.CBRN.DECONP.TRP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     T-       --,,,,,,,,,**,,**,,,X,DECON SITE/POINT (TROOPS)
 TACGRP.MOBSU.CBRN.DECONP.EQT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     E-       --,,,,,,,,,**,,**,,,X,DECON SITE/POINT (EQUIPMENT)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.MOBSU.CBRN.DECONP.EQTTRP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     B-      --,,,,,,,,,**,,**,,,X,DECON SITE/POINT (EQUIPMENT AND TROOPS)
 TACGRP.MOBSU.CBRN.DECONP.OPDECN,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     O-      --,,,,,,,,,**,,**,,,X,DECON SITE/POINT (OPERATIONAL DECONTAMINATION)
 TACGRP.MOBSU.CBRN.DECONP.TRGH,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,M,,*,,ND     D-      --,,,,,,,,,**,,**,,,X,DECON SITE/POINT (THOROUGH DECONTAMINATION)
@@ -1279,7 +1229,6 @@ TACGRP.FSUPP.LNE.C2LNE.FSCL,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,LC     F-      
 TACGRP.FSUPP.LNE.C2LNE.CFL,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,LC     C-      --,,,,,,,,,**,,**,,,X,COORDINATED FIRE LINE (CFL)
 TACGRP.FSUPP.LNE.C2LNE.NFL,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,LC     N-      --,,,,,,,,,**,,**,,,X,NO-FIRE LINE (NFL)
 TACGRP.FSUPP.LNE.C2LNE.RFL,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,LC     R-      --,,,,,,,,,**,,**,,,X,RESTRICTIVE FIRE LINE (RFL)
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.FSUPP.LNE.C2LNE.MFP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,LC     M-      --,,,,,,,,,**,,**,,,X,MUNITION FLIGHT PATH (MFP)
 TACGRP.FSUPP.ARS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,A-      --        --,,,,,,,,,**,,**,,,X,AREAS
 TACGRP.FSUPP.ARS.ARATGT,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AT     --        --,,,,,,,,,**,,**,,,X,AREA TARGET
@@ -1305,7 +1254,6 @@ TACGRP.FSUPP.ARS.C2ARS.NFA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     N-      -
 TACGRP.FSUPP.ARS.C2ARS.NFA.IRR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     NI      --,,,,,,,,,**,,**,,,X,NO FIRE AREA (NFA), IRREGULAR
 TACGRP.FSUPP.ARS.C2ARS.NFA.RTG,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     NR     --,,,,,,,,,**,,**,,,X,NO FIRE AREA (NFA), RECTANGULAR
 TACGRP.FSUPP.ARS.C2ARS.NFA.CIRCLR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     NC     --,,,,,,,,,**,,**,,,X,NO FIRE AREA (NFA), CIRCULAR
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.FSUPP.ARS.C2ARS.RFA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     R-      --,,,,,,,,,**,,**,,,X,RESTRICTIVE FIRE AREA (RFA)
 TACGRP.FSUPP.ARS.C2ARS.RFA.IRR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     RI      --,,,,,,,,,**,,**,,,X,RESTRICTIVE FIRE AREA (RFA), IRREGULAR
 TACGRP.FSUPP.ARS.C2ARS.RFA.RTG,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     RR     --,,,,,,,,,**,,**,,,X,RESTRICTIVE FIRE AREA (RFA), RECTANGULAR
@@ -1331,7 +1279,6 @@ TACGRP.FSUPP.ARS.C2ARS.TBA.RTG,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     BR   
 TACGRP.FSUPP.ARS.C2ARS.TBA.CIRCLR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     BC     --,,,,,,,,,**,,**,,,X,TARGET BUILD UP AREA (TBA), CIRCULAR
 TACGRP.FSUPP.ARS.C2ARS.TVAR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     V-      --,,,,,,,,,**,,**,,,X,TARGET VALUE AREA (TVAR)
 TACGRP.FSUPP.ARS.C2ARS.TVAR.IRR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     VI      --,,,,,,,,,**,,**,,,X,TARGET VALUE AREA (TVAR), IRREGULAR
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.FSUPP.ARS.C2ARS.TVAR.RTG,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     VR     --,,,,,,,,,**,,**,,,X,TARGET VALUE AREA (TVAR), RECTANGULAR
 TACGRP.FSUPP.ARS.C2ARS.TVAR.CIRCLR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     VC     --,,,,,,,,,**,,**,,,X,TARGET VALUE AREA (TVAR), CIRCULAR
 TACGRP.FSUPP.ARS.C2ARS.TGMF,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AC     T-       --,,,,,,,,,**,,**,,,X,TERMINALLY GUIDED MUNITION FOOTPRINT (TGMF)
@@ -1356,7 +1303,6 @@ TACGRP.FSUPP.ARS.KLBOX.BLUE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     B-      
 TACGRP.FSUPP.ARS.KLBOX.BLUE.CIRCLR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     BC     --,,,,,,,,,**,,**,,,X,BLUE KILL BOX, CIRCULAR
 TACGRP.FSUPP.ARS.KLBOX.BLUE.IRR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     BI      --,,,,,,,,,**,,**,,,X,BLUE KILL BOX, IRREGULAR
 TACGRP.FSUPP.ARS.KLBOX.BLUE.RTG,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     BR     --,,,,,,,,,**,,**,,,X,BLUE KILL BOX, RECTANGULAR
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.FSUPP.ARS.KLBOX.PURPLE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     P-       --,,,,,,,,,**,,**,,,X,PURPLE KILL BOX (PKB)
 TACGRP.FSUPP.ARS.KLBOX.PURPLE.CIRCLR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     PC      --,,,,,,,,,**,,**,,,X,PURPLE KILL BOX, CIRCULAR
 TACGRP.FSUPP.ARS.KLBOX.PURPLE.IRR,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,F,,*,,AK     PI       --,,,,,,,,,**,,**,,,X,PURPLE KILL BOX, IRREGULAR
@@ -1382,7 +1328,6 @@ TACGRP.CSS.PNT.SPT.CLS1,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      A-      --,
 TACGRP.CSS.PNT.SPT.CLS2,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      B-      --,,,,,,,,,**,,**,,,X,CLASS II
 TACGRP.CSS.PNT.SPT.CLS3,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      C-      --,,,,,,,,,**,,**,,,X,CLASS III
 TACGRP.CSS.PNT.SPT.CLS4,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      D-      --,,,,,,,,,**,,**,,,X,CLASS IV
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.CSS.PNT.SPT.CLS5,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      E-       --,,,,,,,,,**,,**,,,X,CLASS V
 TACGRP.CSS.PNT.SPT.CLS6,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      F-       --,,,,,,,,,**,,**,,,X,CLASS VI
 TACGRP.CSS.PNT.SPT.CLS7,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,PS      G-      --,,,,,,,,,**,,**,,,X,CLASS VII
@@ -1408,7 +1353,6 @@ TACGRP.CSS.ARA.EPWHA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AE     --        --,,,
 TACGRP.CSS.ARA.FARP,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AR     --        --,,,,,,,,,**,,**,,,X,FORWARD ARMING AND REFUELING AREA (FARP)
 TACGRP.CSS.ARA.RHA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AH     --        --,,,,,,,,,**,,**,,,X,REFUGEE HOLDING AREA
 TACGRP.CSS.ARA.SUPARS,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AS     --        --,,,,,,,,,**,,**,,,X,SUPPORT AREAS
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.CSS.ARA.SUPARS.BSA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AS     B-      --,,,,,,,,,**,,**,,,X,BRIGADE (BSA)
 TACGRP.CSS.ARA.SUPARS.DSA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AS     D-      --,,,,,,,,,**,,**,,,X,DIVISION (DSA)
 TACGRP.CSS.ARA.SUPARS.RSA,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,S,,*,,AS     R-      --,,,,,,,,,**,,**,,,X,REGIMENTAL (RSA)
@@ -1434,7 +1378,6 @@ TACGRP.OTH.BERLNE,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,B-      --        --,,,,,
 TACGRP.OTH.BERLNE.ELC,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,BE     --        --,,,,,,,,,**,,**,,,X,ELECTRONIC
 TACGRP.OTH.BERLNE.ACU,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,BA     --        --,,,,,,,,,**,,**,,,X,ACOUSTIC
 TACGRP.OTH.BERLNE.TPD,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,BT     --        --,,,,,,,,,**,,**,,,X,TORPEDO
-HIERARCHY,,,,,,,,,,,,,,,,,,,,,,,,,,CODE SCHEME,,STANDARD IDENTITY,,CATEGORY,,STATUS,,FUNCTION ID,,,,,,,,,SIZE/MOBILITY,,COUNTRY CODE,,,ORDER OF BATTLE,DESCRIPTION
 TACGRP.OTH.BERLNE.EOPI,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,BO     --        --,,,,,,,,,**,,**,,,X,ELECTRO-OPTICAL INTERCEPT
 TACGRP.OTH.FIX,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,F-       --        --,,,,,,,,,**,,**,,,X,FIX
 TACGRP.OTH.FIX.ACU,,,,,,,,,,,,,,,,,,,,,,,,,,G,,*,,O,,*,,FA     --        --,,,,,,,,,**,,**,,,X,ACOUSTIC
