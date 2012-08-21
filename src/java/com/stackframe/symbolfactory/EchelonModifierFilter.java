@@ -26,7 +26,7 @@ import org.w3c.dom.Element;
 public class EchelonModifierFilter implements ModifierFilter {
 
     private static double getSize(Element e, String name) {
-        String s = e.getAttributeNS(SVGUtils.namespace, name);
+        String s = e.getAttribute(name);
         if (s.endsWith("px")) {
             s = s.substring(0, s.indexOf("px"));
         }
@@ -40,10 +40,11 @@ public class EchelonModifierFilter implements ModifierFilter {
         }
 
         s = s.trim();
-        if (s.length() == 0) {
+        if (s.length() != 2) {
             return;
         }
 
+        s = "-" + s.substring(1);
         String modifierDescription = std.getWarfightingSymbolModiferCodes().get(s).getDescription();
         EchelonIndicator echelonIndicator = std.getEchelonIndicators().get(modifierDescription);
         if (echelonIndicator != null) {
@@ -53,10 +54,10 @@ public class EchelonModifierFilter implements ModifierFilter {
             int fontSize = 24;
             double newHeight = height + fontSize;
             Element newRoot = (Element) root.cloneNode(false);
-            newRoot.removeAttributeNS(SVGUtils.namespace, "id");
-            newRoot.setAttributeNS(SVGUtils.namespace, "svg:width", String.format("%fpx", width));
-            newRoot.setAttributeNS(SVGUtils.namespace, "svg:height", String.format("%fpx", newHeight));
-            newRoot.setAttributeNS(SVGUtils.namespace, "svg:viewBox", String.format("0 0 %fpx %fpx", width, newHeight));
+            newRoot.removeAttribute("id");
+            newRoot.setAttribute("width", String.format("%fpx", width));
+            newRoot.setAttribute("height", String.format("%fpx", newHeight));
+            newRoot.setAttribute("viewBox", String.format("0 0 %f %f", width, newHeight));
             document.removeChild(root);
             document.appendChild(newRoot);
             Element newGroup = document.createElement("g");

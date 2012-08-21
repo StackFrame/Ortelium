@@ -36,7 +36,6 @@ public class XMLUtils {
 
     public static void serialize(Document document, Writer writer) {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        transformerFactory.setAttribute("indent-number", new Integer(4));
         try {
             Transformer transformer = transformerFactory.newTransformer();
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
