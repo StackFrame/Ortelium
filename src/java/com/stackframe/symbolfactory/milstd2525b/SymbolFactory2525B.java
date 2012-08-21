@@ -15,6 +15,7 @@
  */
 package com.stackframe.symbolfactory.milstd2525b;
 
+import com.stackframe.symbolfactory.Affiliation;
 import com.stackframe.symbolfactory.CodingScheme;
 import com.stackframe.symbolfactory.EchelonModifierFilter;
 import com.stackframe.symbolfactory.QuantityModifierFilter;
@@ -22,7 +23,6 @@ import com.stackframe.symbolfactory.SIDCParser;
 import com.stackframe.symbolfactory.SymbolFactory;
 import com.stackframe.symbolfactory.SymbolRepository;
 import com.stackframe.symbolfactory.SymbologyStandard;
-import com.stackframe.symbolfactory.XMLUtils;
 import java.util.Map;
 import org.w3c.dom.Document;
 
@@ -36,7 +36,19 @@ public class SymbolFactory2525B implements SymbolFactory {
     private final SymbolRepository repo;
     private final SIDCParser parser;
 
-    public SymbolFactory2525B(SymbologyStandard std, SymbolRepository repo, SIDCParser parser) {
+    private static SymbolFactory instance;
+    
+    public static SymbolFactory getInstance() {
+        if(instance == null) {
+            SymbologyStandard standard = new Standard2525B();
+            SIDCParser parser = new SIDCParser(standard);
+            instance = new SymbolFactory2525B(standard, new SymbolRepository(parser), parser);
+        }
+        
+        return instance;
+    }
+    
+    private SymbolFactory2525B(SymbologyStandard std, SymbolRepository repo, SIDCParser parser) {
         this.std = std;
         this.repo = repo;
         this.parser = parser;
@@ -79,6 +91,14 @@ public class SymbolFactory2525B implements SymbolFactory {
 
         if (scheme.getCode() == 'S') {
             code = removeSymbolModifier(code);
+            if(SIDCParser.affiliationCode(code) == '*') {
+                code = setAffiliationUnknown(code);
+            }
+            
+            if(code.charAt(3) == '*') {
+                code = setStatusPresent(code);
+            }
+            
         }
 
         if (scheme.getCode() == 'G') {
@@ -99,5 +119,13 @@ public class SymbolFactory2525B implements SymbolFactory {
         }
 
         return document;
+    }
+
+    /**
+     * @param code
+     * @return
+     */
+    private String setAffiliationUnknown(String code) {
+        return code.substring(0,1) + "U" + code.substring(2,15);
     }
 }

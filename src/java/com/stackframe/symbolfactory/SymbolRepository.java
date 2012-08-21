@@ -18,10 +18,14 @@ package com.stackframe.symbolfactory;
 import com.google.common.base.Function;
 import com.google.common.collect.MapMaker;
 import com.google.common.io.ByteStreams;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.*;
 import java.util.logging.Level;
@@ -29,9 +33,6 @@ import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.EntityResolver;
@@ -78,10 +79,11 @@ public class SymbolRepository {
     }
 
     private void loadResources(URL root) {
-        assert root.getProtocol().equals("file");
-        File rootDirectory = new File(root.getPath());
-        assert rootDirectory.isDirectory();
+        //assert root.getProtocol().equals("file");
+        File rootDirectory;
+        rootDirectory = new File(root.getPath());
         loadDirectory(rootDirectory);
+        //assert rootDirectory.isDirectory();
     }
 
     private void loadDirectory(File directory) {
@@ -179,57 +181,6 @@ public class SymbolRepository {
         }
     }
      
-    /*
-     * This method shall return a JSONObject containing the children of a particular SIDC code.
-     * If recursive is true, every direct descendant will be found.
-     */   
-    protected JSONObject createJSONObject(String code, boolean recursive) throws JSONException
-    {   
-        JSONObject jObject = new JSONObject();
-        
-        if (code.equals(""))
-        {        
-            jObject.put("root", "all");
-            
-            if(recursive)
-            {
-               for(String root: roots)
-               {
-                   findDescendants(root, jObject, recursive);
-               }    
-            }
-            else
-            {
-                JSONArray jArray = new JSONArray(roots.toArray());
-                jObject.put("immediate_children", jArray);
-            }        
-            
-        }    
-        else 
-        {
-        
-            jObject.put("root", code);
-        
-            findDescendants(code, jObject, recursive);
-        }
-            
-        return jObject;
-    }       
-    
-    private void findDescendants (String code, JSONObject jObject, boolean recursive) throws JSONException
-    {
-        Collection<String> children = nodeToCode.get(code).getChildren();
-        JSONArray jArray = new JSONArray(children.toArray());
-        jObject.put(code, jArray);    
-        if(recursive && !children.isEmpty()) 
-        {
-            for(String child : children)
-            {
-                findDescendants(child, jObject, recursive);
-            }    
-        }    
-    }        
-    
     public Collection<String> getCodes() {
         return nodeToCode.keySet();
     }

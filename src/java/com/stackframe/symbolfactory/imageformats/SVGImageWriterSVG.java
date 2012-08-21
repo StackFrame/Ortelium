@@ -15,26 +15,29 @@
  */
 package com.stackframe.symbolfactory.imageformats;
 
-import com.stackframe.symbolfactory.SVGImageWriter;
-import com.stackframe.symbolfactory.XMLUtils;
+import java.io.IOException;
 import java.io.OutputStream;
+
+import org.restlet.data.MediaType;
 import org.w3c.dom.Document;
+
+import com.stackframe.symbolfactory.XMLUtils;
 
 /**
  *
  * @author mcculley
  */
-public class SVGImageWriterSVG implements SVGImageWriter {
+public class SVGImageWriterSVG extends AbstractSVGImageWriter {
 
-    public String getMimeType() {
-        return "image/svg+xml";
+    public SVGImageWriterSVG(Document document) {
+        super(MediaType.IMAGE_SVG, document);
     }
-
-    public String getName() {
-        return "SVG";
-    }
-
-    public void write(Document document, OutputStream out, Integer width, Integer height) throws Exception {
-        XMLUtils.serialize(document, out);
+    
+    /* (non-Javadoc)
+     * @see org.restlet.representation.Representation#write(java.io.OutputStream)
+     */
+    @Override
+    public void write(OutputStream out) throws IOException {
+       XMLUtils.serialize(getDocument(), out);
     }
 }

@@ -110,7 +110,7 @@ public class SymbolServlet extends HttpServlet {
         Integer height = parseInt(request, "height");
         response.setContentType(outputType);
         try {
-            writer.write(document, response.getOutputStream(), width, height);
+            //writer.write(document, response.getOutputStream(), width, height);
         } catch (Exception e) {
             throw new ServletException(e);
         }
