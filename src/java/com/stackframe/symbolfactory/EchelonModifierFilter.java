@@ -44,7 +44,10 @@ public class EchelonModifierFilter implements ModifierFilter {
             return;
         }
 
-        s = "-" + s.substring(1);
+        if(s.charAt(1) <= 'N') {
+            s = "-" + s.substring(1);    
+        }
+        
         String modifierDescription = std.getWarfightingSymbolModiferCodes().get(s).getDescription();
         EchelonIndicator echelonIndicator = std.getEchelonIndicators().get(modifierDescription);
         if (echelonIndicator != null) {
