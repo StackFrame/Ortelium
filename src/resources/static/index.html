@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Ortelium Symbol Factory</title>
+		<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+		<script type="text/javascript" src="js/OrteliumClient.js"></script>
+		<style type="text/css">
+			/*demo page css*/
+			body{ font: 62.5% "Trebuchet MS", sans-serif; margin: 50px;}
+			.demoHeaders { margin-top: 2em; }
+			.link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+			.link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+			ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+		</style>
+	</head>
+	<body>
+        <h1 id="title">Ortelium Symbol Factory</h1>
+        <p>Ortelium generates map symbols. It currently has prototype support for <a href="http://en.wikipedia.org/wiki/2525B">2525B</a>.</p>
+        <p>Ortelium is a product of <a href="http://www.stackframe.com/software/Ortelium">StackFrame, LLC</a>.</p>
+        
+        <div id="symbol"></div>
+        <div id="query"></div>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Symbol</a></li>
+				<li><a href="#tabs-2">Query</a></li>
+				<li><a href="#tabs-3">Examples</a></li>
+			</ul>
+			<div id="tabs-1">
+                <form style="margin-top: 1em;">
+			        <div id="radioset">
+				        <input type="radio" id="radio1" name="SVG" /><label for="radio1">SVG</label>
+                        <input type="radio" id="radio2" name="PNG" checked="checked" /><label for="radio2">PNG</label>
+                        <input type="radio" id="radio3" name="PDF" /><label for="radio3">PDF</label>
+                        <input type="radio" id="radio4" name="JPEG" /><label for="radio3">JPEG</label>
+                        <input type="radio" id="radio5" name="TIFF" /><label for="radio3">TIFF</label>
+                    </div>
+                    <input type="text" id="sidc_symbol" name="sidc_symbol"/><label for="sidc_symbol">SIDC</label>
+                    <input type="text" id="quantity" name="quantity"/><label for="quantity">Quantity</label>
+                </form>
+		        <p><a href="#" id="symbol_link" class="link ui-state-default ui-corner-all"><span class="ui-icon ui-icon-newwin"></span>Create Symbol</a></p>
+            </div>
+			<div id="tabs-2">
+                <form style="margin-top: 1em;">
+                    <input type="text" id="sidc_query" name="sidc_query"/><label for="sidc_query">SIDC</label>
+                </form>
+                <p><a href="#" id="query_link" class="link ui-state-default ui-corner-all"><span class="ui-icon ui-icon-newwin"></span>Query</a></p>
+            </div>
+			<div id="tabs-3">
+                <ul>
+                    <li>
+                        <input type="submit" class="itemSymbolQuery" name="SHGPUCAWS-*****">Hostile Armored Wheeled Air Assault (no echelon)</input>
+                    </li>
+                    <li>
+                        <input type="submit" class="itemSymbolQuery" name="symbol/2525B/SHGPUCAWS--D***">Hostile Armored Wheeled Air Assault (platoon)</input>
+                    </li>
+                    <li>
+                        <input type="submit" class="itemSymbolQuery" name="SFGPUCAWS-*****">Friendly Armored Wheeled Air Assault</input>
+                    </li>
+                    <li>
+                        <input type="submit" class="itemSymbolQuery" name="SFGPEWRH--MT***?C=200">Machine Gun with quantity 200</input>
+                    </li>
+                </ul>
+            </div>
+		</div>
+        <p>Trouble? Suggestions? Contact <a href="mailto:support@stackframe.com">support@stackframe.com</a>.</p>
+	</body>
+</html>
+
+
