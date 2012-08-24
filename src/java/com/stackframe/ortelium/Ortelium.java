@@ -13,7 +13,7 @@
  * You should have received a copy of version 2 of the GNU General Public
  * License along with this program; if not, contact info@stackframe.com.
  */
-package com.stackframe;
+package com.stackframe.ortelium;
 
 import org.restlet.Application;
 import org.restlet.Component;

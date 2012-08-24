@@ -7,7 +7,7 @@
  *   This work was generated under U.S. Government contract and the
  *   U.S. Government has unlimited data rights therein.
  */
-package com.stackframe;
+package com.stackframe.ortelium;
 
 import java.net.URISyntaxException;
 import java.util.logging.Level;

@@ -10,7 +10,7 @@
         <servlet-class>org.restlet.ext.servlet.ServerServlet</servlet-class>
         <init-param>
           <param-name>org.restlet.application</param-name>
-          <param-value>com.stackframe.OrteliumApplication</param-value>
+          <param-value>com.stackframe.ortelium.OrteliumApplication</param-value>
         </init-param>
         <init-param>
           <param-name>org.restlet.clients</param-name>

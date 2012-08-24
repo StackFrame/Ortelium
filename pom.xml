@@ -105,7 +105,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              <mainClass>com.stackframe.Ortelium</mainClass>
+              <mainClass>com.stackframe.ortelium.Ortelium</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
