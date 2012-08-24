@@ -38,7 +38,9 @@ public class Ortelium {
         SymbolQueryServer.getInstance(); //make sure the server is initialized
         SymbolFactory2525B.getInstance();
         component = new Component();
-        component.getServers().add(Protocol.HTTP, 8182);  
+        
+        int port = Integer.getInteger("port", 8182);
+        component.getServers().add(Protocol.HTTP, port);  
         component.getClients().add(Protocol.FILE); 
         component.getClients().add(Protocol.JAR);
 
