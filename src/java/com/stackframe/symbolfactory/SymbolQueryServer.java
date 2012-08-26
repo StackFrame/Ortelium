@@ -39,16 +39,13 @@ import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.graphdb.index.Index;
 import org.neo4j.graphdb.index.IndexHits;
 import org.neo4j.graphdb.index.IndexManager;
-import org.neo4j.kernel.EmbeddedGraphDatabase;
 import org.neo4j.kernel.impl.util.FileUtils;
 import org.restlet.resource.Get;
-import org.restlet.resource.ServerResource;
+
+import scala.actors.threadpool.Arrays;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
-
-import scala.actors.threadpool.Arrays;
 
 /**
  * This is the "Create Symbols from Code" Servlet
@@ -208,8 +205,9 @@ public class SymbolQueryServer {
                 String sidc = codeScheme + standardIdentity
                         + battleDimension + status + functionId + sizeMobility
                         + countryCode + orderOfBattle;
-                current.setProperty("sidc",sidc);
-                sidcIndex.add(current,"sidc", sidc);
+                current.setProperty("sidc", sidc);
+                current.setProperty("id",sidc);
+                sidcIndex.add(current,"id", sidc);
                 if(parent != null) {
                     current.createRelationshipTo(parent, RelTypes.COMMANDED_BY);
                 }
@@ -272,11 +270,11 @@ public class SymbolQueryServer {
             System.out.println("Retrieving: " + sidc);
             String genericSIDC = sidc.charAt(0) + "*" + sidc.charAt(2) + "*" + sidc.substring(4, 10) + "*****";
             
-            IndexHits<Node> hits = sidcIndex.get( "sidc", genericSIDC);
+            IndexHits<Node> hits = sidcIndex.get( "id", genericSIDC);
             symbolNode = hits.getSingle(); 
         } else {
             symbolNode = root;
-            sidc = (String) symbolNode.getProperty("sidc");
+            sidc = (String) symbolNode.getProperty("id");
         }
          
         if(symbolNode == null) {
@@ -287,8 +285,8 @@ public class SymbolQueryServer {
         JsonObject symbol = new JsonObject();
         for(String key : symbolNode.getPropertyKeys()) {
             Object val = symbolNode.getProperty(key);
-            if("sidc".equals(key)) {
-                symbol.addProperty("sidc", sidc);
+            if("id".equals(key)) {
+                symbol.addProperty("id", sidc);
             } else if(val instanceof String) {
                 symbol.addProperty(key, (String) val);
             }
@@ -300,7 +298,7 @@ public class SymbolQueryServer {
         if(commandedByIter.hasNext()) {
             Node commandedBy = commandedByIter.next();
             JsonObject parent = new JsonObject();
-            String parentSIDC = (String) commandedBy.getProperty("sidc");
+            String parentSIDC = (String) commandedBy.getProperty("id");
             parentSIDC = parameterizeSIDC(parentSIDC, sidc);
             parent.addProperty("$ref", parentSIDC);
             symbol.add("parent", parent);
@@ -309,7 +307,7 @@ public class SymbolQueryServer {
         JsonArray children = new JsonArray();
         
         for(Node n : t) {
-            Object o = n.getProperty("sidc");
+            Object o = n.getProperty("id");
             if(o instanceof String) {
                 String childSIDC = (String) o;
                 childSIDC = parameterizeSIDC(childSIDC, sidc); 
