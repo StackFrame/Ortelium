@@ -53,6 +53,16 @@ import com.google.gson.JsonObject;
  */
 public class SymbolQueryServer {
 
+    /**
+     * 
+     */
+    private static final String ID = "id";
+
+    /**
+     * 
+     */
+    private static final String HIERARCHY = "hierarchy";
+
     private static SymbolQueryServer instance;
     
     public static SymbolQueryServer getInstance() {
@@ -76,6 +86,7 @@ public class SymbolQueryServer {
     private Node root;
 
     private Index<Node> sidcIndex;
+    private Index<Node> hierarchyIndex;
     
     private static void regiserShutdownHook(final GraphDatabaseService db) {
         Runtime.getRuntime().addShutdownHook(new Thread() {
@@ -150,6 +161,7 @@ public class SymbolQueryServer {
         
         IndexManager index = graphDb.index();
         sidcIndex = index.forNodes("sidc");
+        hierarchyIndex = index.forNodes(HIERARCHY);
         
         if(loadData) {
             System.out.println("Loading data...");
@@ -191,7 +203,7 @@ public class SymbolQueryServer {
                 // on the reference node, otherwise a new node needs to
                 // be created;
                 current = parent == null ? graphDb.getReferenceNode() : graphDb.createNode();
-                current.setProperty("hierarchy", hierarchy);
+                current.setProperty(HIERARCHY, hierarchy);
                 current.setProperty("codeScheme", codeScheme);
                 current.setProperty("standardIdentity", standardIdentity);
                 current.setProperty("battleDimension",battleDimension);
@@ -206,8 +218,9 @@ public class SymbolQueryServer {
                         + battleDimension + status + functionId + sizeMobility
                         + countryCode + orderOfBattle;
                 current.setProperty("sidc", sidc);
-                current.setProperty("id",sidc);
-                sidcIndex.add(current,"id", sidc);
+                current.setProperty(ID,sidc);
+                sidcIndex.add(current,ID, sidc);
+                hierarchyIndex.add(current, HIERARCHY, hierarchy);
                 if(parent != null) {
                     current.createRelationshipTo(parent, RelTypes.COMMANDED_BY);
                 }
@@ -262,31 +275,36 @@ public class SymbolQueryServer {
                 Direction.OUTGOING);
     }
     
-    @Get("json")
-    public String getSymbol(String sidc) {
+    public String getSymbolByID(String sidc) {
         Node symbolNode = null;
         
         if(sidc != null) {
             System.out.println("Retrieving: " + sidc);
             String genericSIDC = sidc.charAt(0) + "*" + sidc.charAt(2) + "*" + sidc.substring(4, 10) + "*****";
             
-            IndexHits<Node> hits = sidcIndex.get( "id", genericSIDC);
+            IndexHits<Node> hits = sidcIndex.get( ID, genericSIDC);
             symbolNode = hits.getSingle(); 
         } else {
             symbolNode = root;
-            sidc = (String) symbolNode.getProperty("id");
         }
          
         if(symbolNode == null) {
             symbolNode = root;
         }
         
+        return getSymbol(symbolNode);
+    }
+    
+    private String getSymbol(Node symbolNode) {
+        String sidc = (String) symbolNode.getProperty(ID);
         Traverser t = getCommanded(symbolNode);
         JsonObject symbol = new JsonObject();
         for(String key : symbolNode.getPropertyKeys()) {
             Object val = symbolNode.getProperty(key);
-            if("id".equals(key)) {
-                symbol.addProperty("id", sidc);
+            if(ID.equals(key)) {
+                symbol.addProperty(ID, sidc);
+            } else if ("sidc".equals(key)) {
+                symbol.addProperty("sidc",sidc);
             } else if(val instanceof String) {
                 symbol.addProperty(key, (String) val);
             }
@@ -297,26 +315,31 @@ public class SymbolQueryServer {
         
         if(commandedByIter.hasNext()) {
             Node commandedBy = commandedByIter.next();
-            JsonObject parent = new JsonObject();
-            String parentSIDC = (String) commandedBy.getProperty("id");
+            String parentSIDC = (String) commandedBy.getProperty(ID);
             parentSIDC = parameterizeSIDC(parentSIDC, sidc);
-            parent.addProperty("$ref", parentSIDC);
-            symbol.add("parent", parent);
+            symbol.addProperty("parent", parentSIDC);
         }
         
         JsonArray children = new JsonArray();
         
         for(Node n : t) {
-            Object o = n.getProperty("id");
+            Object o = n.getProperty(ID);
             if(o instanceof String) {
                 String childSIDC = (String) o;
                 childSIDC = parameterizeSIDC(childSIDC, sidc); 
                 JsonObject child = new JsonObject();
-                child.addProperty("$ref", childSIDC);
+                child.addProperty(ID, childSIDC);
+                
+                Object desc = n.getProperty("description");
+                if(desc instanceof String) {
+                    child.addProperty("description", (String) desc);
+                }
                 children.add(child);
             }
         }
-        symbol.add("children", children);
+        if(children.size() > 0) {
+            symbol.add("children", children);
+        }
         return symbol.toString();
     }
 
@@ -335,5 +358,27 @@ public class SymbolQueryServer {
                 + paramSIDC.substring(4, 10) + size + countryCode
                 + orderOfBattle;
         return paramSIDC;
+    }
+
+    /**
+     * @param hierarchy
+     * @return
+     */
+    public String getSymbolByHierarchy(String hierarchy) {
+        Node symbolNode = null;
+        
+        if(hierarchy != null) {
+            System.out.println("Retrieving: " + hierarchy);
+            
+            IndexHits<Node> hits = hierarchyIndex.get(HIERARCHY, hierarchy);
+            symbolNode = hits.getSingle(); 
+        } else {
+            symbolNode = root;
+        }
+         
+        if(symbolNode == null) {
+            symbolNode = root;
+        }
+        return getSymbol(symbolNode);
     }
 }

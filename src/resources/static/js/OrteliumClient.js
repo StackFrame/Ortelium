@@ -80,13 +80,9 @@ $(function(){
                             }
                         });
                     } else {
-                        if(key === 'parent') {
-                            val = val['$ref'];
-                        }
-
                         htmlRes += "<tr><td>" + key + "</td><td>" + val + "</td>";
                         
-                        if(key === "sidc" || key === 'parent') {
+                        if(key === "id" || key === 'parent') {
                            var itemClass = key === 'parent' ? 'itemSymbolQuery' : 'itemSymbol';
                            htmlRes += "<td><input type='submit' class='" + itemClass + "' name='" + val + "'</input></td></tr>"; 
                         } else {
