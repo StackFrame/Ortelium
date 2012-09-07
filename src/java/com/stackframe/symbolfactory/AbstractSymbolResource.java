@@ -17,6 +17,7 @@ import org.restlet.data.Parameter;
 import org.restlet.representation.OutputRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.Get;
+import org.restlet.resource.Options;
 import org.restlet.resource.ServerResource;
 import org.w3c.dom.Document;
 
@@ -34,6 +35,20 @@ public abstract class AbstractSymbolResource extends ServerResource {
     public AbstractSymbolResource() {
     }
 
+    @Options
+    public void doOptions(Representation entity) {
+        Form responseHeaders = (Form) getResponse().getAttributes().get("org.restlet.http.headers");
+        if (responseHeaders == null) {
+            responseHeaders = new Form();
+            getResponse().getAttributes().put("org.restlet.http.headers", responseHeaders);
+        }
+        responseHeaders.add("Access-Control-Allow-Origin", "*");
+        responseHeaders.add("Access-Control-Allow-Methods", "GET,OPTIONS");
+        responseHeaders.add("Access-Control-Allow-Headers", "Content-Type,Content-Range,X-Requested-With,origin");
+        responseHeaders.add("Access-Control-Allow-Credentials", "false");
+        responseHeaders.add("Access-Control-Max-Age", "60");
+    }
+    
     @Get
     public Representation getSymbol() {
         Form responseHeaders = (Form) getResponse().getAttributes().get("org.restlet.http.headers");
@@ -42,6 +57,9 @@ public abstract class AbstractSymbolResource extends ServerResource {
             getResponse().getAttributes().put("org.restlet.http.headers", responseHeaders);
         }
         responseHeaders.add("Access-Control-Allow-Origin", "*");
+        responseHeaders.add("Access-Control-Allow-Headers", "Content-Type,Content-Range,X-Requested-With,origin");
+        responseHeaders.add("Content-Range", "items 1-1/1");
+        responseHeaders.add("Access-Control-Expose-Headers","Content-Range");
         
         String sidc = parseSIDC();
         Map<String,String> modifiers = parseQueryString();

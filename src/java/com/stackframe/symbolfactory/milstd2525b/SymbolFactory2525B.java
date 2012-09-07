@@ -32,6 +32,7 @@ import org.w3c.dom.Document;
  */
 public class SymbolFactory2525B implements SymbolFactory {
 
+    private static final String UNKNOWN_GROUND = "SUGP------*****";
     private final SymbologyStandard std;
     private final SymbolRepository repo;
     private final SIDCParser parser;
@@ -107,9 +108,18 @@ public class SymbolFactory2525B implements SymbolFactory {
         
         if (document == null) {
             document = repo.get(code);
-
         }
 
+        if(document == null) {
+            code = setAffiliationUnknown(code);
+            document = repo.get(code);
+        }
+        
+        // Currently returning the root unknown node in this case
+        // rather than walking the hierarchy looking for a valid code
+        if(document == null) {
+            document = repo.get(UNKNOWN_GROUND);
+        }
         if (document != null) {
             new QuantityModifierFilter().filter(std, document, code, modifiers);
             if (!symbolModifier.equals("**")) {
