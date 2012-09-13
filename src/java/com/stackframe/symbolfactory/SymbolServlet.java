@@ -16,78 +16,91 @@
 package com.stackframe.symbolfactory;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
+import org.restlet.data.Form;
+import org.restlet.representation.Representation;
+import org.restlet.resource.Get;
+import org.restlet.resource.Options;
 import org.w3c.dom.Document;
+
+import com.stackframe.ortelium.AbstractSymbolResource;
+import com.stackframe.symbolfactory.milstd2525b.SymbolFactory2525B;
 
 /**
  *
  * @author mcculley
  */
-public class SymbolServlet extends HttpServlet {
+public class SymbolServlet extends AbstractSymbolResource {
 
-    private static Map<String, String> getModifiers(HttpServletRequest request) {
-        Map<String, String> map = new HashMap<String, String>();
-        Map<String, String[]> parameterMap = request.getParameterMap();
-        for (Map.Entry<String, String[]> entry : parameterMap.entrySet()) {
-            String key = entry.getKey();
-            if (key.equals("SIDC")) {
-                continue;
-            }
+//    private static Map<String, String> getModifiers(HttpServletRequest request) {
+//        Map<String, String> map = new HashMap<String, String>();
+//        Map<String, String[]> parameterMap = request.getParameterMap();
+//        for (Map.Entry<String, String[]> entry : parameterMap.entrySet()) {
+//            String key = entry.getKey();
+//            if (key.equals("SIDC")) {
+//                continue;
+//            }
+//
+//            if (!key.equals(key.toUpperCase())) {
+//                continue;
+//            }
+//
+//            map.put(key, entry.getValue()[0]);
+//        }
+//
+//        return map;
+//    }
 
-            if (!key.equals(key.toUpperCase())) {
-                continue;
-            }
-
-            map.put(key, entry.getValue()[0]);
+    @Options
+    public void doOptions(Representation entity) {
+        Form responseHeaders = (Form) getResponse().getAttributes().get("org.restlet.http.headers");
+        if (responseHeaders == null) {
+            responseHeaders = new Form();
+            getResponse().getAttributes().put("org.restlet.http.headers", responseHeaders);
         }
-
-        return map;
+        responseHeaders.add("Access-Control-Allow-Origin", "*");
+        responseHeaders.add("Access-Control-Allow-Methods", "GET,OPTIONS");
+        responseHeaders.add("Access-Control-Allow-Headers", "Content-Type,Content-Range,X-Requested-With,origin");
+        responseHeaders.add("Access-Control-Allow-Credentials", "false");
+        responseHeaders.add("Access-Control-Max-Age", "60");
     }
-
+    
     /** 
      * Handles the HTTP <code>GET</code> method.
      * @param request servlet request
      * @param response servlet response
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
-     */
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String spec = request.getParameter("spec");
+     */ 
+    @Get
+    public Representation doGet() throws IOException {
+        Map<String,String> params = parseQueryString();
+        String spec = params.get("spec");
         if (spec == null) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected a specification");
-            return;
+            return generateErrorRepresentation("expected a specification",500);
         }
-
-        Map<String, SymbolFactory> specifications = (Map<String, SymbolFactory>) getServletContext().getAttribute("specifications");
-        SymbolFactory symbolFactory = specifications.get(spec);
+        
+        SymbolFactory symbolFactory = "2525B".equals(spec) ? SymbolFactory2525B.getInstance() : null;
         if (symbolFactory == null) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, String.format("'%s' is not a known symbol specification", spec));
-            return;
+            return generateErrorRepresentation(String.format(
+                    "'%s' is not a known symbol specification", spec),500);
         }
 
-        String code = request.getParameter("SIDC");
+        String code = params.get("SIDC");
         if (code == null) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected an SIDC code");
-            return;
+            return generateErrorRepresentation("expected an SIDC code",500);
         }
 
         code = code.trim();
         if (code.length() != 15) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "expected an SIDC code of 15 characters");
-            return;
+            return generateErrorRepresentation(
+                    "expected an SIDC code of 15 characters",500);
         }
 
-        Map<String, String> modifiers = getModifiers(request);
-        Document document = symbolFactory.create(code, modifiers);
+        Document document = symbolFactory.create(code, params);
         if (document == null) {
-            response.sendError(HttpServletResponse.SC_NOT_FOUND);
-            return;
+            return generateErrorRepresentation("Symbol not found",404);
         }
 
         /*
@@ -98,44 +111,27 @@ public class SymbolServlet extends HttpServlet {
         }
          */
 
-        String outputType = request.getParameter("outputType");
-        Map<String, SVGImageWriter> outputTypes = (Map<String, SVGImageWriter>) getServletContext().getAttribute("outputTypes");
-        SVGImageWriter writer = outputTypes.get(outputType);
+        String outputType = params.get("outputType");
+        Representation writer = getOutputRepresentation(document, params.get("outputType"));
         if (writer == null) {
-            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "unexpected output type " + outputType);
-            return;
+            return generateErrorRepresentation("unexpected output type "
+                    + outputType, 500);
         }
 
-        Integer width = parseInt(request, "width");
-        Integer height = parseInt(request, "height");
-        response.setContentType(outputType);
-        try {
-            //writer.write(document, response.getOutputStream(), width, height);
-        } catch (Exception e) {
-            throw new ServletException(e);
-        }
+        return writer;
     }
 
-    private static Integer parseInt(HttpServletRequest request, String name) {
-        String s = request.getParameter(name);
-        if (s == null) {
-            return null;
-        }
-
-        s = s.trim();
-        if (s.length() == 0) {
-            return null;
-        }
-
-        return Integer.parseInt(s);
-    }
-
-    /** 
-     * Returns a short description of the servlet.
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "generates a map symbol";
-    }
+//    private static Integer parseInt(HttpServletRequest request, String name) {
+//        String s = request.getParameter(name);
+//        if (s == null) {
+//            return null;
+//        }
+//
+//        s = s.trim();
+//        if (s.length() == 0) {
+//            return null;
+//        }
+//
+//        return Integer.parseInt(s);
+//    }
 }

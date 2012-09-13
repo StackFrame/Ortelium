@@ -6,6 +6,8 @@ $(function(){
     // Dialog
     $('#symbol').dialog({
         autoOpen: false,
+        position: "left",
+        dialogClass: "absoluteDialog",
         width: 600,
         title: "Symbol",
         buttons: {
@@ -22,6 +24,8 @@ $(function(){
 
     $('#query').dialog({
         autoOpen: false,
+        position: "right",
+        dialogClass: "absoluteDialog",
         width: 600,
         title: "Query",
         buttons: {
@@ -41,10 +45,10 @@ $(function(){
         var sidc = $('#sidc_symbol')[0].value;
         var type = $('#radioset input[type=radio]:checked')[0].name;
         var quantityVal = $('#quantity')[0].value;
-        var url = "/symbol/2525B/" + type + "/" + sidc;
+        var url = "/symbol/2525B/" + sidc + "?outputType=" + type;
         if(quantityVal) {
             var quantity = parseInt(quantityVal,10);
-            url += "?C="+quantity;
+            url += "&C="+quantity;
         }
         
         var img = $("<img />").attr('src', url).load(function() {
@@ -66,7 +70,7 @@ $(function(){
     $('#query_link').click(function(){
         var sidc = $('#sidc_query')[0].value;
         $.ajax({
-            url: "/query/" + sidc,
+            url: "/query/2525B/" + sidc,
             success: function(result) {
                 var htmlRes = "<table>";
                 for(key in result) {
@@ -74,8 +78,8 @@ $(function(){
                     if($.isArray(val)) {
                         htmlRes += "<tr><td colspan='3'>" + key + "</td></tr>";
                         val.forEach(function(item) {
-                            for(itemKey in item) {
-                                var itemVal = item[itemKey];
+                            if('id' in item) {
+                                var itemVal = item.id;
                                 htmlRes += "<tr><td>" + itemVal + "</td><td><input class='itemQuery' type='submit' name='" + itemVal + "'></input></td><td> <input class='itemSymbol' name='" + itemVal + "'</input></td></tr>";
                             }
                         });
@@ -111,9 +115,11 @@ $(function(){
                         var name = input[0];
                         if(input.length > 1) {
                             var quantityArr = input[1].split('=');
-                            if(quantityArr.length > 1) {
+                            if(quantityArr.length === 4) {
                                 var quantity = parseInt(quantityArr[1],10);
-                                $('#quantity')[0].value = quantity;
+                                $('#quantity')[3].value = quantity;
+                            } else {
+                                $('#quantity')[0].value = null;
                             }
                         } else {
                             $('#quantity')[0].value = null;

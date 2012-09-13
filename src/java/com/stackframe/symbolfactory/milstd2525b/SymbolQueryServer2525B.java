@@ -13,7 +13,7 @@
  * You should have received a copy of version 2 of the GNU General Public
  * License along with this program; if not, contact info@stackframe.com.
  */
-package com.stackframe.symbolfactory;
+package com.stackframe.symbolfactory.milstd2525b;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -51,7 +51,7 @@ import com.google.gson.JsonObject;
  * This is the "Create Symbols from Code" Servlet
  * @author ereeber
  */
-public class SymbolQueryServer {
+public class SymbolQueryServer2525B {
 
     /**
      * 
@@ -63,11 +63,11 @@ public class SymbolQueryServer {
      */
     private static final String HIERARCHY = "hierarchy";
 
-    private static SymbolQueryServer instance;
+    private static SymbolQueryServer2525B instance;
     
-    public static SymbolQueryServer getInstance() {
+    public static SymbolQueryServer2525B getInstance() {
         if(instance == null) {
-            instance = new SymbolQueryServer();
+            instance = new SymbolQueryServer2525B();
         }
         
         return instance;
@@ -253,7 +253,7 @@ public class SymbolQueryServer {
     /**
      * 
      */
-    private SymbolQueryServer() {
+    private SymbolQueryServer2525B() {
         super();
         try {
             readSymbolTable();

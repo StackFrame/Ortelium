@@ -19,8 +19,8 @@ import org.restlet.Application;
 import org.restlet.Component;
 import org.restlet.data.Protocol;
 
-import com.stackframe.symbolfactory.SymbolQueryServer;
 import com.stackframe.symbolfactory.milstd2525b.SymbolFactory2525B;
+import com.stackframe.symbolfactory.milstd2525b.SymbolQueryServer2525B;
 
 /**
  * @author brent
@@ -35,7 +35,7 @@ public class Ortelium {
      * 
      */
     public Ortelium() throws Exception {
-        SymbolQueryServer.getInstance(); //make sure the server is initialized
+        SymbolQueryServer2525B.getInstance(); //make sure the server is initialized
         SymbolFactory2525B.getInstance();
         component = new Component();
         

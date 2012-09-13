@@ -7,33 +7,26 @@
  *   This work was generated under U.S. Government contract and the
  *   U.S. Government has unlimited data rights therein.
  */
-package com.stackframe.symbolfactory;
+package com.stackframe.symbolfactory.milstd2525b;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.restlet.data.Form;
 import org.restlet.data.Parameter;
-import org.restlet.representation.OutputRepresentation;
+import org.restlet.ext.json.JsonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.Get;
 import org.restlet.resource.Options;
-import org.restlet.resource.ServerResource;
-import org.w3c.dom.Document;
 
-import com.stackframe.symbolfactory.milstd2525b.SymbolFactory2525B;
+import com.stackframe.ortelium.AbstractServerResource;
+
 
 /**
  * @author brent
  *
  */
-public abstract class AbstractSymbolResource extends ServerResource {
-   
-    /**
-     * 
-     */
-    public AbstractSymbolResource() {
-    }
+public class SymbolQueryResource2525B extends AbstractServerResource {
 
     @Options
     public void doOptions(Representation entity) {
@@ -60,29 +53,33 @@ public abstract class AbstractSymbolResource extends ServerResource {
         responseHeaders.add("Access-Control-Allow-Headers", "Content-Type,Content-Range,X-Requested-With,origin");
         responseHeaders.add("Content-Range", "items 1-1/1");
         responseHeaders.add("Access-Control-Expose-Headers","Content-Range");
+        String sidc = null;
+        String hierarchy = null;
         
-        String sidc = parseSIDC();
-        Map<String,String> modifiers = parseQueryString();
-        Document document = SymbolFactory2525B.getInstance().create(sidc, modifiers);
-        
-        OutputRepresentation writer = getOutputRepresentation(document);
-        return writer;
-    }
-    
-    protected String parseSIDC() {
-        return (String) getRequest().getAttributes().get("id");
-    }
-    
-    protected Map<String,String> parseQueryString() {
-        Form query = getRequest().getResourceRef().getQueryAsForm();
-        Map<String, String> modifiers = new HashMap<String, String>();
-        for(Parameter param : query) {
-            modifiers.put(param.getFirst(), param.getSecond());
+        sidc = (String) getRequest().getAttributes().get("id");
+        // If the sidc was not passed as part of the url, get it
+        // from the query parameter
+        if(sidc == null) {
+            Map<String,String> params = parseQueryString();
+            sidc = params.get("id");
+            
+            if(sidc == null) {
+                hierarchy = params.get("hierarchy");
+            }
         }
         
-        return modifiers;
+        String json = null;
+        
+        if(sidc != null) {
+            json = SymbolQueryServer2525B.getInstance().getSymbolByID(sidc);
+        } else if(hierarchy != null) {
+            json = SymbolQueryServer2525B.getInstance().getSymbolByHierarchy(hierarchy);
+        }
+        
+        JsonRepresentation rep = null;
+        if(json != null) {
+            rep = new JsonRepresentation(json);
+        }
+        return rep;
     }
-    
-    protected abstract OutputRepresentation getOutputRepresentation(
-            Document document);
 }

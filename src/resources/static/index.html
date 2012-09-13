@@ -16,6 +16,7 @@
 			ul#icons {margin: 0; padding: 0;}
 			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
 			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+            .absoluteDialog {position: absolute;}
 		</style>
 	</head>
 	<body>
@@ -34,11 +35,11 @@
 			<div id="tabs-1">
                 <form style="margin-top: 1em;">
 			        <div id="radioset">
-				        <input type="radio" id="radio1" name="SVG" /><label for="radio1">SVG</label>
-                        <input type="radio" id="radio2" name="PNG" checked="checked" /><label for="radio2">PNG</label>
-                        <input type="radio" id="radio3" name="PDF" /><label for="radio3">PDF</label>
-                        <input type="radio" id="radio4" name="JPEG" /><label for="radio3">JPEG</label>
-                        <input type="radio" id="radio5" name="TIFF" /><label for="radio3">TIFF</label>
+				        <input type="radio" id="radio1" name="image/svg+xml" /><label for="radio1">SVG</label>
+                        <input type="radio" id="radio2" name="image/png" checked="checked" /><label for="radio2">PNG</label>
+                        <input type="radio" id="radio3" name="application/pdf" /><label for="radio3">PDF</label>
+                        <input type="radio" id="radio4" name="image/jpeg" /><label for="radio3">JPEG</label>
+                        <input type="radio" id="radio5" name="image/tiff" /><label for="radio3">TIFF</label>
                     </div>
                     <input type="text" id="sidc_symbol" name="sidc_symbol"/><label for="sidc_symbol">SIDC</label>
                     <input type="text" id="quantity" name="quantity"/><label for="quantity">Quantity</label>

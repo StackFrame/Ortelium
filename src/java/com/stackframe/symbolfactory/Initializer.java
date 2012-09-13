@@ -19,6 +19,7 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
 import com.stackframe.symbolfactory.milstd2525b.SymbolFactory2525B;
+import com.stackframe.symbolfactory.milstd2525b.SymbolQueryServer2525B;
 
 /*
  * Copyright 2011 StackFrame, LLC
@@ -31,7 +32,7 @@ import com.stackframe.symbolfactory.milstd2525b.SymbolFactory2525B;
 public class Initializer implements ServletContextListener {
 
     public void contextInitialized(ServletContextEvent sce) {
-        SymbolQueryServer.getInstance(); //make sure the server is initialized
+        SymbolQueryServer2525B.getInstance(); //make sure the server is initialized
         SymbolFactory2525B.getInstance();
     }
 

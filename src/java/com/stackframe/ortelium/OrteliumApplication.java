@@ -18,12 +18,9 @@ import org.restlet.data.Reference;
 import org.restlet.resource.Directory;
 import org.restlet.routing.Router;
 
-import com.stackframe.symbolfactory.SymbolQueryResource;
-import com.stackframe.symbolfactory.SymbolResource2525BJPEG;
-import com.stackframe.symbolfactory.SymbolResource2525BPDF;
-import com.stackframe.symbolfactory.SymbolResource2525BPNG;
-import com.stackframe.symbolfactory.SymbolResource2525BSVG;
-import com.stackframe.symbolfactory.SymbolResource2525BTIFF;
+import com.stackframe.symbolfactory.SymbolServlet;
+import com.stackframe.symbolfactory.milstd2525b.SymbolQueryResource2525B;
+import com.stackframe.symbolfactory.milstd2525b.SymbolResource2525B;
 
 /**
  * @author brent
@@ -43,16 +40,12 @@ public class OrteliumApplication extends Application {
         Router router = new Router(getContext());
         router.setDefaultMatchingQuery(false);
 
-        router.attach("/symbol/2525B/{id}", SymbolResource2525BSVG.class);
-        router.attach("/symbol/2525B/JPEG/{id}", SymbolResource2525BJPEG.class);
-        router.attach("/symbol/2525B/PDF/{id}", SymbolResource2525BPDF.class);
-        router.attach("/symbol/2525B/PNG/{id}", SymbolResource2525BPNG.class);
-        router.attach("/symbol/2525B/SVG/{id}", SymbolResource2525BSVG.class);
-        router.attach("/symbol/2525B/TIFF/{id}", SymbolResource2525BTIFF.class);
-
-        router.attach("/query/{id}", SymbolQueryResource.class);
-        router.attach("/query/", SymbolQueryResource.class);
-        router.attach("/query", SymbolQueryResource.class);
+        router.attach("/symbol/2525B/{id}", SymbolResource2525B.class);
+        router.attach("/symbol",SymbolServlet.class);
+        
+        router.attach("/query/2525B/{id}", SymbolQueryResource2525B.class);
+        router.attach("/query/2525B/", SymbolQueryResource2525B.class);
+        router.attach("/query/2525B", SymbolQueryResource2525B.class);
         try {
             Directory dir = new Directory(getContext(), new Reference(this
                     .getClass().getResource("/static").toURI()));

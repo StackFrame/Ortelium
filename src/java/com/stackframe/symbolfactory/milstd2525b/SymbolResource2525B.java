@@ -7,24 +7,29 @@
  *   This work was generated under U.S. Government contract and the
  *   U.S. Government has unlimited data rights therein.
  */
-package com.stackframe.symbolfactory;
+package com.stackframe.symbolfactory.milstd2525b;
 
-import java.util.HashMap;
 import java.util.Map;
 
 import org.restlet.data.Form;
-import org.restlet.data.Parameter;
-import org.restlet.ext.json.JsonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.Get;
 import org.restlet.resource.Options;
-import org.restlet.resource.ServerResource;
+import org.w3c.dom.Document;
+
+import com.stackframe.ortelium.AbstractSymbolResource;
 
 /**
  * @author brent
  *
  */
-public class SymbolQueryResource extends ServerResource {
+public class SymbolResource2525B extends AbstractSymbolResource {
+   
+    /**
+     * 
+     */
+    public SymbolResource2525B() {
+    }
 
     @Options
     public void doOptions(Representation entity) {
@@ -51,43 +56,16 @@ public class SymbolQueryResource extends ServerResource {
         responseHeaders.add("Access-Control-Allow-Headers", "Content-Type,Content-Range,X-Requested-With,origin");
         responseHeaders.add("Content-Range", "items 1-1/1");
         responseHeaders.add("Access-Control-Expose-Headers","Content-Range");
-        String sidc = null;
-        String hierarchy = null;
         
-        sidc = (String) getRequest().getAttributes().get("id");
-        // If the sidc was not passed as part of the url, get it
-        // from the query parameter
-        if(sidc == null) {
-            Map<String,String> params = parseQueryString();
-            sidc = params.get("id");
-            
-            if(sidc == null) {
-                hierarchy = params.get("hierarchy");
-            }
-        }
+        String sidc = parseSIDC();
+        Map<String,String> params = parseQueryString();
+        Document document = SymbolFactory2525B.getInstance().create(sidc, params);
         
-        String json = null;
-        
-        if(sidc != null) {
-            json = SymbolQueryServer.getInstance().getSymbolByID(sidc);
-        } else if(hierarchy != null) {
-            json = SymbolQueryServer.getInstance().getSymbolByHierarchy(hierarchy);
-        }
-        
-        JsonRepresentation rep = null;
-        if(json != null) {
-            rep = new JsonRepresentation(json);
-        }
-        return rep;
+        Representation writer = getOutputRepresentation(document, params.get("outputType"));
+        return writer;
     }
     
-    protected Map<String,String> parseQueryString() {
-        Form query = getRequest().getResourceRef().getQueryAsForm();
-        Map<String, String> modifiers = new HashMap<String, String>();
-        for(Parameter param : query) {
-            modifiers.put(param.getFirst(), param.getSecond());
-        }
-        
-        return modifiers;
+    protected String parseSIDC() {
+        return (String) getRequest().getAttributes().get("id");
     }
 }
