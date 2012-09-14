@@ -35,6 +35,9 @@ public class Ortelium {
      * 
      */
     public Ortelium() throws Exception {
+        System.setProperty("org.restlet.engine.loggerFacadeClass",
+                "org.restlet.ext.slf4j.Slf4jLoggerFacade");
+        
         SymbolQueryServer2525B.getInstance(); //make sure the server is initialized
         SymbolFactory2525B.getInstance();
         component = new Component();

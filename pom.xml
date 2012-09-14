@@ -68,6 +68,11 @@
       <version>2.0.14</version>
     </dependency>
     <dependency>
+      <groupId>org.restlet.jse</groupId>
+      <artifactId>org.restlet.ext.slf4j</artifactId>
+      <version>2.0.14</version>
+    </dependency>
+    <dependency>
       <groupId>org.restlet.jee</groupId>
       <artifactId>org.restlet.ext.servlet</artifactId>
       <version>2.0.14</version>
@@ -82,6 +87,11 @@
       <artifactId>gson</artifactId>
       <version>2.2.2</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>0.9.18</version>
     </dependency>
   </dependencies>
   <build>
