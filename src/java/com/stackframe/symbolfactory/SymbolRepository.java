@@ -18,18 +18,18 @@ package com.stackframe.symbolfactory;
 import com.google.common.base.Function;
 import com.google.common.collect.MapMaker;
 import com.google.common.io.ByteStreams;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.logging.Logger;
+import java.util.*;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -46,7 +46,8 @@ import org.xml.sax.SAXException;
 public class SymbolRepository {
 
     private final DocumentBuilder documentBuilder;
-    private final Map<String, Document> symbolsByCode = Collections.synchronizedMap(new LinkedHashMap<String, Document>());
+    private final Map<String, SymbolRepoNode> nodeToCode = Collections.synchronizedMap(new LinkedHashMap<String, SymbolRepoNode>());
+    private final Set<String> roots = new HashSet<String>();
     private final SIDCParser SIDCParser;
     private final Logger logger = Logger.getLogger(getClass().getName());
 
@@ -68,14 +69,21 @@ public class SymbolRepository {
             throw new AssertionError(pce);
         }
 
-        loadResources(getClass().getResource("/2525B"));
+        
+        synchronized(nodeToCode)
+        {
+            loadResources(getClass().getResource("/2525B"));
+        } 
+        
+        findChildren();
     }
 
     private void loadResources(URL root) {
-        assert root.getProtocol().equals("file");
-        File rootDirectory = new File(root.getPath());
-        assert rootDirectory.isDirectory();
+        //assert root.getProtocol().equals("file");
+        File rootDirectory;
+        rootDirectory = new File(root.getPath());
         loadDirectory(rootDirectory);
+        //assert rootDirectory.isDirectory();
     }
 
     private void loadDirectory(File directory) {
@@ -100,13 +108,16 @@ public class SymbolRepository {
             } catch (IllegalArgumentException iae) {
                 throw new RuntimeException("invalid SIDC of " + id + " for " + file);
             }
-
+            
             document = SVGUtils.namespacify(document);
-//            if (symbolsByCode.containsKey(id)){return;}
-            Document old = symbolsByCode.put(id, document);
+            
+            SymbolRepoNode newNode = new SymbolRepoNode(document);
+            
+            //Put will return a previous value associated with id, null otherwise
+            SymbolRepoNode old = nodeToCode.put(id, newNode);
             if (old != null) {
-                logger.warning("collision (case insensitive file system?)  for " + id + " between " + document.getDocumentURI() + " and " + old.getDocumentURI());
-                byte[] oldBytes = ByteStreams.toByteArray(URI.create(old.getDocumentURI()).toURL().openStream());
+                logger.warning("collision (case insensitive file system?)  for " + id + " between " + document.getDocumentURI() + " and " + old.getDocument().getDocumentURI());
+                byte[] oldBytes = ByteStreams.toByteArray(URI.create(old.getDocument().getDocumentURI()).toURL().openStream());
                 byte[] newBytes = ByteStreams.toByteArray(URI.create(document.getDocumentURI()).toURL().openStream());
                 if (Arrays.equals(oldBytes, newBytes)) {
                     logger.warning("DUPLICATE");
@@ -118,10 +129,78 @@ public class SymbolRepository {
         }
     }
 
+    /*Organizes children from keys contained within the nodeToCode Map.*/
+    private void findChildren() 
+    {
+        //need to get S codes now, G codes later
+        Collection<String> justCodes = getCodesByCodingScheme('S');
+        for(String nodeName : justCodes)
+        {
+        
+            /*If we need weather codes someday, we need
+             a special case to handle their hierarchy.*/
+            
+            int dashIndex = nodeName.indexOf("-");
+            
+            /*The root S codes have 4 letters, will
+             have to correct this to accomidate G codes.*/
+            
+            if(dashIndex == 4)
+            {
+                roots.add(nodeName);
+            }
+                
+            
+            if(dashIndex != -1)
+            {
+                
+                String prefix = nodeName.substring(0, dashIndex);
+                String regex = "[A-Z]";
+                Collection<String> children = new HashSet<String>();
+                Collection<String> moreCodes = getCodes();
+                
+                for(String testName : moreCodes)
+                {
+                    String prefixTest = testName.substring(0, dashIndex);
+                    String regexTest = testName.substring(dashIndex, dashIndex + 1);
+                    String dashTest = testName.substring(dashIndex + 1, dashIndex + 2);
+                    
+                    if((prefixTest.equals(prefix)) && (regexTest.matches(regex)) && 
+                        dashTest.equals("-"))
+                    {     
+                                                
+                        children.add(testName);
+                    }
+           
+                }
+                              
+                SymbolRepoNode toCorrect = nodeToCode.get(nodeName);
+                toCorrect.setChildren(children);
+                
+            }                
+        }
+    }
+     
     public Collection<String> getCodes() {
-        return symbolsByCode.keySet();
+        return nodeToCode.keySet();
     }
 
+    public Collection<String>getCodesByCodingScheme(char scheme)
+    {
+        Collection<String> justCodes = getCodes();
+        Collection<String> returnCodes = new HashSet<String>();
+        
+        for(String code : justCodes)
+        {
+            if(code.charAt(0) == scheme)
+            {
+                returnCodes.add(code);
+            }    
+        }    
+          
+        return returnCodes;
+    }        
+    
     public Map<String, String> getCodeDescriptions() {
         return new MapMaker().makeComputingMap(new Function<String, String>() {
 
@@ -132,7 +211,14 @@ public class SymbolRepository {
     }
 
     public Document get(String code) {
-        Document document = symbolsByCode.get(code);
+        SymbolRepoNode node = nodeToCode.get(code);
+        
+        if(node == null)
+        {
+            return null;
+        }    
+        
+        Document document = node.getDocument();
         if (document == null) {
             return null;
         } else {

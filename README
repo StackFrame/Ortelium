@@ -1,0 +1,17 @@
+Ortelium v2.0
+
+Ortelium is built utilizing maven.
+Obtain maven from maven.apache.org
+
+Build Ortelium:
+> mvn compile
+
+Create a distributable Web Archive:
+> mvn package
+
+Create a standalong JAR file:
+> mvn assembly:single
+
+Note:
+1. The standalone JAR file will requires a 2525B resource directory in its path.
+2. Utilize the run.sh and debug.sh scripts to execute the standalone JAR file.

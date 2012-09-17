@@ -15,37 +15,44 @@
  */
 package com.stackframe.symbolfactory.imageformats;
 
-import com.stackframe.symbolfactory.SVGImageWriter;
-import com.stackframe.symbolfactory.XMLUtils;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.io.Reader;
 import java.io.StringReader;
+
+import org.apache.batik.transcoder.TranscoderException;
 import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
 import org.apache.batik.transcoder.image.JPEGTranscoder;
+import org.restlet.data.MediaType;
 import org.w3c.dom.Document;
+
+import com.stackframe.symbolfactory.XMLUtils;
 
 /**
  *
  * @author mcculley
  */
-public class SVGImageWriterJPEG implements SVGImageWriter {
+public class SVGImageWriterJPEG extends AbstractSVGImageWriter {
 
-    public String getMimeType() {
-        return "image/jpeg";
+    public SVGImageWriterJPEG(Document document) {
+        super(MediaType.IMAGE_JPEG, document);
     }
-
-    public String getName() {
-        return "JPEG";
-    }
-
-    public void write(Document document, OutputStream out, Integer width, Integer height) throws Exception {
+    
+    /* (non-Javadoc)
+     * @see org.restlet.representation.Representation#write(java.io.OutputStream)
+     */
+    @Override
+    public void write(OutputStream out) throws IOException {
+        // TODO Auto-generated method stub
         JPEGTranscoder t = new JPEGTranscoder();
         t.addTranscodingHint(JPEGTranscoder.KEY_QUALITY, new Float(.8));
+        Integer width = getWidth();
         if (width != null) {
             t.addTranscodingHint(JPEGTranscoder.KEY_WIDTH, new Float(width));
         }
 
+        Integer height = getHeight();
         if (height != null) {
             t.addTranscodingHint(JPEGTranscoder.KEY_HEIGHT, new Float(height));
         }
@@ -53,10 +60,14 @@ public class SVGImageWriterJPEG implements SVGImageWriter {
         // FIXME: This is a hack to turn the Document into an input stream for the
         // transcoder because something is not quite right with the document as
         // Batik expects. Fix the document and jettison this intermediate step.
-        Reader reader = new StringReader(XMLUtils.serialize(document));
+        Reader reader = new StringReader(XMLUtils.serialize(getDocument()));
 
         TranscoderInput input = new TranscoderInput(reader);
         TranscoderOutput output = new TranscoderOutput(out);
-        t.transcode(input, output);
+        try {
+            t.transcode(input, output);
+        } catch (TranscoderException e) {
+            throw new IOException(e);
+        }
     }
 }

@@ -1,9 +1,0 @@
-K 10
-svn:ignore
-V 39
-*.html
-com
-package-list
-stylesheet.css
-
-END

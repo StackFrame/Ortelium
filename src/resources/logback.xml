@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss" timeReference="contextBirth"/>
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>ortelium-log-${bySecond}.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+    </layout>
+  </appender>
+  
+  <logger name="org.restlet.engine" level="ERROR">
+    <appender-ref ref="FILE"/>
+  </logger>
+  <root level="ERROR">
+    <appender-ref ref="FILE" />
+  </root>
+</configuration>
