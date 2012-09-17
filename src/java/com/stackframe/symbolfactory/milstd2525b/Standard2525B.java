@@ -15,6 +15,17 @@
  */
 package com.stackframe.symbolfactory.milstd2525b;
 
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+
 import com.stackframe.symbolfactory.Affiliation;
 import com.stackframe.symbolfactory.BattleDimension;
 import com.stackframe.symbolfactory.CodingScheme;
@@ -24,14 +35,6 @@ import com.stackframe.symbolfactory.OrderOfBattle;
 import com.stackframe.symbolfactory.Status;
 import com.stackframe.symbolfactory.SymbolModifierCode;
 import com.stackframe.symbolfactory.SymbologyStandard;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
 
 /**
  *
@@ -107,6 +110,22 @@ public class Standard2525B implements SymbologyStandard {
             add(new BattleDimension('F', "SOF"));
             add(new BattleDimension('X', "OTHER"));
             add(new BattleDimension('Z', "UNKNOWN"));
+        }
+    });
+    private static final Map<Character, BattleDimension> tacticalGraphicsCategories =
+            Collections.unmodifiableMap(new HashMap<Character, BattleDimension>() {
+
+        private void add(BattleDimension bd) {
+            put(bd.getCode(), bd);
+        }
+
+        {
+            add(new BattleDimension('T', "TASKS"));
+            add(new BattleDimension('G', "C2 & GENERAL MANEUVER"));
+            add(new BattleDimension('M', "MOBILITY/SURVIVABILITY"));
+            add(new BattleDimension('F', "FIRE SUPPORT"));
+            add(new BattleDimension('S', "COMBAT SERVICE SUPPORT"));
+            add(new BattleDimension('O', "OTHER"));
         }
     });
     private static final Map<Character, BattleDimension> intelligenceBattleDimensions =
@@ -203,7 +222,7 @@ public class Standard2525B implements SymbologyStandard {
 
         return Collections.unmodifiableMap(codes);
     }
-
+    
     {
         try {
             warfightingSymbolModifierCodes = readWarfightingSymbolModifierCode();

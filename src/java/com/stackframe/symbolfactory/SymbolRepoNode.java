@@ -13,31 +13,40 @@
  * You should have received a copy of version 2 of the GNU General Public
  * License along with this program; if not, contact info@stackframe.com.
  */
-package com.stackframe.symbolfactory.imageformats;
+package com.stackframe.symbolfactory;
 
-import java.io.IOException;
-import java.io.OutputStream;
-
-import org.restlet.data.MediaType;
+import java.util.Collection;
+import java.util.HashSet;
 import org.w3c.dom.Document;
-
-import com.stackframe.symbolfactory.XMLUtils;
 
 /**
  *
- * @author mcculley
+ * @author ereeber
  */
-public class SVGImageWriterSVG extends AbstractSVGImageWriter {
-
-    public SVGImageWriterSVG(Document document) {
-        super(MediaType.IMAGE_SVG, document);
+public class SymbolRepoNode{
+    
+    private final Document document;
+    private Collection<String> children;
+    
+    public SymbolRepoNode(Document document)
+    {  
+        this.document = document;
+        children = new HashSet<String>();
+    }
+     
+    public Document getDocument()
+    {
+        return document;
     }
     
-    /* (non-Javadoc)
-     * @see org.restlet.representation.Representation#write(java.io.OutputStream)
-     */
-    @Override
-    public void write(OutputStream out) throws IOException {
-       XMLUtils.serialize(getDocument(), out);
-    }
+    public Collection getChildren()
+    {
+        return children;
+    }        
+    
+    public void setChildren(Collection<String> children)
+    {
+        this.children = children;
+     
+    }        
 }

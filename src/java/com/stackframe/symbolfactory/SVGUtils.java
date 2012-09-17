@@ -62,7 +62,10 @@ public class SVGUtils {
 
             if (name.equals("xlink:href")) {
                 converted.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", value);
-            } else {
+            } else if (name.startsWith("svg:")) {
+                converted.setAttributeNS(namespace,name,value);
+            }
+            else {
                 converted.setAttribute(name, value);
             }
         }
@@ -115,7 +118,7 @@ public class SVGUtils {
                     continue;
                 }
 
-                newRoot.setAttributeNS(namespace, "svg:" + name, value);
+                newRoot.setAttribute(name, value);
             }
 
             NodeList children = oldRoot.getChildNodes();

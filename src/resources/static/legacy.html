@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.stackframe.com/SymbolFactory/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Ortelium Symbol Factory</title>
+        <link href="legacyStyle.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style></head>
+    <body>
+        <h1 id="title">Ortelium Symbol Factory</h1>
+        <p>Ortelium generates map symbols. It currently has prototype support for <a href="http://en.wikipedia.org/wiki/2525B">2525B</a>.</p>
+        <p>Ortelium is a product of <a href="http://www.stackframe.com/software/Ortelium">StackFrame, LLC</a>.</p>
+        <form action="symbol" method="GET">
+            <label for="code"><abbr title="Symbol Identification Code">SIDC</abbr>:</label>
+            <input type="text" name="SIDC" id="code" size="15" value="SNGPUCFSA-*****"><br>
+            <label for="quantity">Quantity:</label>
+            <input type="text" name="C" id="quantity" size="3" value=""><br>
+            <label for="outputType">Image Format:</label>
+            <select id="outputType" name="outputType">
+                
+                    <option value="image/svg+xml">SVG</option>
+                
+                    <option value="image/png">PNG</option>
+                
+                    <option value="image/tiff">TIFF</option>
+                
+                    <option value="application/PDF">PDF</option>
+                
+            </select>
+            <br>
+            <label for="spec">Specification:</label>
+            <select id="spec" name="spec">
+                
+                    <option value="2525B">2525B</option>
+                
+            </select>
+            <br>            
+<!--
+            <label for="width">Width:</label>
+            <input type="text" name="width" id="width" size="4" value="">
+            <label for="height">Height:</label>
+            <input type="text" name="height" id="height" size="4" value="">
+            <br>
+-->
+            <input type="submit" value="Create">
+        </form>
+        <h2>Examples</h2>
+        <ul>
+            <li>
+                
+                <a href="symbol?SIDC=SHGPUCAWS-*****&outputType=image%2fsvg%2bxml&spec=2525B">Hostile Armored Wheeled Air Assault (no echelon)</a>
+            </li>
+            <li>
+                
+                <a href="symbol?SIDC=SHGPUCAWS--D***&outputType=image%2fsvg%2bxml&spec=2525B">Hostile Armored Wheeled Air Assault (platoon)</a>
+            </li>
+            <li>
+                
+                <a href="symbol?SIDC=SFGPUCAWS-*****&outputType=image%2fsvg%2bxml&spec=2525B">Friendly Armored Wheeled Air Assault</a>
+            </li>
+            <li>
+                
+                <a href="symbol?SIDC=SFGPEWRH--MT***&C=200&outputType=image%2fsvg%2bxml&spec=2525B">Machine Gun with quantity 200</a>
+            </li>
+        </ul>
+
+        <p>Trouble? Suggestions? Contact <a href="mailto:support@stackframe.com">support@stackframe.com</a>.</p>
+    
+
+</body></html>
