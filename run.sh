@@ -1,2 +1,2 @@
 #!/bin/sh  
-java -cp src/resources:target/Ortelium-2.0-SNAPSHOT-jar-with-dependencies.jar com.stackframe.ortelium.Ortelium
+java -cp src/resources:target/Ortelium-2.1-jar-with-dependencies.jar com.stackframe.ortelium.Ortelium
