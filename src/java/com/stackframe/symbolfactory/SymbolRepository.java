@@ -24,6 +24,8 @@ import com.google.gson.JsonObject;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -98,8 +100,10 @@ public class SymbolRepository {
     }
 
     private void loadFile(File file) {
+        FileInputStream fis = null;
         try {
-            Document document = documentBuilder.parse(file);
+            fis = new FileInputStream(file);
+            Document document = documentBuilder.parse(fis);
             Element root = document.getDocumentElement();
             document.setUserData("file", file, null);
             String id = root.getAttribute("id");
@@ -117,15 +121,27 @@ public class SymbolRepository {
             SymbolRepoNode old = nodeToCode.put(id, newNode);
             if (old != null) {
                 logger.warning("collision (case insensitive file system?)  for " + id + " between " + document.getDocumentURI() + " and " + old.getDocument().getDocumentURI());
-                byte[] oldBytes = ByteStreams.toByteArray(URI.create(old.getDocument().getDocumentURI()).toURL().openStream());
-                byte[] newBytes = ByteStreams.toByteArray(URI.create(document.getDocumentURI()).toURL().openStream());
+                InputStream oldStream = URI.create(old.getDocument().getDocumentURI()).toURL().openStream();
+                InputStream newStream = URI.create(document.getDocumentURI()).toURL().openStream();
+                byte[] oldBytes = ByteStreams.toByteArray(oldStream);
+                byte[] newBytes = ByteStreams.toByteArray(newStream);
                 if (Arrays.equals(oldBytes, newBytes)) {
                     logger.warning("DUPLICATE");
                 }
+                oldStream.close();
+                newStream.close();
             }
         } catch (Exception e) {
             logger.severe("Trouble parsing " + file);
             throw new RuntimeException(e);
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (Exception e) {
+                    logger.severe("Trouble closing this: " + file);
+                }
+            }
         }
     }
 
