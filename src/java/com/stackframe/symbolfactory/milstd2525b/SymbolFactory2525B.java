@@ -18,7 +18,9 @@ package com.stackframe.symbolfactory.milstd2525b;
 import com.stackframe.symbolfactory.Affiliation;
 import com.stackframe.symbolfactory.CodingScheme;
 import com.stackframe.symbolfactory.EchelonModifierFilter;
+import com.stackframe.symbolfactory.HealthModifierFilter;
 import com.stackframe.symbolfactory.QuantityModifierFilter;
+import com.stackframe.symbolfactory.SpeedLeaderModifierFilter;
 import com.stackframe.symbolfactory.SIDCParser;
 import com.stackframe.symbolfactory.SymbolFactory;
 import com.stackframe.symbolfactory.SymbolRepository;
@@ -126,6 +128,8 @@ public class SymbolFactory2525B implements SymbolFactory {
                 modifiers.put("B", symbolModifier);
                 new EchelonModifierFilter().filter(std, document, code, modifiers);
             }
+            new SpeedLeaderModifierFilter().filter(std, document, code, modifiers);
+            new HealthModifierFilter().filter(std, document, code, modifiers);
         }
 
         return document;
