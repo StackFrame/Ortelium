@@ -7,6 +7,9 @@
   <version>2.1</version>
   <name>Ortelium</name>
   <url>http://maven.apache.org</url>
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <repositories>
     <repository>
       <id>java.net2</id>
