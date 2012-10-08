@@ -226,7 +226,7 @@ public class TacticalGraphicsQueryServer2525B
      * @return
      */
     public String getAll(Map<String, String> params) {
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         String json = null;
         
         if (!sdicToGraphicDataMap.isEmpty()) {
