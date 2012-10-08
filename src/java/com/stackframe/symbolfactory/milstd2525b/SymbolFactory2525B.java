@@ -37,7 +37,10 @@ public class SymbolFactory2525B implements SymbolFactory {
     private static final String UNKNOWN_GROUND = "SUGP------*****";
     private final SymbologyStandard std;
     private final SymbolRepository repo;
+    private final SymbolRepository templateRepo;
     private final SIDCParser parser;
+    private static final String REPO_PATH = "/2525B/root";
+    private static final String TEMPLATE_PATH = "/2525B/tactical_graphic_templates";
 
     private static SymbolFactory instance;
     
@@ -45,15 +48,16 @@ public class SymbolFactory2525B implements SymbolFactory {
         if(instance == null) {
             SymbologyStandard standard = new Standard2525B();
             SIDCParser parser = new SIDCParser(standard);
-            instance = new SymbolFactory2525B(standard, new SymbolRepository(parser), parser);
+            instance = new SymbolFactory2525B(standard, new SymbolRepository(parser,REPO_PATH), new SymbolRepository(parser, TEMPLATE_PATH), parser);
         }
         
         return instance;
     }
     
-    private SymbolFactory2525B(SymbologyStandard std, SymbolRepository repo, SIDCParser parser) {
+    private SymbolFactory2525B(SymbologyStandard std, SymbolRepository repo, SymbolRepository template, SIDCParser parser) {
         this.std = std;
         this.repo = repo;
+        this.templateRepo = template;
         this.parser = parser;
     }
 
@@ -111,6 +115,10 @@ public class SymbolFactory2525B implements SymbolFactory {
         if (document == null) {
             document = repo.get(code);
         }
+        
+        if (document == null && scheme.getCode() == 'G') {
+            document = templateRepo.get(code);
+        }
 
         if(document == null) {
             code = setAffiliationUnknown(code);
@@ -132,6 +140,22 @@ public class SymbolFactory2525B implements SymbolFactory {
             new HealthModifierFilter().filter(std, document, code, modifiers);
         }
 
+        return document;
+    }
+    
+    public Document createTemplate(String code, Map<String, String> modifiers) {
+        code = code.toUpperCase();
+        if (code == null || code.length() != 15) {
+            return null;
+        }
+
+        Document document = templateRepo.get(code);
+        
+        if (document == null) {
+            // attempt to get the graphics from repo instead
+            document = create(code, modifiers);
+        }
+        
         return document;
     }
 

@@ -28,4 +28,13 @@ public interface SymbolFactory {
      * @return a symbol in SVG format
      */
     Document create(String code, Map<String, String> modifiers);
+    
+    /**
+     * Generate a 2525B graphic template.
+     *
+     * @param code the SIDC code for the graphic
+     * @param modifiers additional modifier field-value pairs
+     * @return a graphic template in SVG format
+     */
+    Document createTemplate(String code, Map<String, String> modifiers);
 }

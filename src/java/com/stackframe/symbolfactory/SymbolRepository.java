@@ -53,7 +53,7 @@ public class SymbolRepository {
     private final SIDCParser SIDCParser;
     private final Logger logger = Logger.getLogger(getClass().getName());
 
-    public SymbolRepository(SIDCParser SIDCParser) {
+    public SymbolRepository(SIDCParser SIDCParser, String path) {
         logger.setLevel(Level.SEVERE); 
         this.SIDCParser = SIDCParser;
         try {
@@ -74,7 +74,7 @@ public class SymbolRepository {
         
         synchronized(nodeToCode)
         {
-            loadResources(getClass().getResource("/2525B"));
+            loadResources(getClass().getResource(path));
         } 
         
         findChildren();
