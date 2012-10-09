@@ -15,6 +15,8 @@
  */
 package com.stackframe.symbolfactory;
 
+import java.io.File;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Attr;
@@ -140,7 +142,10 @@ public class SVGUtils {
                 }
             }
 
-            output.setDocumentURI(input.getDocumentURI());
+            Object o = input.getUserData("file");
+            if(o instanceof File) {
+                output.setDocumentURI(((File)o).toURI().toString());
+            }
             return output;
         } catch (Exception e) {
             throw new AssertionError(e);

@@ -45,7 +45,7 @@ $(function(){
         var sidc = $('#sidc_symbol')[0].value;
         var type = $('#radioset input[type=radio]:checked')[0].name;
         var quantityVal = $('#quantity')[0].value;
-        var url = "/symbol/2525B/" + sidc + "?outputType=" + type;
+        var url = "./symbol/2525B/" + sidc + "?outputType=" + type;
         if(quantityVal) {
             var quantity = parseInt(quantityVal,10);
             url += "&C="+quantity;
@@ -70,7 +70,7 @@ $(function(){
     $('#query_link').click(function(){
         var sidc = $('#sidc_query')[0].value;
         $.ajax({
-            url: "/query/2525B/" + sidc,
+            url: "./query/2525B/" + sidc,
             success: function(result) {
                 var htmlRes = "<table>";
                 for(key in result) {
