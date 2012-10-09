@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!-- SVG content generated using Symbology Configuration Management System (SCMS) -->
+<!-- Systematic Software Engineering Ltd. - www.systematic.co.uk - do not remove  -->
+<svg id="G*MPOWCS--****X"
+     width="400px"
+     height="400px"
+     viewBox="0 0 400 400">
+  <g>
+    <svg viewBox="0 0 400 400"
+         id="_0.G-MPOWCS------X"
+         width="400px"
+         height="400px">
+      <polyline points="20.5412,264.922 115.762,198.619 341.756,198.619"
+                transform="matrix(1 0 0 1 0 0)"
+                style="fill:none;stroke:rgb(0,0,0);stroke-width:5"></polyline>
+      <text x="76px"
+            y="152px"
+            transform="matrix(1 0 0 1 0 0) translate(-38 138) rotate(325.164 114.34 136.458) translate(33.49 -56.2907) translate(0.41544 -0.596939) translate(-9.86362 -1.10517) translate(-18.4426 -0.873281) translate(0.479968 1.2201)"
+            style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:45;font-family:Arial">0 0 0</text>
+      <text x="125px"
+            y="134px"
+            transform="matrix(1 0 0 1 0 0) translate(-4.44444 60.4444) translate(-0.444444 0.444444) translate(0 1.33333)"
+            style="fill:rgb(0,0,0);stroke:rgb(0,0,0);font-size:45;font-family:Arial">0 0 0 0 0 0</text>
+    </svg>
+  </g>
+</svg>

@@ -21,6 +21,7 @@ import org.restlet.routing.Router;
 import com.stackframe.symbolfactory.SymbolServlet;
 import com.stackframe.symbolfactory.milstd2525b.SymbolQueryResource2525B;
 import com.stackframe.symbolfactory.milstd2525b.SymbolResource2525B;
+import com.stackframe.symbolfactory.milstd2525b.TacticalGraphicsQueryResource2525B;
 
 /**
  * @author brent
@@ -46,6 +47,7 @@ public class OrteliumApplication extends Application {
         router.attach("/query/2525B/{id}", SymbolQueryResource2525B.class);
         router.attach("/query/2525B/", SymbolQueryResource2525B.class);
         router.attach("/query/2525B", SymbolQueryResource2525B.class);
+        router.attach("/graphics", TacticalGraphicsQueryResource2525B.class);
         try {
             Directory dir = new Directory(getContext(), new Reference(this
                     .getClass().getResource("/static").toURI()));

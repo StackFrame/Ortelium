@@ -23,6 +23,7 @@ import java.io.StringReader;
 import org.apache.batik.transcoder.TranscoderException;
 import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
+import org.apache.batik.transcoder.image.PNGTranscoder;
 import org.apache.batik.transcoder.image.TIFFTranscoder;
 import org.restlet.data.MediaType;
 import org.w3c.dom.Document;
@@ -45,6 +46,16 @@ public class SVGImageWriterTIFF extends AbstractSVGImageWriter {
     @Override
     public void write(OutputStream out) throws IOException {
         TIFFTranscoder t = new TIFFTranscoder();
+        
+        Integer width = getWidth();
+        if (width != null) {
+            t.addTranscodingHint(TIFFTranscoder.KEY_WIDTH, new Float(width));
+        }
+
+        Integer height = getHeight();
+        if (height != null) {
+            t.addTranscodingHint(TIFFTranscoder.KEY_HEIGHT, new Float(height));
+        }
 
         // FIXME: This is a hack to turn the Document into an input stream for the
         // transcoder because something is not quite right with the document as
