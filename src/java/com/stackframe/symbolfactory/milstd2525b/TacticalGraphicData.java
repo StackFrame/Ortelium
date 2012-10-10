@@ -8,15 +8,15 @@ import org.restlet.representation.Representation;
  *
  */
 public class TacticalGraphicData {
-    private String sdic = "";
+    private String sidc = "";
     private String name = "";
     private int minPoints = 0;
     private int maxPoints = 0;
     private String imageType = "image/png";
     private String encodedImageString = "";
     
-    TacticalGraphicData(String sdicIn,String name, int min, int max) {
-        this.sdic = sdicIn;
+    TacticalGraphicData(String sidcIn,String name, int min, int max) {
+        this.sidc = sidcIn;
         this.name = name;
         this.minPoints = min;
         this.maxPoints = max;
@@ -54,7 +54,7 @@ public class TacticalGraphicData {
         return encodedImageString;
     }
     
-    public String getSDIC() {
-        return sdic;
+    public String getSIDC() {
+        return sidc;
     }
 }

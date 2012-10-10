@@ -156,7 +156,7 @@ public class TacticalGraphicsQueryServer2525B
      */
     private void updateWithGraphicsData(TacticalGraphicData data, Map<String,String> params) {
         
-        Document svgDocument = SymbolFactory2525B.getInstance().createTemplate(data.getSDIC(), params);
+        Document svgDocument = SymbolFactory2525B.getInstance().createTemplate(data.getSIDC(), params);
 
         if (svgDocument != null) {
             String imgType = params.get("outputType");
