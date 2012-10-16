@@ -43,7 +43,7 @@ $(function(){
     // Dialog Link
     $('#symbol_link').click(function(){
         var sidc = $('#sidc_symbol')[0].value;
-        var type = $('#radioset input[type=radio]:checked')[0].name;
+        var type = encodeURIComponent($('#radioset input[type=radio]:checked')[0].value);
         var quantityVal = $('#quantity')[0].value;
         var url = "./symbol/2525B/" + sidc + "?outputType=" + type;
         if(quantityVal) {
