@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="TWO_POINT_TEMPLATE"?>
+<?AnchorPoint x="0.0" y="0.0" index="1"?>
+<?AnchorPoint x="-140.0" y="-50.0" index="2"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale" template-transform-y="scale"
+  viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path
+    d="M -148.660685574363,-1.2151703288054705E-6 A 148.660685574363,148.660685574363 0  1 0 -140.00000000000003,-49.999999999999986"
+    fill="none" stroke="var-cm-color" stroke-width="3.0"/>
+  <polyline fill="none"
+    points="-170.0,25.0 -150.0,0.0 -125.0,25.0 -125.0,25.0 -125.0,25.0 -125.0,25.0 -125.0,25.0 "
+    stroke="var-cm-color" stroke-width="3.0"/>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?template type="MULTI_POINT_TEMPLATE" ?>
+<?AnchorPoint x="0.0" y="0.0" index="0"?>
+<?AnchorPoint x="350.0" y="0.0" index="1"?>
+<?AnchorPoint x="175.0" y="100.0" index="2"?>
+<?AnchorPoint x="300.0" y="100.0" index="3"?>
+<?AnchorPoint x="300.0" y="200.0" index="4"?>
+<?AnchorPoint x="300.0" y="300.0" index="5"?>
+<?AnchorPoint x="175.0" y="300.0" index="6"?>
+<?AnchorPoint x="50.0" y="300.0" index="7"?>
+<?AnchorPoint x="50.0" y="200.0" index="8"?>
+<?AnchorPoint x="50.0" y="100.0" index="9"?>
+<?AnchorPoint x="175.0" y="200.0" index="10"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg fill="none"
+     height="400"
+     stroke="var-cm-color"
+     stroke-linecap="butt"
+     stroke-linejoin="round"
+     stroke-width="5.0"
+     template-close-shapes="true"
+     template-join-shapes="true"
+     viewBox="-25.0,-50.0,400.0,400.0"
+     width="400"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line template-placement="start-of-path"
+        x1="0.0"
+        x2="0.0"
+        y1="35.0"
+        y2="-35.0" />
+  <g template-placement="repeat-on-path">
+    <line x1="0.0"
+          x2="50.0"
+          y1="-35.0"
+          y2="-35.0" />
+    <polyline points="50.0,-35.0 75.0,-85.0 100.0,-35.0" />
+  </g>
+  <line template-placement="end-of-path"
+        x1="350.0"
+        x2="350.0"
+        y1="-35.0"
+        y2="35.0" />
+  <g template-placement="reverse-on-path">
+    <line x1="0.0"
+          x2="50.0"
+          y1="35.0"
+          y2="35.0" />
+    <polyline points="50.0,35.0 75.0,85.0 100.0,35.0" />
+  </g>
+</svg>

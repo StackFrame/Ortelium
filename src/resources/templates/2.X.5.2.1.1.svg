@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="TWO_POINT_TEMPLATE"?>
+<?AnchorPoint x="175.0" y="0.0" index="1"?>
+<?AnchorPoint x="-175.0" y="0.0" index="2"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale"
+  template-transform-y="scale" viewBox="-200.0,-200.0,400.0,400.0"
+  width="400.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polygon fill="none"
+    points="175.0,0.0 125.0,50.0 125.0,35.0 -175.0,35.0 -175.0,-35.0 125.0,-35.0 125.0,-50.0 "
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <text fill="var-cm-color" stroke="none" text-anchor="middle"
+    text-modifier="true" x="-90.0" y="5.0">H</text>
+  <text fill="var-cm-color" stroke="none" text-anchor="middle"
+    text-modifier="true" x="65.0" y="5.0">H1</text>
+  <text fill="var-cm-color" stroke="none" text-anchor="middle"
+    x="-0.5043478260869563" y="63.53913043478261">-</text>
+  <text fill="var-cm-color" stroke="none" text-anchor="end"
+    text-modifier="true" x="-10.347826783553401" y="64.8086991019871">W</text>
+  <text fill="var-cm-color" stroke="none" text-modifier="true"
+    x="10.139130434782608" y="65.24347826086957">W1</text>
+</svg>

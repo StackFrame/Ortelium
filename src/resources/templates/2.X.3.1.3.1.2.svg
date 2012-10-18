@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?AnchorPoint x="0.0" y="0.0" index="0"?>
+<?AnchorPoint x="350.0" y="0.0" index="1"?>
+<?AnchorPoint x="175.0" y="100.0" index="2"?>
+<?AnchorPoint x="300.0" y="100.0" index="3"?>
+<?AnchorPoint x="300.0" y="200.0" index="4"?>
+<?AnchorPoint x="300.0" y="300.0" index="5"?>
+<?AnchorPoint x="175.0" y="300.0" index="6"?>
+<?AnchorPoint x="50.0" y="300.0" index="7"?>
+<?AnchorPoint x="50.0" y="200.0" index="8"?>
+<?AnchorPoint x="50.0" y="100.0" index="9"?>
+<?AnchorPoint x="175.0" y="200.0" index="10"?>
+<?template type="MULTI_POINT_TEMPLATE" ?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" viewBox="-25.0,-50.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline points="0.0,0.0 15.0,-25.0 30.0,0.0" stroke="var-cm-color"
+    stroke-width="3.0" fill="var-cm-color" template-placement="repeat-on-path"/>
+</svg>

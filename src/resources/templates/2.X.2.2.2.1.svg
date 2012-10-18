@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="TWO_POINT_TEMPLATE"?>
+<?AnchorPoint x="-150.0" y="0.0" index="1"?>
+<?AnchorPoint x="150.0" y="0.0" index="2"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale"
+  template-transform-y="scale" viewBox="-200.0,-200.0,400.0,400.0"
+  width="400.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text fill="var-cm-color" stroke="none" x="-50.0" y="-20.0">CORRIDOR</text>
+  <text fill="var-cm-color" stroke="none" x="-5.0" y="30.0">-</text>
+  <text fill="var-cm-color" stroke="none" text-anchor="end"
+    text-modifier="true" x="-14.0" y="30.0">W</text>
+  <text fill="var-cm-color" stroke="none" text-modifier="true" x="10.0" y="30.0">W1</text>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-150.0"
+    x2="150.0" y1="-50.0" y2="-50.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-150.0"
+    x2="150.0" y1="50.0" y2="50.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-100.0"
+    x2="100.0" y1="0.0" y2="0.0"/>
+  <text fill="var-cm-color" stroke="none" text-modifier="true" x="41.0" y="-20.0">T</text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="THREE_POINT_TEMPLATE"?>
+<?AnchorPoint x="100.0" y="0.0" index="1"?>
+<?AnchorPoint x="-50.0" y="-125.0" index="2"?>
+<?AnchorPoint x="-50.0" y="125.0" index="3" lock="x1"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" stroke-width="8.0" template-axes="y:AP1 x:AP2->AP3"
+  template-transform-x="scale" template-transform-y="scale"
+  viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline fill="none" points="75.0,-20.0 100.0,0.0 75.0,20.0"
+    stroke="var-cm-color" template-anchor-x="max" template-anchor-y="center"
+    template-transform-x="translate" template-transform-y="translate"/>
+  <line fill="none" stroke="var-cm-color" x1="100.0" x2="-50.0" y1="0.0" y2="0.0"/>
+  <line fill="none" stroke="var-cm-color" x1="-50.0" x2="-50.0" y1="-125.0" y2="125.0"/>
+  <line fill="none" stroke="var-cm-color" template-anchor-x="max"
+    template-anchor-y="max" template-transform-x="translate"
+    template-transform-y="translate" x1="-100.0" x2="-50.0" y1="-165.0" y2="-125.0"/>
+  <line fill="none" stroke="var-cm-color" template-anchor-x="max"
+    template-transform-x="translate" template-transform-y="translate"
+    x1="-100.0" x2="-50.0" y1="165.0" y2="125.0"/>
+</svg>

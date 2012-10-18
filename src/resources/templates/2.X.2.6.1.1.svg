@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="THREE_POINT_TEMPLATE"?>
+<?AnchorPoint x="125.0" y="0.0" index="1"?>
+<?AnchorPoint x="-50.0" y="-75.0" index="2"?>
+<?AnchorPoint x="-50.0" y="75.0" index="3" lock="x1"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-axes="y:AP1 x:AP2->AP3"
+  template-transform-x="scale" template-transform-y="scale"
+  viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-5.0"
+    x2="125.0" y1="0.0" y2="0.0"/>
+  <polyline fill="none" points="100.0,-20.0 125.0,0.0 100.0,20.0"
+    stroke="var-cm-color" stroke-width="3.0" template-anchor-x="max"
+    template-anchor-y="center" template-transform-x="translate" template-transform-y="translate"/>
+  <g>
+    <path
+      d="M -49.938518744743476,-73.78867340087892 A 84.53173828125003,84.53173828125003 0  0 1 -48.47145484093488,74.10358428955081"
+      fill="none" stroke="var-cm-color" stroke-width="3.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-32.20545696071022" x2="-72.20545505336159"
+      y1="-60.293509930917565" y2="-60.293509930917565"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-30.293508529663086" x2="-69.80363874377257"
+      y1="59.607276916503906" y2="59.607276916503906"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-11.549022545867047" x2="-51.549020638518414"
+      y1="-27.25523922930732" y2="-27.25523922930732"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-10.696224908933772" x2="-50.696223955259455"
+      y1="27.416807174682617" y2="27.416807174682617"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-6.720580577850342" x2="-46.720577239990234"
+      y1="8.672492761506888" y2="8.672492761506888"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-7.4068145751953125" x2="-47.40681076049805"
+      y1="-9.691852826967093" y2="-9.691852826967093"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-18.784278612241906" x2="-58.784278612241906"
+      y1="-43.93103383074776" y2="-43.93103383074776"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0"
+      x1="-17.754926424131554" x2="-57.75492451678292"
+      y1="42.759923548855994" y2="42.759923548855994"/>
+  </g>
+</svg>

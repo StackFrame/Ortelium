@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="TWO_POINT_TEMPLATE"?>
+<?AnchorPoint x="-75.0" y="50.0" index="1"?>
+<?AnchorPoint x="75.0" y="50.0" index="2"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale" template-transform-y="scale"
+  viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text fill="var-cm-color" stroke="none" x="-75.0" y="-45.0">Name</text>
+  <text fill="var-cm-color" stroke="none" x="-74.0" y="-30.0">Width</text>
+  <text fill="var-cm-color" stroke="none" x="-75.0" y="-15.0">Min Alt</text>
+  <text fill="var-cm-color" stroke="none" x="-75.0" y="0.0">Max Alt</text>
+  <text fill="var-cm-color" font-size="18.0" stroke="none" x="-26.0" y="54.0">NAME</text>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-75.0"
+    x2="75.0" y1="35.0" y2="35.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-75.0"
+    x2="75.0" y1="65.0" y2="65.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-20.0"
+    x2="75.0" y1="0.0" y2="0.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-20.0"
+    x2="75.0" y1="-15.0" y2="-15.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-20.0"
+    x2="75.0" y1="-30.0" y2="-30.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-20.0"
+    x2="75.0" y1="-45.0" y2="-45.0"/>
+</svg>

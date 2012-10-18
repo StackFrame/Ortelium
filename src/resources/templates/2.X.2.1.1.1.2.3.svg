@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" viewBox="-200.0,-300.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle cx="0.0" cy="0.0" fill="none" r="75.0" stroke="var-cm-color" stroke-width="3.0"/>
+  <polyline fill="none"
+    points="0.0,-75.0 0.0,-165.0 40.0,-130.0 40.0,-225.0" stroke="var-cm-color" stroke-width="3.0"/>
+  <text fill="var-cm-color" font-size="36.0" stroke="none" text-anchor="middle"
+    text-modifier="true" x="0.0" y="12.0">L</text>
+</svg>
