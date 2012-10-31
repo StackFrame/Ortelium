@@ -118,8 +118,28 @@ public class SymbolQueryServer2525B {
         InputStream is = getClass().getResourceAsStream("/2525C.csv");
         MessageDigest md = MessageDigest.getInstance("MD5");
         
+
+        BufferedReader in = is != null ? new BufferedReader(new InputStreamReader(new DigestInputStream(is,md))) : null;
         Queue<String> symbolData = new LinkedList<String>();
         Queue<String> graphicData = new LinkedList<String>();
+        if(in != null) {
+
+            try {
+                while(in.ready()) {
+                    String input = in.readLine();
+                    if(input != null) {
+                        if (input.startsWith("WAR")) {
+                            symbolData.add(input);
+                        } else if (input.startsWith("TACGRP")) {
+                            graphicData.add(input);
+                        }
+                        // ignore others such as "#" comment lines
+                    }
+                }
+            }finally {
+                in.close();
+            }
+        }
 
         byte[] newVersion = md.digest();
         GraphDatabaseService graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(DB_PATH);
@@ -134,28 +154,6 @@ public class SymbolQueryServer2525B {
             clearDb();
             graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(DB_PATH);
             regiserShutdownHook(graphDb);
-            
-            BufferedReader in = is != null ? new BufferedReader(new InputStreamReader(new DigestInputStream(is,md))) : null;
-            
-            if(in != null) {
-                
-                try {
-                    while(in.ready()) {
-                        String input = in.readLine();
-                        if(input != null) {
-                            if (input.startsWith("WAR")) {
-                                symbolData.add(input);
-                            } else if (input.startsWith("TACGRP")) {
-                                graphicData.add(input);
-                            }
-                            // ignore others such as "#" comment lines
-                        }
-                    }
-                }finally {
-                    in.close();
-                }
-            }
-            
             loadData = true;
             Transaction tx = graphDb.beginTx();
             try {
@@ -186,6 +184,11 @@ public class SymbolQueryServer2525B {
     private void addNode(Node parent, String parentHierarchy, Queue<String> data,GraphDatabaseService graphDb) {
         String input = data.poll();
         
+        //Skip comment lines
+        if(input != null && input.startsWith("#")) {
+            input = null;
+        }
+
         String[] fields = input != null ? input.split(",") : null;
         if (fields != null && fields.length >= 10) {
 

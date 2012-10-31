@@ -47,7 +47,9 @@ public class OrteliumApplication extends Application {
         router.attach("/query/2525B/{id}", SymbolQueryResource2525B.class);
         router.attach("/query/2525B/", SymbolQueryResource2525B.class);
         router.attach("/query/2525B", SymbolQueryResource2525B.class);
-        router.attach("/graphics", TacticalGraphicsQueryResource2525B.class);
+        router.attach("/graphics/2525B/{id}", TacticalGraphicsQueryResource2525B.class);
+        router.attach("/graphics/2525B", TacticalGraphicsQueryResource2525B.class);
+        
         try {
             Directory dir = new Directory(getContext(), new Reference(this
                     .getClass().getResource("/static").toURI()));
