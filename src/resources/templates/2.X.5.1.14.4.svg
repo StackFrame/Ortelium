@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" viewBox="-200.0,-350.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polygon fill="none" points="0.0,0.0 65.0,-75.0 -65.0,-75.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <rect fill="none" height="175.0" rx="0" stroke="var-cm-color"
+    stroke-width="3.0" width="130.0" x="-65.0" y="-250.0"/>
+  <text fill="var-cm-color" font-size="36.0" stroke="none" text-anchor="end"
+    text-modifier="true" x="-76.0" y="-216.0">W</text>
+  <text fill="var-cm-color" font-size="36.0" stroke="none" text-anchor="end"
+    text-modifier="true" x="-79.0" y="-172.0">W1</text>
+  <text fill="var-cm-color" font-size="36.0" stroke="none" text-anchor="middle"
+    text-modifier="true" x="-3.0" y="-265.0">H</text>
+  <text fill="var-cm-color" font-size="36.0" stroke="none" text-modifier="true"
+    x="76.0" y="-212.0">T</text>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-65.0"
+    x2="65.0" y1="-100.0" y2="-100.0"/>
+  <polygon fill="none" points="-40.0,-235.0 40.0,-235.0 0.0,-160.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="0.0" x2="0.0"
+    y1="-160.0" y2="-115.0"/>
+</svg>

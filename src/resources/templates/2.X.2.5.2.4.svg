@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="THREE_POINT_TEMPLATE"?>
+<?AnchorPoint x="-175.0" y="0.0" index="1"?>
+<?AnchorPoint x="175.0" y="0.0" index="2"?>
+<?AnchorPoint x="50.0" y="-50.0" index="3" lock="x"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-axes="y:AP3 x:AP2->AP1"
+  template-transform-x="scale" template-transform-y="scale"
+  viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline fill="none"
+    points="-175.0,40.0 -150.0,35.0 -125.0,40.0 -100.0,45.0 -55.0,35.0 -10.0,45.0 25.0,35.0 60.0,45.0 100.0,40.0 135.0,30.0 160.0,40.0 175.0,35.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <polyline fill="none"
+    points="-175.0,-40.0 -150.0,-30.0 -130.0,-35.0 -100.0,-45.0 -70.0,-35.0 -20.0,-45.0 30.0,-35.0 60.0,-45.0 100.0,-40.0 135.0,-35.0 170.0,-45.0 175.0,-50.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <text fill="var-cm-color" font-size="48.0" stroke="none"
+    template-anchor-x="center" template-anchor-y="center"
+    template-transform-x="translate" template-transform-y="none"
+    text-anchor="middle" text-modifier="true" x="0.0" y="16.0">T</text>
+</svg>

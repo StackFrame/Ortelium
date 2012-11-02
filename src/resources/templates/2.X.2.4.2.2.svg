@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="VERTEX_TEMPLATE"?>
+<?AnchorPoint x="0.0" y="50.0" index="1"?>
+<?AnchorPoint x="-155.0" y="-125.0" index="2"?>
+<?AnchorPoint x="155.0" y="-125.0" index="3"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale"
+  template-transform-y="scale" viewBox="-200.0,-200.0,400.0,400.0"
+  width="400.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g template-axes="AP1->AP2">
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-5.0"
+      x2="-155.0" y1="50.0" y2="-125.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="4.75" x1="-120.0"
+      x2="-30.0" y1="-90.0" y2="15.0"/>
+    <polyline fill="none"
+      points="-130.0,-120.0 -155.0,-125.0 -155.0,-100.0" stroke="var-cm-color" stroke-width="3.0"/>
+    <text fill="var-cm-color" font-size="36.0" stroke="none" x="-170.0" y="-129.0">(PDF)</text>
+  </g>
+  <g template-axes="AP1->AP3">
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="5.0"
+      x2="155.0" y1="50.0" y2="-125.0"/>
+    <polyline fill="none"
+      points="130.0,-120.0 155.0,-125.0 155.0,-100.0" stroke="var-cm-color" stroke-width="3.0"/>
+  </g>
+</svg>

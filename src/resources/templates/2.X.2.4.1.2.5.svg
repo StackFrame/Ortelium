@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polygon fill="none" points="0.0,-130.0 -115.0,65.0 115.0,65.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-115.0"
+    x2="60.0" y1="65.0" y2="-35.0"/>
+  <circle cx="40.0" cy="-15.0" r="10.0" stroke="var-cm-color"/>
+  <circle cx="-40.0" cy="-15.0" r="10.0" stroke="var-cm-color"/>
+  <polyline fill="none"
+    points="35.0,-25.0 20.0,-15.0 15.0,-10.0 0.0,5.0 -15.0,35.0 -20.0,55.0 -20.0,55.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <polyline fill="none"
+    points="20.0,55.0 15.0,35.0 0.0,5.0 -15.0,-10.0 -35.0,-25.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+</svg>

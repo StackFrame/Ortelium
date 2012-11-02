@@ -117,23 +117,30 @@ public class SymbolQueryServer2525B {
     private void readSymbolTable() throws Exception {
         InputStream is = getClass().getResourceAsStream("/2525C.csv");
         MessageDigest md = MessageDigest.getInstance("MD5");
+        
 
         BufferedReader in = is != null ? new BufferedReader(new InputStreamReader(new DigestInputStream(is,md))) : null;
-        Queue<String> data = new LinkedList<String>();
+        Queue<String> symbolData = new LinkedList<String>();
+        Queue<String> graphicData = new LinkedList<String>();
         if(in != null) {
-            
+
             try {
                 while(in.ready()) {
                     String input = in.readLine();
                     if(input != null) {
-                        data.add(input);
+                        if (input.startsWith("WAR")) {
+                            symbolData.add(input);
+                        } else if (input.startsWith("TACGRP")) {
+                            graphicData.add(input);
+                        }
+                        // ignore others such as "#" comment lines
                     }
                 }
             }finally {
                 in.close();
             }
         }
-        
+
         byte[] newVersion = md.digest();
         GraphDatabaseService graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(DB_PATH);
         regiserShutdownHook(graphDb);
@@ -166,7 +173,10 @@ public class SymbolQueryServer2525B {
         if(loadData) {
             System.out.println("Loading data...");
             
-            addNode(null,null,data,graphDb);
+            // add symbol as a root child
+            addNode(root,null,symbolData,graphDb);
+            // add tactical graphics as a root child
+            addNode(root, null,graphicData,graphDb);
             System.out.println("Data loaded");
         }
     }
@@ -178,7 +188,7 @@ public class SymbolQueryServer2525B {
         if(input != null && input.startsWith("#")) {
             input = null;
         }
-        
+
         String[] fields = input != null ? input.split(",") : null;
         if (fields != null && fields.length >= 10) {
 
@@ -199,10 +209,8 @@ public class SymbolQueryServer2525B {
             Node current = null;
             Transaction tx = graphDb.beginTx();
             try {
-                // special case for the root node, set properties
-                // on the reference node, otherwise a new node needs to
-                // be created;
-                current = parent == null ? graphDb.getReferenceNode() : graphDb.createNode();
+
+                current =  graphDb.createNode();
                 current.setProperty(HIERARCHY, hierarchy);
                 current.setProperty("codeScheme", codeScheme);
                 current.setProperty("standardIdentity", standardIdentity);
@@ -280,7 +288,16 @@ public class SymbolQueryServer2525B {
         
         if(sidc != null) {
             System.out.println("Retrieving: " + sidc);
-            String genericSIDC = sidc.charAt(0) + "*" + sidc.charAt(2) + "*" + sidc.substring(4, 10) + "*****";
+            
+            String genericSIDC = null;
+            
+            if (sidc.startsWith("S")) {
+                genericSIDC = sidc.charAt(0) + "*" + sidc.charAt(2) + "*" + sidc.substring(4, 10) + "*****";
+            } else if (sidc.startsWith("G")) {
+                genericSIDC = sidc.charAt(0) + "*" + sidc.charAt(2) + "*" + sidc.substring(4, 10) + "****X";
+            } else {
+                System.out.println("ERROR! Invalid SIDC " + sidc);
+            }
             
             IndexHits<Node> hits = sidcIndex.get( ID, genericSIDC);
             symbolNode = hits.getSingle(); 

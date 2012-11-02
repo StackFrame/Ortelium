@@ -52,9 +52,9 @@ public class TacticalGraphicsQueryResource2525B extends AbstractServerResource {
         responseHeaders.add("Content-Range", "items 1-1/1");
         responseHeaders.add("Access-Control-Expose-Headers","Content-Range");
         
+        String sidc = (String) getRequest().getAttributes().get("id");
         Map<String,String> params = parseQueryString();
         
-        String sidc = params.get("SIDC");
         String json = null;
         
         if(sidc != null) {

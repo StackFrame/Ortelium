@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="THREE_POINT_TEMPLATE"?>
+<?AnchorPoint x="0.0" y="-125.0" index="1"?>
+<?AnchorPoint x="0.0" y="125.0" index="2"?>
+<?AnchorPoint x="175.0" y="0.0" index="3" lock="y"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-axes="y:AP3 x:AP1->AP2"
+  template-flip-y="true" template-transform-x="scale"
+  template-transform-y="scale" viewBox="-200.0,-200.0,400.0,400.0"
+  width="400.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="175.0"
+    x2="0.0" y1="0.0" y2="0.0"/>
+  <polyline fill="none" points="25.0,-20.0 0.0,0.0 25.0,20.0 "
+    stroke="var-cm-color" stroke-width="3.0" template-anchor-y="center"
+    template-transform-x="translate" template-transform-y="translate"/>
+  <g template-axes="y:AP1 x:AP3->AP2" template-lock-aspect-ratio="true">
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="0.0"
+      x2="0.0" y1="125.0" y2="75.0"/>
+    <path
+      d="M -1.7053025658242404E-13,125.00000000000045 A 125.00000000000045,125.00000000000045 0  0 1 -1.4210854715202004E-14,-125.0"
+      fill="none" stroke="var-cm-color" stroke-width="3.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="0.0"
+      x2="0.0" y1="-75.0" y2="-125.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-125.0"
+      x2="-75.0" y1="0.0" y2="0.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-90.0"
+      x2="-55.0" y1="85.0" y2="50.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-90.0"
+      x2="-55.0" y1="-85.0" y2="-50.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-50.0"
+      x2="-25.0" y1="115.0" y2="70.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-25.0"
+      x2="-50.0" y1="-70.0" y2="-115.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-70.0"
+      x2="-115.0" y1="30.0" y2="45.0"/>
+    <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-115.0"
+      x2="-70.0" y1="-45.0" y2="-30.0"/>
+  </g>
+  <text fill="var-cm-color" font-size="36.0" stroke="none"
+    template-anchor-x="center" template-anchor-y="center"
+    template-flip-y="false" template-transform-x="translate"
+    template-transform-y="translate" text-anchor="middle" x="95.0" y="12.0">ENY</text>
+</svg>

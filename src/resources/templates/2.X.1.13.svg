@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" viewBox="-200.0,-200.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-125.0"
+    x2="125.0" y1="0.0" y2="0.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="125.0"
+    x2="100.0" y1="0.0" y2="-25.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="125.0"
+    x2="100.0" y1="0.0" y2="25.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="-85.0"
+    x2="80.0" y1="65.0" y2="-60.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="80.0"
+    x2="80.0" y1="-60.0" y2="-30.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="80.0"
+    x2="50.0" y1="-60.0" y2="-60.0"/>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="TWO_POINT_TEMPLATE"?>
+<?AnchorPoint x="175.0" y="0.0" index="1"?>
+<?AnchorPoint x="-175.0" y="0.0" index="2"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale"
+  template-transform-y="scale" viewBox="-200.0,-200.0,400.0,400.0"
+  width="400.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line fill="none" stroke="var-cm-color" stroke-dasharray="25.0,3.0"
+    stroke-dashoffset="7.0" stroke-width="3.0" x1="160.0" x2="-75.0"
+    y1="0.0" y2="0.0"/>
+  <polygon fill="none"
+    points="-75.0,0.0 -100.0,-25.0 -175.0,-25.0 -175.0,0.0 -175.0,25.0 -100.0,25.0 -100.0,25.0 -100.0,25.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+  <text fill="var-cm-color" font-size="36.0" stroke="none" text-anchor="middle"
+    text-modifier="true" x="-133.0" y="12.0">T</text>
+  <polygon fill="none"
+    points="120.0,-30.0 120.0,-40.0 175.0,0.0 120.0,40.0 120.0,30.0 160.0,0.0 160.0,0.0 160.0,0.0 160.0,0.0 160.0,0.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+</svg>

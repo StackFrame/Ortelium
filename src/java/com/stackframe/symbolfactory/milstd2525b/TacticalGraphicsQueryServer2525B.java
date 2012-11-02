@@ -32,6 +32,7 @@ import org.w3c.dom.Document;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.stackframe.symbolfactory.imageformats.AbstractSVGImageWriter;
 import com.stackframe.symbolfactory.imageformats.SVGImageWriterJPEG;
@@ -119,7 +120,16 @@ public class TacticalGraphicsQueryServer2525B
             String svgFile = fields[6];
             String svgTemplate = fields[7];
             
+            // remove .svg extension
+            int indexFound = svgFile.lastIndexOf("/");
+            String structure = null;
+            if (indexFound > 0 && indexFound < svgFile.length()) {
+                structure = svgFile.substring(0,indexFound);
+            }            
+            
             TacticalGraphicData graphicData = new TacticalGraphicData(sidc, name, minPoints, maxPoints);
+            graphicData.setHierarchy(hierarchy);
+            graphicData.setStructure(structure);
             
             sdicToGraphicDataMap.put(sidc, graphicData);
         }
@@ -143,7 +153,8 @@ public class TacticalGraphicsQueryServer2525B
         if (data != null) {
             
             updateWithGraphicsData(data, params);
-            graphicDataStr = gson.toJson(data);
+            JsonObject jsonObj = encodeJsonData(data, params);
+            graphicDataStr = jsonObj.toString();
         }
         
         return graphicDataStr;
@@ -226,21 +237,51 @@ public class TacticalGraphicsQueryServer2525B
      * @return
      */
     public String getAll(Map<String, String> params) {
-        Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         String json = null;
         
         if (!sdicToGraphicDataMap.isEmpty()) {
             
             Collection<TacticalGraphicData> graphics = sdicToGraphicDataMap.values();
+            JsonArray jsonArray = new JsonArray();
             
             for (TacticalGraphicData data : graphics) {
-                
-                updateWithGraphicsData(data, params);
+                jsonArray.add(encodeJsonData(data, params));
             }
             
-            json = gson.toJson(sdicToGraphicDataMap.values());
+            json = jsonArray.toString();
         }
         
         return json;
+    }
+    
+    /**
+     * Encode graphic data into a Json Object
+     * @param data
+     * @param params
+     * @return a Json object
+     */
+    private JsonObject encodeJsonData(TacticalGraphicData data, Map<String, String> params) {
+
+        JsonObject jsonObj = new JsonObject();
+        updateWithGraphicsData(data, params);
+
+        jsonObj.addProperty("sidc",data.getSIDC());
+        jsonObj.addProperty("name", data.getName());
+        jsonObj.addProperty("minPoints", data.getMinPoints());
+        jsonObj.addProperty("maxPoints", data.getMaxPoints());
+        jsonObj.addProperty("sidc",data.getSIDC());
+        jsonObj.addProperty("name", data.getName());
+        jsonObj.addProperty("imageType", data.getImageType());
+        jsonObj.addProperty("encodedImageString", data.getEncodedImageString());
+
+        if (params.containsKey("hierarchy")) {
+            jsonObj.addProperty("hierarchy", data.getHierarchy());
+        }
+
+        if (params.containsKey("structure")) {
+            jsonObj.addProperty("structure", data.getStructure());
+        }
+
+        return jsonObj;
     }
 }

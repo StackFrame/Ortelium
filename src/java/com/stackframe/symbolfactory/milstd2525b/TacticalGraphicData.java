@@ -13,7 +13,9 @@ public class TacticalGraphicData {
     private int minPoints = 0;
     private int maxPoints = 0;
     private String imageType = "image/png";
-    private String encodedImageString = "";
+    private String encodedImageString;
+    private String hierarchy;
+    private String hierarchyStructure;
     
     TacticalGraphicData(String sidcIn,String name, int min, int max) {
         this.sidc = sidcIn;
@@ -21,6 +23,7 @@ public class TacticalGraphicData {
         this.minPoints = min;
         this.maxPoints = max;
     }
+
     
     /**
      * Set the image type
@@ -56,5 +59,37 @@ public class TacticalGraphicData {
     
     public String getSIDC() {
         return sidc;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public int getMinPoints() {
+        return minPoints;
+    }
+    
+    public int getMaxPoints() {
+        return maxPoints;
+    }
+    
+    public void setSIDC(String inSIDC) {
+        sidc = inSIDC;
+    }
+    
+    public String getHierarchy() {
+        return hierarchy;
+    }
+    
+    public void setHierarchy(String inHierarchy) {
+        hierarchy = inHierarchy;
+    }
+    
+    public String getStructure() {
+        return hierarchyStructure;
+    }
+    
+    public void setStructure(String inStructure) {
+        hierarchyStructure = inStructure;
     }
 }

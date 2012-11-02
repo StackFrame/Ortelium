@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?template type="VERTEX_TEMPLATE"?>
+<?AnchorPoint x="-100.0" y="0.0" index="1"?>
+<?AnchorPoint x="80.0" y="-105.0" index="2"?>
+<?AnchorPoint x="80.0" y="105.0" index="3"?>
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" template-transform-x="scale"
+  template-transform-y="scale" viewBox="-200.0,-200.0,400.0,400.0"
+  width="400.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g template-axes="AP1->AP2">
+    <polyline fill="none"
+      points="-75.0,-25.0 0.0,-75.0 0.0,-50.0 70.0,-95.0" stroke="var-cm-color" stroke-width="3.0"/>
+    <polygon points="80.0,-105.0 65.0,-100.0 75.0,-90.0" stroke="var-cm-color"/>
+  </g>
+  <g template-axes="AP1->AP3">
+    <polyline fill="none"
+      points="-75.0,25.0 0.0,75.0 0.0,50.0 75.0,100.0" stroke="var-cm-color" stroke-width="3.0"/>
+    <polygon points="80.0,105.0 75.0,90.0 65.0,100.0" stroke="var-cm-color"/>
+  </g>
+</svg>

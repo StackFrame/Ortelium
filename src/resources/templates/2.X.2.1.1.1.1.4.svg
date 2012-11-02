@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?variable name="var-cm-color" type="java.awt.Color" default="black"?>
+<svg height="400.0" viewBox="-200.0,-350.0,400.0,400.0" width="400.0"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polygon points="0.0,0.0 150.0,-75.0 -150.0,-75.0" stroke="var-cm-color" stroke-width="2.0"/>
+  <line fill="none" stroke="var-cm-color" stroke-width="3.0" x1="0.0" x2="0.0"
+    y1="-75.0" y2="-275.0"/>
+  <polyline fill="none"
+    points="-150.0,-275.0 -100.0,-325.0 0.0,-275.0 100.0,-325.0 150.0,-275.0"
+    stroke="var-cm-color" stroke-width="3.0"/>
+</svg>
