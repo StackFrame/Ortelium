@@ -9,7 +9,7 @@ Build Ortelium:
 Create a distributable Web Archive:
 > mvn package
 
-Create a standalong JAR file:
+Create a standalone JAR file:
 > mvn assembly:single
 
 Note:
